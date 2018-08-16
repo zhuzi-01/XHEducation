@@ -6,9 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="First Commit">
+    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/test.java" afterPath="$PROJECT_DIR$/src/main/Test/test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -458,7 +457,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -720,7 +719,7 @@
       <updated>1534251393125</updated>
       <workItem from="1534251399679" duration="3317000" />
       <workItem from="1534292291359" duration="21300000" />
-      <workItem from="1534380372903" duration="8519000" />
+      <workItem from="1534380372903" duration="9358000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -736,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534394663368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1534399630931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534399630931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,7 +754,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33136000" />
+    <option name="totallyTimeSpent" value="33975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,7 +809,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
