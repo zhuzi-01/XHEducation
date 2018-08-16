@@ -6,221 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT.war" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/ApplicationContext.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Bean.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_classifyMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_commentMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_sectionMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_site_carouselMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_collectionsMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_followsMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_courseMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_course_classifyMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_course_commentMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_course_sectionMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_site_carouselMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_collectionsMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_course_sectionMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_followsMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_section.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_site_carousel.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_collections.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_course_section.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_follows.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/service/IT_courseService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/service/impl/T_courseServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/db.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.6.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.11.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-2.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/log4j.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/footer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodsinfo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/ql_index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/all_navicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ban_adbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/con_h3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/form_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/form_open.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/h_tearchbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/h_tearchbg2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/join_ban.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/line.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/qf_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ql_danav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ql_logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ql_logo1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ql_navhot.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ql_titbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/ql_zan0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/qlf_zpicon.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/qlform_close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/join/join9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/banner.index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery-1.11.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery-3.2.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery.imgbox.pack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/qlclass.pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/283eb4e30de47c2de47ad93ea2b06482.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/3d327556930d96a46c12e73475a6349b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/53f1b12027aae48a543bbe2671781f2c.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/5bc7bbbb28891fa573df6a883fc742ea.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/7c94657a949438667951942a3b36b5ff.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/8e023dbfab864ff47bcaccbb5e06b015.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ban1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ban2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ban3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/calsscon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/f_ewm1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/fenxiao.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/footer_logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/footer_logo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/honor.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/honor1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/jiangshi1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/join_ry.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/laoshi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/laoshi1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/map.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/news01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ql_logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ql_logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/school_con.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/schooll.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/teach_con.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/top_tel.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/wap.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/xue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/xuexiao.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/zp_tu.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/rili/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/rili/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/rili/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/rili/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/tearch/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/ApplicationContext.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Bean.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_courseMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_course_classifyMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_course_commentMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_course_sectionMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_site_carouselMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_collectionsMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_followsMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_courseMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_course_classifyMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_course_commentMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_course_sectionMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_site_carouselMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_collectionsMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_course_sectionMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_followsMapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_section.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_site_carousel.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_collections.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_course_section.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_follows.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/service/IT_courseService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/xh/service/impl/T_courseServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/db.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test.class" />
+    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/test.java" afterPath="$PROJECT_DIR$/src/main/Test/test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -291,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="203">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Test/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -327,22 +125,6 @@
             <state relative-caret-position="406">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_course_classifyMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_classifyMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1534337929821" expanded="true" signature="1018:1085" ph="delete from t_course_classify... " />
-                <marker date="1534337929821" expanded="true" signature="1370:1563" ph="insert into t_course_classify... " />
-                <marker date="1534337929821" expanded="true" signature="1860:2053" ph="update t_course_classify... " />
-                <marker date="1534337929821" expanded="true" signature="2362:2461" ph="select id, n... t_course_classify" />
-                <marker date="1534337929821" expanded="true" signature="2727:2788" ph="select id, n... t_course_classify" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -414,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/hi.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classifyExample.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Test/test.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_commentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_sectionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" />
@@ -448,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/footer.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/index.html" />
+        <option value="$PROJECT_DIR$/src/main/Test/test.java" />
       </list>
     </option>
   </component>
@@ -656,6 +438,13 @@
               <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -931,7 +720,7 @@
       <updated>1534251393125</updated>
       <workItem from="1534251399679" duration="3317000" />
       <workItem from="1534292291359" duration="21300000" />
-      <workItem from="1534380372903" duration="7261000" />
+      <workItem from="1534380372903" duration="8519000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -940,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534393862987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1534394663368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534394663368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -952,7 +748,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31878000" />
+    <option name="totallyTimeSpent" value="33136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -967,7 +763,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -984,10 +780,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1045,14 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="153" column="25" lean-forward="false" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1373,8 +1161,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="203">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
