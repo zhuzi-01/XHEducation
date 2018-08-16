@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="XHEducation:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="XHEducation-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="XHEducation:war exploded" />
+    </root>
+  </artifact>
+</component>
