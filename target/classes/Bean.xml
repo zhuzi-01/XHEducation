@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 扫描基包service -->
+    <!-- spring负责除了处理器以外的，都由spring来注入 -->
+    <context:component-scan base-package="com.xh.service.impl">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--配置数据源-->
+    <context:property-placeholder location="classpath*:db.properties"/>
+    <bean id="source" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--事务管理器-->
+    <bean id="tm" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="source"/>
+    </bean>
+    <!--配置事务注解-->
+    <tx:annotation-driven/>
+    <!-- 整合mybatis -->
+    <!-- 整合mybatis有关配置，sqlsessionFactory,sqlsession -->
+    <!-- 整合mybatis 目的：1、spring管理所有组件。mapper的实现类。 service==>Dao @Autowired:自动注入mapper；
+        2、spring用来管理事务，spring声明式事务 -->
+    <!-- 创建sqlsessionFactory -->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:config.xml"/>
+        <property name="mapperLocations" value="classpath:Mybatis.Mapper/*.xml"/>
+        <property name="dataSource" ref="source"/>
+    </bean>
+    <!-- dao层的被代理类 -->
+    <!-- 扫描所有的mapper接口的实现，让这些mapper能够自动注入； base-package：指定mapper接口的包名 -->
+    <!-- dao的userMapper还没有注入 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.xh.dao"/>
+    </bean>
+</beans>

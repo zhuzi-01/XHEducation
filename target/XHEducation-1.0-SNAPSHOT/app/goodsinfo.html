@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>课程详情-齐峰教育官网-小初高个性化教育项目综合运营商</title>
+<meta name="keywords" content="齐峰教育,教育培训,教育加盟,教育培训机构加盟,文化课课外辅导,一对一辅导,一对一补习,一对一家教,高考补习班,数学补习班,暑假补习班,寒假补习班,暑假辅导班,高中补课"/>
+<meta name="description" content="齐峰教育是集教育培训、教育研发、双师云课堂、特许连锁等业务于一体的个性化教育集团，专注于K12教育个性化课外辅导，致力于为孩子创造最优质的个性化教育服务平台。针对小学，初中，高中开设数学，语文，英语，物理，化学，地理，历史，生物，政治等一对一家教辅导，一对一补习课程以及寒假暑假补习班。"/>
+
+</head>
+<body>
+<link rel="stylesheet" href="../css/qfbase.css">
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/qlclass.pl.js" type="text/javascript"></script>
+
+<script src="../js/global.js" type="text/javascript"></script>
+
+<script src="/template/pc/rainbow/static/js/common.js"></script>
+<script src="../js/pc_common.js"></script>
+<script type="text/javascript" src="../layer/layer.js"></script>
+<script type="text/javascript">
+function changeCity(code){
+	$.ajax({
+		type : "POST",
+		url:"/index.php/home/index/setcity.html",
+		data : {"city":code},// 你的formid 搜索表单 序列化提交                        
+		dataType:'json',
+		success: function(data){	
+			history.go(0);
+		}
+	});
+}
+function city(){
+	layer.open({
+		type: 2 //Page层类型
+		,area: ['810px', '600px']
+		,title: '切换城市'
+		,shade: 0.6 //遮罩透明度
+		,maxmin: true //允许全屏最小化
+		,anim: 1 //0-6的动画形式，-1不开启
+		,content: "/index.php/home/index/citys.html"
+	});    
+}
+</script>
+<div class="w-all w-minw bd-sd-b hg-45">
+    <div class="w-main m-auto">
+        <!-- top left start-->
+        <div class="fl"> <span class="fs-12 line-h45 ftc-000000 dsblock fl"> 济南市</span> <a href="javascript:;" onClick="city()" class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换城市]</a> <a href="/index.php/home/index/index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a>
+            <!--top 导航 start-->
+            <div class="hover-topnav fl m-l-45">
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
+                    <ul class="dh_nav_sub bg-c-ffffff bd-sd-b">
+                    	                        <li> <a href="/home/Index/index" target="_blank"><i class="ql_icon"></i>首页</a> </li>
+                                                <li> <a href="/home/goods/goodsList/id/1.html" target="_blank"><i class="ql_icon"></i>小学</a> </li>
+                                                <li> <a href="/home/goods/goodsList/id/2.html" target="_blank"><i class="ql_icon"></i>初中</a> </li>
+                                                <li> <a href="/home/goods/goodsList/id/3.html" target="_blank"><i class="ql_icon"></i>高中</a> </li>
+                                                <li> <a href="/home/goods/goodsList/id/4.html" target="_blank"><i class="ql_icon"></i>心理课</a> </li>
+                                                <li> <a href="/home/teacher/index.html" target="_blank"><i class="ql_icon"></i>名师</a> </li>
+                                                <li> <a href="/home/index/join_in.html" target="_blank"><i class="ql_icon"></i>招商加盟</a> </li>
+                                                <li> <a href="/home/school/index.html" target="_blank"><i class="ql_icon"></i>分校</a> </li>
+                                                <li> <a href="/home/article/index.html" target="_blank"><i class="ql_icon"></i>资讯</a> </li>
+                                                <li> <a href="/home/index/column/id/117.html" target="_blank"><i class="ql_icon"></i>联系我们</a> </li>
+                                                <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--top 导航 end-->
+            <!--top wap start  暂时屏蔽手机端
+            <div class="hover-topnav fl m-l-45">
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon top_wapewem hg-45 fl"></i>手机端</span>
+                    <div class="top_wap_ewem bg-c-ffffff bd-sd-b"> <img src="../upload/logo/2017/08-18/c4b783b7be719bf128aac34ce7434959.gif" width="100" alt=""/>
+                        <p class="w-all fs-13 text-c line-h25">扫描二维码</p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <!-- top left end-->
+        <!-- top right start-->
+        <div class="fr">
+            <!--登录注册 start-->
+                        <div class="fl"> <a class="fs-12 ftc-000000 line-h45" href="/index.php/Home/user/login.html"><i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>请登录</a> <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span> <a class="fs-12 ftc-000000 line-h45" href="/index.php/Home/user/reg.html">注册</a> </div>
+			
+                        <!--登录注册 end-->
+            <!--我的购物车 start-->
+            <div class="fl m-l-30" id="hd-my-cart">
+                <a href="/index.php/home/Cart/cart.html"><div class="my-cart"> <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em cart_quantity id="cart_quantity">0</em></i>
+                    <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
+                </div></a>
+            </div>
+            <!--我的购物车 end-->
+            <!--top 客服中心 start-->
+            <div class="hover-topkf fl m-l-45">
+                <div class="top_kf fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45">客服中心<i class="p-l-10 m-l-10 ql_icon top_kficon hg-45 fr"></i></span>
+                    <ul class="top_kf_list bg-c-ffffff bd-sd-b">
+                        <li> <a href="#"><i class="ql_icon"></i>加盟热线  ：400-996-9910</a> </li>
+                        <li> <a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a> </li>
+                        <li> <a href="#"><i class="ql_icon"></i>邮箱：info@qifengedu.com</a> </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <!--top 客服中心 start-->
+        </div>
+        <!-- top right end-->
+    </div>
+</div>
+<!--web-top end-->
+<div class="clear"></div>
+<!--web logo and search start-->
+<div class="w-main m-auto m-t-37 m-b-25 ovhidden" style="height: 70px; overflow: visible;">
+    <!--web logo start-->
+    <a href="/" class="logo fl"><img src="../upload/logo/2017/08-18/e75573654d7107b7398f9d16a8a27c05.png" width="240" height="70" alt=""/></a>
+    <!--web logo end-->
+    <a href="javascript:;" class="fl" style="width: 120px; margin-left: 50px; margin-top: -25px;"><img src="../images/logo_right.png" style="width:100%"></a>
+    <!--web search start-->
+    <div class="search w-500 m-l-115 m-t-15 fl" style="margin: 15px 20px 0 70px;">
+        <form method="get" action="/index.php/Home/Goods/goodsList.html" id="searchform" name="searchform" class="w-540 search-form">
+            <input class="p-l-15 bd-2s-e9511b w-435 line-h35 hg-35 fs-12 ftc-a9a9a9 fl" type="text" name="kwd" id="kwd" value="" placeholder="课程搜索：输入关键词" autocomplete="off" style="width: 395px">
+            <button type="submit" class="w-85 line-h39 hg-39 fs-16 ftc-ffffff bg-c-e9511b fl">提交</button>
+        </form>
+        <div class="w-540 fl" id="hotkeywords">
+                        <div class="clear"></div>
+        </div>
+    </div>
+    <!--web search end-->
+    <div class="fr"> <img src="../upload/logo/2017/08-22/fd52c9194242da9ec5dd91d2e457a785.gif" width="199" height="70" alt=""/> </div>
+</div>
+
+<div class="w-all w-minw hg-60 bd-bs-e9511b bg-c-ffffff ql_webnav">
+    <!--网站导航 start-->
+    <div class="w-main m-auto ps-r hg-60">
+        <!--全部商品分类-->
+        <div class="hc_lnav jslist">
+            <div class="allbtn">
+                <h2><a href="javascript:;">全部课程分类</a></h2>
+                <ul style="width:250px" class="jspop box">
+                    <li class="a1"><div class="tx"><a href="/index.php/Home/Goods/goodsList/id/1">小学</a></div><dl><dd><a href="/index.php/Home/Goods/goodsList/id/5">一年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/6">二年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/7">三年级</a><a href="/index.php/Home/Goods/goodsList/id/8">四年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/9">五年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/10">六年级</a><a href="/index.php/Home/Goods/goodsList/id/11">特色课程</a></dd></dl><div class="pop"><dl><dt><a href="/index.php/Home/Goods/goodsList/id/5">一年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/22">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/23">数学</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/6">二年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/24">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/25">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/26">英语</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/7">三年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/27">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/28">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/29">英语</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/8">四年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/30">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/31">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/32">英语</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/9">五年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/33">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/34">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/35">英语</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/10">六年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/36">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/37">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/38">英语</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/11">特色课程 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/39">魔法单词记忆班</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/40">单词突击班</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/41">桃源小学数学专项提高班（5、6年级）</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/42">桃源小学数学思维训练班（3、4年级）</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/43">外教口语兴趣班</a></dd></dl><div class="clr"></div></div></li><li class="a1"><div class="tx"><a href="/index.php/Home/Goods/goodsList/id/2">初中</a></div><dl><dd><a href="/index.php/Home/Goods/goodsList/id/12">一年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/13">二年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/14">三年级</a><a href="/index.php/Home/Goods/goodsList/id/15">特色课程</a></dd></dl><div class="pop"><dl><dt><a href="/index.php/Home/Goods/goodsList/id/12">一年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/44">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/45">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/46">英语</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/47">地理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/48">生物</a> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/49">政治</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/50">历史</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/13">二年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/51">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/52">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/53">英语</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/54">地理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/55">生物</a> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/56">政治</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/57">历史</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/58">物理</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/14">三年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/59">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/60">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/61">英语</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/62">地理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/63">生物</a> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/64">政治</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/65">历史</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/66">物理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/67">化学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/68">全日制托管</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/15">特色课程 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/69">双师课堂</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/70">名师精讲班</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/71">学霸进阶精英班</a></dd></dl><div class="clr"></div></div></li><li class="a1"><div class="tx"><a href="/index.php/Home/Goods/goodsList/id/3">高中</a></div><dl><dd><a href="/index.php/Home/Goods/goodsList/id/16">一年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/17">二年级</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/18">三年级</a><a href="/index.php/Home/Goods/goodsList/id/19">特色课程</a></dd></dl><div class="pop"><dl><dt><a href="/index.php/Home/Goods/goodsList/id/16">一年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/72">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/73">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/74">英语</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/75">地理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/76">生物</a> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/77">政治</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/78">历史</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/79">物理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/80">化学</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/17">二年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/81">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/82">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/83">英语</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/84">地理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/85">生物</a> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/86">政治</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/87">历史</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/88">物理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/89">化学</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/18">三年级 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/90">语文</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/91">数学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/92">英语</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/93">地理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/94">生物</a> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/95">政治</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/96">历史</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/97">物理</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/98">化学</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/99">全日制</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/19">特色课程 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/100">双师课堂</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/101">名师提分精讲班</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/102">学霸进阶精英班</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/103">艺术高考精品班</a></dd></dl><div class="clr"></div></div></li><li class="a1"><div class="tx"><a href="/index.php/Home/Goods/goodsList/id/4">心理课</a></div><dl><dd><a href="/index.php/Home/Goods/goodsList/id/20">家庭NLP心理教育</a><span>/</span><a href="/index.php/Home/Goods/goodsList/id/21">校区NLP心理讲座</a></dd></dl><div class="pop"><dl><dt><a href="/index.php/Home/Goods/goodsList/id/20">家庭NLP心理教育 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/104">1对1NLP心理咨询</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/105">微课堂NLP讲堂</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/106">青少年NLP心理沙龙俱乐部</a></dd></dl><dl><dt><a href="/index.php/Home/Goods/goodsList/id/21">校区NLP心理讲座 ></a></dt><dd> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/107">校区心理沙龙</a><span>|</span> <a class="ui-link" href="/index.php/Home/Goods/goodsList/id/108">进校大型公益讲座</a></dd></dl><div class="clr"></div></div></li>
+                </ul>
+            </div>
+        </div>
+        <!--全部商品分类-->
+        <ul class="w-950 hg-60 ql_nav">
+                        <li><a href="/home/Index/index" class=" " target="_blank">首页</a></li>
+                        <li><a href="/home/goods/goodsList/id/1.html" class=" " target="_blank">小学</a></li>
+                        <li><a href="/home/goods/goodsList/id/2.html" class=" " target="_blank">初中</a></li>
+                        <li><a href="/home/goods/goodsList/id/3.html" class=" " target="_blank">高中</a></li>
+                        <li><a href="/home/goods/goodsList/id/4.html" class=" " target="_blank">心理课</a></li>
+                        <li><a href="/home/teacher/index.html" class=" " target="_blank">名师</a></li>
+                        <li><a href="/home/index/join_in.html" class=" ql_navhot" target="_blank">招商加盟</a></li>
+                        <li><a href="/home/school/index.html" class=" " target="_blank">分校</a></li>
+                        <li><a href="/home/article/index.html" class=" " target="_blank">资讯</a></li>
+                        <li><a href="/home/index/column/id/117.html" class=" " target="_blank">联系我们</a></li>
+                    </ul>
+    </div>
+</div>
+<!--网站导航 start-->
+
+<!--网站导航 end-->
+
+<!--web main body start-->
+<div class="w-all w-minw bg-c-fcfcfc ovhidden">
+    <div class="w-main m-auto ovhidden">
+        <!--面包屑 start-->
+        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl">
+            网站位置：首页  >  小学
+        </div>
+        <!--面包屑 end-->
+    </div>
+    <!--web main body start-->
+
+    <!--web main bogy top start-->
+    <div class="w-main m-auto ovhidden">
+        <div class="w-main m-auto bg-c-ffffff ovhidden">
+            <!--left img start-->
+            <div class="w-450 hg-338 fl">
+                <img src="../upload/goods/2017/12-19/53f1b12027aae48a543bbe2671781f2c.jpg" width="450" height="338" alt=""/>
+            </div>
+            <!--left img end-->
+            <!--right info start-->
+            <div class="w-680 hg-338 m-l-40 ovhidden ps-r fl">
+                <h3 class="w-all fs-24 ftc-000000 m-t-15 m-b-10 line-h36 fl">寒假专项突击班</h3>
+                <!--info right start-->
+                <div class="w-all fl">
+                    <ul class="con_rig_class">
+                        <li class="w-all fs-14 ftc-000000 line-h40 m-b-10 fl">价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：<span class="fs-24 ftc-e9511b">￥840.00</span><del class="fs-14 ftc-000000 line-h40 m-l-24">原价：￥1200.00</del></li>
+                        <li class="w-all fs-14 ftc-000000 line-h28 fl">课&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;次：6</li>
+                        <li class="w-all fs-14 ftc-000000 line-h28 fl">班&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;容：10-20人</li>
+                        <li class="w-all fs-14 ftc-000000 line-h28 fl">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：</li>
+                        <li class="w-all fs-14 ftc-000000 line-h28 fl">适用学员：以初三为主，初二和初一的学生酌情对待</li>
+                        <li class="w-all fs-14 ftc-000000 line-h28 fl">开班规律：</li>
+                        <div class="claer"></div>
+                    </ul>
+                </div>
+                <!--info right end-->
+                <div class="standard ps-a pa-b-22">
+                    <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-e9511b ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="addCart(256,1,1);">立即购买</a>
+                    <a class="dsblock w-170 hg-42 text-c line-h42 ftc-e9511b fs-18 bd-rd-6 bd-2s-e9511b m-r-28 fl" href="javascript:;" onclick="AjaxAddCart(256,1,0);">加入购物车</a>
+                    <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-6595e4 ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onClick="_layer(false)" onclick="">免费试听</a>
+                </div>
+            </div>
+            <!--right info end-->
+        </div>
+        <!--web main bogy top end-->
+        <!--分割线-->
+        <div class="w-amin hg-30 ovhidden"></div>
+        <!--分割线-->
+        <div class="w-main ovhidden">
+            <ul class="w-1140 p-l-30 p-r-30 p-t-13 p-b-13 ovhidden bg-c-ffffff ql_classtab m-b-2">
+                <li class="fl">
+                    <a href="javascript:;" class="w-110 fs-16 ftc-000000 line-h30 hg-30 text-c ft-w-b m-r-20 tabcur">课程总览</a>
+                </li>
+                <span class="fl m-r-20 fs-18 line-h30 ftc-bbbbbb">|</span>
+                <li class="fl" name="ql_plistcon">
+                    <a href="#ql_plistcon" class="w-110 fs-16 ftc-000000 line-h30 hg-30 text-c ft-w-b m-r-20 fl">课程评论</a></li>
+            </ul>
+            <!--课程总览 start-->
+            <div class="w-1140 p-l-30 p-r-30 bg-c-ffffff p-b-30 ovhidden">
+                <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-15 m-b-15 line_h3 fl">课程介绍</h3>
+                <div class="w-1115 p-l-15 fs-16 line-h26 ftc-636363 fl">重点突出，讲练结合<br />
+根据中考常考的重点、热点知识，分门别类，详细讲解，让重点更为突出，同时配有精编考题和答案解析，巩固和强化所学语法知识，并能帮助学生更好地理解和复习。<br />
+<br />
+简洁明了，实用性强<br />
+依据初中生的学习特点，在保证知识完整性的同时，化繁为简，化难为易，让学生更易接受，更易于查找和学习，便于理解记忆。</div>
+                <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-15 m-b-15 line_h3 fl">教学目标</h3>
+                <div class="w-1115 p-l-15 fs-16 line-h26 ftc-636363 fl">本课程的教学目标有知识和技能两种。知识方面，学生要通过本课程的学习理解和掌握英语语法的基本概念、词法句法、时态语态、各类从句以及各种常见语言结构等。技能方面，学生要养成发现问题、思考问题和解决问题的习惯，利用语言规律分析各种语言现象、辨析各种语言错误、输出各种规范的英语语言。</div>
+                <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-15 m-b-15 line_h3 fl">授课特点</h3>
+                <div class="w-1115 p-l-15 fs-16 line-h26 ftc-636363 fl">“轻松、快乐、和谐、高效”的专项突击课堂，让英语语法学习不再枯燥！</div>
+                <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-15 m-b-15 line_h3 fl">授课内容</h3>
+                <div class="w-1115 p-l-15 fs-16 line-h26 ftc-636363 fl">2月4日	13：30-15：30	八大时态（上集）	一般现在时，一般将来时，一般过去时，现在进行时，过去现在时<br />
+2月5日	13：30-15：30	八大时态（下集）	现在完成时，过去完成时，过去将来时<br />
+2月6日   13：30-15：30	定语从句	that/which/whom选择技能GET<br />
+2月7日   13：30-15：30	短语及词组的辨析	直击考点词组，必备60例<br />
+2月8日   13：30-15：30	阅读理解：长句攻破	阅读理解潜规则，生词推理法。轻松输出阅读长句<br />
+2月9日	13：30-15：30	2小时突破7分作文	六种写作技能急速GET</div>
+            </div>
+            <!--课程总览 end-->
+            <!--分割线-->
+            <div class="w-amin hg-30 ovhidden"></div>
+            <!--分割线-->
+            <div class="w-main m-auto" id="ql_plistcon">
+                <div class="w-1140 p-l-30 p-r-30 bg-c-ffffff ovhidden">
+                    <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-15 m-b-15 line_h3 fl">课程评论</h3>
+                    <ul class="w-all ql_plist ovhidden fl">
+                    	                        
+                        <div class="clear"></div>
+                    </ul>
+                    <div class="w-all hg-30 fl"></div>
+                    <!--pages start-->
+                    <ul class="w-560 hg-36 ql_pages m-auto">
+                                            </ul>
+                    <!--pages end-->
+                    <div class="w-all hg-30 fl"></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-all hg-60 fl"></div>
+        <!--web main body end-->
+    </div>
+
+
+</div>
+<div class="w-all w-minw bg-c-f6f6f6 ovhidden">
+    <div class="w-main m-auto">
+        <!--title start-->
+        <div class="w-main ovhidden p-t-10 fl">
+            <h3 class="fl fs-20 ft-w-b line-h40"><span class="dsblock ql_icon ql_like tx-ind m-r-15 fl">猜你喜欢</span>猜你喜欢</h3></div>
+        <!--title end-->
+        <ul class="ql_likeclass w-1210 ovhidden">
+        	            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl">
+                <a href="/index.php/home/Goods/goodsInfo/id/239.html" class="dsblock w-230 hg-165 ovhidden ps-r">
+                    <img src="../upload/goods/2017/08-24/283eb4e30de47c2de47ad93ea2b06482.jpg" alt="初二数学提高班"/>
+                </a>
+                <div class="w-210 p-l-10 p-r-10 fl">
+                    <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初二数学提高班</h3>
+                    <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：1000.00</span>
+                </div>
+            </li>
+                        <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl">
+                <a href="/index.php/home/Goods/goodsInfo/id/244.html" class="dsblock w-230 hg-165 ovhidden ps-r">
+                    <img src="../upload/goods/2017/08-24/c1e2a1f2dd59a423864ecf3bd0d5b2f4.jpg" alt="初三化学"/>
+                </a>
+                <div class="w-210 p-l-10 p-r-10 fl">
+                    <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初三化学</h3>
+                    <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：2400.00</span>
+                </div>
+            </li>
+                        <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl">
+                <a href="/index.php/home/Goods/goodsInfo/id/242.html" class="dsblock w-230 hg-165 ovhidden ps-r">
+                    <img src="../upload/goods/2017/08-24/7c94657a949438667951942a3b36b5ff.jpg" alt="初中全科1V1定制"/>
+                </a>
+                <div class="w-210 p-l-10 p-r-10 fl">
+                    <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制</h3>
+                    <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：1000.00</span>
+                </div>
+            </li>
+                        <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl">
+                <a href="/index.php/home/Goods/goodsInfo/id/245.html" class="dsblock w-230 hg-165 ovhidden ps-r">
+                    <img src="../upload/goods/2017/08-24/5bc7bbbb28891fa573df6a883fc742ea.jpg" alt="初三物理"/>
+                </a>
+                <div class="w-210 p-l-10 p-r-10 fl">
+                    <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初三物理</h3>
+                    <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：2600.00</span>
+                </div>
+            </li>
+                        <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl">
+                <a href="/index.php/home/Goods/goodsInfo/id/240.html" class="dsblock w-230 hg-165 ovhidden ps-r">
+                    <img src="../upload/goods/2017/08-24/d882b2f5b089f27a580df74889786b20.jpg" alt="900分钟吃透高中语法"/>
+                </a>
+                <div class="w-210 p-l-10 p-r-10 fl">
+                    <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">900分钟吃透高中语法</h3>
+                    <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：1000.00</span>
+                </div>
+            </li>
+                        
+        </ul>
+        <div class="w-amin hg-30 ovhidden"></div>
+    </div>
+</div>
+<link rel="stylesheet" href="/template/pc/rainbow/static/css/kefu.css">
+<div class="cndns-right">
+    
+    <div class="cndns-right-meau meau-sev">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon">&#xe901;</span>
+            <p>
+                在线<br />
+                客服
+            </p>
+        </a>
+        <div class="cndns-right-box">
+            <div class="box-border">
+                <div class="sev-t">
+                    <span class="demo-icon">&#xe901;</span>
+                    <p>在线客服<i>服务时间：9:00-24:00</i></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="sev-b">
+                    <h4>齐峰教育在线沟通：</h4>
+                    <ul id="zixunUl">
+                        <li><a href="tencent://message/?uin=815750777&amp;Site=齐峰教育&amp;Menu=yes">齐峰教育客服</a></li>
+                        
+                        <li><a href="tencent://message/?uin=815750777&amp;Site=齐峰教育&amp;Menu=yes">齐峰教育客服</a></li>
+                        <li><a href="tencent://message/?uin=815750777&amp;Site=齐峰教育&amp;Menu=yes">齐峰教育客服</a></li>
+                        
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <span class="arrow-right-kf"></span>
+            </div>
+        </div>
+    </div>
+    <div class="cndns-right-meau meau-contact">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon">&#xe902;</span>
+            <p>
+                客服<br />
+                热线
+            </p>
+        </a>
+        <div class="cndns-right-box">
+            <div class="box-border">
+                <div class="sev-t">
+                    <span class="demo-icon">&#xe902;</span>
+                    <p>0531-81768062<br /><i>7*24小时客服服务热线</i></p>
+                    <div class="clear"></div>
+                </div>
+                <span class="arrow-right-kf"></span>
+            </div>
+        </div>
+    </div>
+    <div class="cndns-right-meau meau-code">
+        <a href="javascript:" class="cndns-right-btn">
+            <span class="demo-icon">&#xe903;</span>
+            <p>
+                关注<br />
+                微信
+            </p>
+        </a>
+        <div class="cndns-right-box">
+            <div class="box-border">
+                <div class="sev-t">
+                    <img src="../upload/logo/2017/09-12/5db61c1f81444cf505e797939e3a7e4e.gif" width="150" height="150" />
+                    <i>关注官方微信</i>
+                </div>
+                <span class="arrow-right-kf"></span>
+            </div>
+        </div>
+    </div>
+    <div class="cndns-right-meau meau-top" id="top-back">
+        <a href="javascript:" class="cndns-right-btn" onclick="topBack()">
+            <span class="demo-icon">&#xe904;</span>
+            <i>顶部</i>
+        </a>
+    </div>
+
+</div>
+<script type="text/javascript">
+//置顶图标显示
+$('#top-back').hide()
+$(window).scroll(function(){
+	 if($(this).scrollTop() > 350){
+		$("#top-back").fadeIn();
+	 }
+	 else{
+		$("#top-back").fadeOut();
+	 }
+  })	
+//置顶事件
+function topBack(){
+  $('body,html').animate({scrollTop:0},300);
+}
+</script>
+<div class="w-all w-minw bg-c-e3e3e3 p-t-15 ovhidden">
+    <!--link start-->
+    <div class="w-main m-auto">
+        <div class="fl w-65 fs-12 ftc-414141 line-h30 ft-w-b">友情链接：</div>
+        <div class="fr">
+            <ul class="ql_link">
+            	                <li><a href="http://www.qifengedu.com/home/index/doubleTeacher2.html" target="_blank">双师课堂方案</a></li>
+                                <li><a href="http://www.qifengedu.com/home/index/join_in.html" target="_blank">教育培训加盟</a></li>
+                                <li><a href="http://www.iqifengjiaoyu.com" target="_blank">辅导机构加盟</a></li>
+                                <li><a href="http://www.iqifengjiaoyu.com" target="_blank">辅导班加盟</a></li>
+                                <li><a href="http://www.iqifengjiaoyu.com" target="_blank">补习班加盟</a></li>
+                                <li><a href="http://www.iqifengjiaoyu.com" target="_blank">教育加盟</a></li>
+                                <li><a href="http://www.qifengedu.com/home/index/doubleTeacher.html" target="_blank">双师课程</a></li>
+                                <li><a href="http://www.baidu.com" target="_blank">百度搜索</a></li>
+                                <li><a href="http://edu.sina.com.cn/zxx/" target="_blank">新浪教育</a></li>
+                                <li><a href="http://edu.163.com/" target="_blank">网易教育</a></li>
+                                <li><a href="http://learning.sohu.com/" target="_blank">搜狐教育</a></li>
+                                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+    <!--link end-->
+    <!--分割线 start-->
+    <div class="w-main m-auto">
+        <div class="w-main fl hg-12"></div>
+        <div class="w-main fl hg-1 bg-c-d2d2d2"></div>
+        <div class="w-main fl hg-24"></div>
+    </div>
+    <!--分割线 start-->
+    <div class="w-main m-auto m-b-23 ovhidden">
+        <div class="m-t-12 fl">
+            <a href="/" class="m-t-25 fl"><img src="../upload/logo/2017/08-18/e75573654d7107b7398f9d16a8a27c05.png" width="235" height="70" alt=""/></a>
+            <div class="qlfooter_nav m-l-45 fl">
+                <dl class="ql_f_nav fl ql_f_navzp">
+                    <dt><a>关于我们</a></dt>
+                                        <dd><a href="/index.php/home/index/column/id/113.html"><i></i>关于齐峰</a></dd>
+                                        <dd><a href="/index.php/home/index/column/id/114.html"><i></i>齐峰优势</a></dd>
+                                        <dd><a href="/home/index/honor.html"><i></i>荣誉资质</a></dd>
+                                        <dd><a href="/index.php/home/index/column/id/116.html"><i></i>招贤纳士</a></dd>
+                                        
+                </dl>
+                <dl class="ql_f_nav fl">
+                    <dt><a>课程分类</a></dt>
+                                        <dd><a href="/index.php/home/goods/goodsList/id/1.html"><i></i>小学</a></dd>
+                                        <dd><a href="/index.php/home/goods/goodsList/id/2.html"><i></i>初中</a></dd>
+                                        <dd><a href="/index.php/home/goods/goodsList/id/3.html"><i></i>高中</a></dd>
+                                        <dd><a href="/index.php/home/goods/goodsList/id/4.html"><i></i>心理课</a></dd>
+                                    </dl>
+                <div class="ql_f_infp w-200 m-l-15 fl">
+                    <h3>联系我们</a></h3>
+                    <p><i></i>电话：0531-81768062</p>
+                    <p><i></i>邮箱：info@qifengedu.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-244 fr">
+        	<!--  暂时屏蔽手机端
+            <div class="w-112 m-l-10 fl">
+                <img src="../upload/logo/2017/08-18/c4b783b7be719bf128aac34ce7434959.gif" width="112" height="112" alt=""/>
+                <p class="w-all fs-12 ftc-000000 text-c line-h25 fl">手机端</p>
+            </div>
+            -->
+            <div class="w-112 m-l-10 fl">
+                <img src="../upload/logo/2017/09-12/5db61c1f81444cf505e797939e3a7e4e.gif" width="112" height="112" alt=""/>
+                <p class="w-all fs-12 ftc-000000 text-c line-h25 fl">公众号</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w-all w-minw bg-c-cccccc p-t-6 p-b-6 ovhidden">
+    <div class="w-main m-auto text-c fs-12 ftc-414141 line-24">Copyright 2010-2018    鲁ICP备17005611号-1<br/>公司地址：济南市市中区共青团路25号绿地普利中心35楼3501   .<a href="/home/fenxiao/index.html"  target="_blank" class="ftc-000000">分校中心</a><script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5f3144b26dae78189495a2eb8c26d382' type='text/javascript'%3E%3C/script%3E")) </script></div>
+</div>
+<script type="text/javascript">
+function addCart(goods_id,num,to_catr){
+	$.ajax({
+		type : "POST",
+		url:"/index.php?m=Home&c=Cart&a=ajaxAddCart",
+		data : {"goods_id":goods_id,"goods_num":1},// 你的formid 搜索表单 序列化提交                        
+		dataType:'json',
+		success: function(data){	
+			if(to_catr == 1){
+				location.href = "/index.php?m=Home&c=Cart&a=cart";   
+			} else {
+				layer.msg('操作成功！', {icon: 1});	
+			}
+		}
+	});     
+}
+function _layer(is){
+	if(!is){
+		layer.msg('该课程不支持免费试听！', {icon: 5});	
+		return false;
+	}
+	layer.open({
+		type: 1 //Page层类型
+		,area: ['800px', '600px']
+		,title: '免费试听'
+		,shade: 0.6 //遮罩透明度
+		,maxmin: true //允许全屏最小化
+		,anim: 1 //0-6的动画形式，-1不开启
+		,content: ''
+	});    
+}
+</script>
+</body>
+</html>
