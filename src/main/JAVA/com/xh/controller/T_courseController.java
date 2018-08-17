@@ -31,9 +31,16 @@ public class T_courseController {
     @RequestMapping("/courselist1")
     @ResponseBody
     public String getcoursesbypages(Model model,Integer currPage){
+        final int PAGE_SIZE;
+        if (currPage==0){
+             PAGE_SIZE=5;
+             currPage=1;
+        }else{
+             PAGE_SIZE=8; //每页显示8条
+        }
 
         //int currPage=1; //前端传回来的当前页码
-        final int PAGE_SIZE=8; //每页显示8条
+
         int count=courseService.numofcourse();//总记录数
         int pages;//总页数
         if (count%PAGE_SIZE==0) {
