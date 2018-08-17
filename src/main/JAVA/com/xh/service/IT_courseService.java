@@ -7,4 +7,8 @@ import java.util.List;
 public interface IT_courseService {
     //显示课程列表
     List<T_course> getCourses();
+    //分页显示
+    List<T_course> getCoursesByPages(int start,int pagesize);
+    //课程总数
+    int numofcourse();
 }

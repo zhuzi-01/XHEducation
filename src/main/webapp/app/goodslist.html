@@ -137,8 +137,8 @@
         </div>
         <!--全部商品分类-->
         <ul class="w-950 hg-60 ql_nav">
-            <li><a href="index.html" class="cur">首页</a></li>
-            <li><a href="goodslist.html">小学</a></li>
+            <li><a href="index.html" >首页</a></li>
+            <li><a href="goodslist.html" class="cur">小学</a></li>
             <li><a href="双师单页.html">双师课堂</a></li>
             <li><a href="考试日历.html">考试日历</a></li>
             <li><a href="讲师.html">名师</a></li>
@@ -152,9 +152,8 @@
 <!--网站导航 end-->	
 <!--web main body start-->
 <div class="w-all w-minw bg-c-fcfcfc ovhidden" >
-    <div class="w-main m-auto"> 
-        <!--面包屑 start-->
-        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl"> 网站位置：首页  >  小学 </div>
+    <div class="w-main m-auto">
+        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl" style=" margin-bottom: 0px;"> 网站位置：首页  &gt;  小学 </div>
         <!--filter start-->
         <div class="w-1150 p-l-25 p-r-25 bg-c-ffffff fl">
             <div class="w-1150 fl">
@@ -176,22 +175,7 @@
                     </ul>
                 </div>
                 
-                <!--分割线-->
-                <div class="w-all fl hg-1 bg-c-d2d2d2"></div>
-                <!--分割线-->
-                <div class="w-all p-t-16 p-b-16 ovhidden">
-                    <div class="w-80 fs-14 line-h28 m-t-6 m-b-6 ftc-888888 fl">所在年级</div>
-                    <ul class="w-970 fl">
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl class_cur">不限</a></li>
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl">一年级</a></li>
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl">二年级</a></li>
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl">三年级</a></li>
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl">四年级</a></li>
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl">五年级</a></li>
-                        <li class="w-70 m-l-24 fl"><a href="#" class="dsblock w-all fs-14 line-h28 ftc-888888 m-t-6 m-b-6 curpter text-c fl">六年级</a></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
+
                 
                 <!--分割线-->
                 <div class="w-all fl hg-1 bg-c-d2d2d2"></div>
@@ -272,8 +256,118 @@
                 <div class="clear"></div>
             </dl>
         </div>
-        <div class="w-main m-auto m-t-25 fl">
+        <div class="w-main m-auto m-t-25 fl" id="html">
             <ul class="home_calss w-1224 ovhidden">
+                <script type="text/javascript">
+
+                    $(function () {
+                        list(1);
+                    })
+
+                    function list(curpage) {
+                        $.ajax({
+                            type: "get",
+                            dataType: "json",
+                            data:{"currPage":curpage},
+                            url: "/courselist1",
+
+                            success: function (data) {
+                                var data=eval(data);
+                                var pages=data.pages;
+                                var html='<ul class="home_calss w-1224 ovhidden">';
+
+                                data.courses.forEach(function (course) {
+                                    if (course.level==1){
+                                        var level="免费体验";
+                                        var level2="马上体验";
+                                    }else if (course.level==2){
+                                        var level="￥30";
+                                        var level2="马上购买";
+                                    }else{
+                                        var level="￥60";
+                                        var level2="马上购买";
+                                    }
+                                    html=html+
+                                    '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>'+
+                                    '<div class="w-255 p-l-10 p-r-15 p-b-10 fl">'+
+                                    '<div class="home_calsstxt w-155 fl">'+
+                                    '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
+                                    '<span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">'+level+'</span> </div>'+
+                                    '<a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">'+level2+'</a> </div>'+
+                                    '</li>' ;
+
+                                })
+                                html=html+' <div class="clear"></div>'+
+                                '</ul>'+
+                                '<div class="w-amin hg-30"></div>'+
+                                '<!--pages start-->'+
+                                ' <ul class="w-560 hg-36 ql_pages m-auto">'+
+                                '<li class="fl"><a class="" href="#">&lt;</a></li>'+
+                                '<li class="fl"><a class="cur" href="javascript:list('+(curpage)+')">'+curpage+'</a></li>'+
+                                '<li class="fl"><a class="" href="javascript:list('+(++curpage)+')">'+(curpage)+'</a></li>'+
+                                ' <li class="fl"><a class="" href="javascript:list('+(++curpage)+')">'+(curpage)+'</a></li>'+
+                                '<li class="fl"><a class="" href="#">...</a></li>'+
+                                '<li class="fl"><a class="" href="#">&gt;</a></li>'+
+                                ' </ul>'+
+                                '<!--pages end-->'+
+                                ' <div class="w-amin hg-30"></div>';
+                                $("#html").html(html);
+
+
+                            }
+                        });
+
+                    }
+
+                    function editUser(id) {
+                        $.ajax({
+                            type: "get",
+                            dataType: "json",
+                            url: "${pageContext.request.contextPath}/edit",
+                            data: {"id": id},
+
+                            success: function (data) {
+                                $("#fill").show();
+                                $("#myform").show();
+                                $("#sid").val(data.sid);
+                                $("#sname").val(data.sname);
+                                $("#ssex").val(data.ssex);
+                                $("#sage").val(data.sage);
+                                $("#city").val(data.city);
+                            }
+                        });
+                    }
+
+                    function updateUser(form) {
+                        $.post("${pageContext.request.contextPath}/update", $(form).serialize(), function (data) {
+                            if (data == 'ok') {
+                                alert("客户更新成功！");
+                                list();
+                            }
+                            else {
+                                alert("修改失败");
+                            }
+                        });
+                    }
+
+                    function deleteUser(id) {
+                        if (confirm('确实要删除该客户吗?')) {
+                            var url = "${pageContext.request.contextPath}/delete";
+                            var args = {"sid": id};
+                            $.post(url, args, function (data) {
+                                if (data == 'ok') {
+                                    alert("客户删除更新成功！");
+                                    list();
+                                }
+                                else {
+                                    alert("删除失败");
+                                }
+
+                            });
+                        }
+                    }
+
+                </script>
                 <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
                     <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
                         <div class="home_calsstxt w-155 fl">
@@ -281,55 +375,8 @@
                             <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
                         <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
                 </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
-                <li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="课程详情.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>
-                    <div class="w-255 p-l-10 p-r-15 p-b-10 fl">
-                        <div class="home_calsstxt w-155 fl">
-                            <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
-                            <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </div>
-                        <a href="课程详情.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">马上购买</a> </div>
-                </li>
+
+
                 <div class="clear"></div>
             </ul>
             <div class="w-amin hg-30"></div>

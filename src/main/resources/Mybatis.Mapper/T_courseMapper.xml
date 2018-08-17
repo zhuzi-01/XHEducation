@@ -87,4 +87,7 @@
     level, duration, study_count, weight, brief
     from t_course
   </select>
+  <select id="selectPages" parameterType="int" resultMap="BaseResultMap">
+    SELECT * FROM t_course LIMIT #{arg0},#{arg1}
+  </select>
 </mapper>

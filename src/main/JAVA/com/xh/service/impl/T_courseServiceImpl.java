@@ -17,4 +17,16 @@ public class T_courseServiceImpl implements IT_courseService {
         return coursedao.selectAll();
     }
 
+    @Override
+    public List<T_course> getCoursesByPages(int start, int pagesize) {
+        return coursedao.selectPages(start,pagesize);
+    }
+
+    @Override
+    public int numofcourse() {
+        List<T_course> courses=coursedao.selectAll();
+
+        return courses.size();
+    }
+
 }
