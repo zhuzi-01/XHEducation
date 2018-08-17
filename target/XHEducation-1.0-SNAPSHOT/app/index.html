@@ -12,9 +12,10 @@
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
 <body>
 <!--web-top start-->
-<div style="margin-bottom: -6px; position: relative; z-index: 1000;">
+<div style="margin-bottom: -6px; position: relative; z-index: 1000;" id="head">
 	<iframe src="header.html" frameborder="0" height="165px" width="100%" scrolling="no" ></iframe>
 </div>
+<!--<script > $("#head").load('header.html')</script>-->
 <!--网站导航 start-->
 <div class="w-all w-minw hg-60 bd-bs-e9511b bg-c-ffffff ql_webnav">
     <!--网站导航 start-->
@@ -374,7 +375,7 @@
                                 '<div class="w-255 p-l-10 p-r-15 fl">'+
                                 ' <div class="home_calsstxt w-155 fl">'+
                                 '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
-                                '<span class="dsblock w-all fs-14 ftc-ff0000 line-h32 fl">'+course.studyCount+'</span></div>'+
+                                '<span class="dsblock w-all fs-14 ftc-ff0000 line-h32 fl">听课人数：'+course.studyCount+'</span></div>'+
                                 '<a href="课程详情.html"'+
                                 'class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">'+level+'</a>'+
                                 '</div>'+
