@@ -469,22 +469,7 @@
         });
     }
 
-    function deleteUser(id) {
-        if (confirm('确实要删除该客户吗?')) {
-            var url = "${pageContext.request.contextPath}/delete";
-            var args = {"sid": id};
-            $.post(url, args, function (data) {
-                if (data == 'ok') {
-                    alert("客户删除更新成功！");
-                    list();
-                }
-                else {
-                    alert("删除失败");
-                }
 
-            });
-        }
-    }
 
 </script>
 <!--web footer copyright end--> 
