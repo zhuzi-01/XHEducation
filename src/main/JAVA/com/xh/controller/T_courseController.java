@@ -1,25 +1,36 @@
 package com.xh.controller;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 
+import com.sun.deploy.net.HttpResponse;
+import com.sun.javafx.scene.control.skin.VirtualFlow.ArrayLinkedList;
 import com.xh.entity.T_course;
 import com.xh.service.IT_courseService;
 import net.sf.json.JSON;
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
+@SessionAttributes("course_id")
 public class T_courseController {
     @Autowired
     IT_courseService courseService;
+
+    @RequestMapping("/")
+    public String index(){
+        return "forward:/app/index.html";
+    }
 
     @RequestMapping("/courselist")
     @ResponseBody
@@ -55,8 +66,22 @@ public class T_courseController {
        return json.toString();
     }
 
-    @RequestMapping("/")
-    public String index(){
-        return "forward:/app/index.html";
+    @RequestMapping("/getOnecourse")
+    @ResponseBody
+    public List<T_course> getOnecourses(Model model,Integer course_id){
+        System.out.println(course_id);
+        List<T_course> list = new ArrayList<>();
+        list.add(courseService.getOnecourse(course_id));
+        return list;
+    }
+
+    @RequestMapping("/Redirect")
+    public ModelAndView getRedirect(Model model, Integer course_id){
+        System.out.println(course_id);
+        ModelAndView mv=new ModelAndView();
+
+        mv.setViewName("gooddetail");
+        model.addAttribute("course_id",course_id);
+        return mv;
     }
 }

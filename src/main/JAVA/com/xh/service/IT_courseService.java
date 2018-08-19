@@ -11,4 +11,6 @@ public interface IT_courseService {
     List<T_course> getCoursesByPages(int start,int pagesize);
     //课程总数
     int numofcourse();
+    //查询单个课程
+    T_course getOnecourse(Integer id);
 }

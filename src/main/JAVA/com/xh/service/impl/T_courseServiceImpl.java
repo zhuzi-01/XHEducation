@@ -29,4 +29,9 @@ public class T_courseServiceImpl implements IT_courseService {
         return courses.size();
     }
 
+    @Override
+    public T_course getOnecourse(Integer id) {
+        return coursedao.selectByPrimaryKey(id);
+    }
+
 }
