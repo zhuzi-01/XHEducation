@@ -10,7 +10,7 @@
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="gender" jdbcType="BIT" property="gender" />
+    <result column="gender" jdbcType="INTEGER" property="gender" />
     <result column="header" jdbcType="VARCHAR" property="header" />
     <result column="phone" jdbcType="VARCHAR" property="phone" />
     <result column="education" jdbcType="VARCHAR" property="education" />
@@ -42,7 +42,7 @@
       sign, province, city, 
       weight)
     values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
-      #{gender,jdbcType=BIT}, #{header,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, 
+      #{gender,jdbcType=INTEGER}, #{header,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR},
       #{education,jdbcType=VARCHAR}, #{collegeName,jdbcType=VARCHAR}, #{title,jdbcType=VARCHAR}, 
       #{sign,jdbcType=VARCHAR}, #{province,jdbcType=VARCHAR}, #{city,jdbcType=VARCHAR}, 
       #{weight,jdbcType=INTEGER})
@@ -56,7 +56,7 @@
     update t_user
     set username = #{username,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},
-      gender = #{gender,jdbcType=BIT},
+      gender = #{gender,jdbcType=INTEGER},
       header = #{header,jdbcType=VARCHAR},
       phone = #{phone,jdbcType=VARCHAR},
       education = #{education,jdbcType=VARCHAR},

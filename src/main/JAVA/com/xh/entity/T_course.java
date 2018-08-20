@@ -38,6 +38,24 @@ public class T_course {
     //课程描述
     private String brief;
 
+    @Override
+    public String toString() {
+        return "T_course{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", classify='" + classify + '\'' +
+                ", classifyName='" + classifyName + '\'' +
+                ", subClassify='" + subClassify + '\'' +
+                ", subClassifyName='" + subClassifyName + '\'' +
+                ", username='" + username + '\'' +
+                ", level=" + level +
+                ", duration='" + duration + '\'' +
+                ", studyCount=" + studyCount +
+                ", weight=" + weight +
+                ", brief='" + brief + '\'' +
+                '}';
+    }
+
     //
     public Integer getId() {
         return id;

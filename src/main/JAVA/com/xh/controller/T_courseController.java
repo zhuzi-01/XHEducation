@@ -4,6 +4,7 @@ package com.xh.controller;
 import com.sun.deploy.net.HttpResponse;
 import com.sun.javafx.scene.control.skin.VirtualFlow.ArrayLinkedList;
 import com.xh.entity.T_course;
+import com.xh.entity.T_user;
 import com.xh.service.IT_courseService;
 import net.sf.json.JSON;
 import net.sf.json.JSONObject;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
@@ -75,13 +77,5 @@ public class T_courseController {
         return list;
     }
 
-    @RequestMapping("/Redirect")
-    public ModelAndView getRedirect(Model model, Integer course_id){
-        System.out.println(course_id);
-        ModelAndView mv=new ModelAndView();
 
-        mv.setViewName("gooddetail");
-        model.addAttribute("course_id",course_id);
-        return mv;
-    }
 }

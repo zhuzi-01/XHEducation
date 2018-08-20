@@ -18,6 +18,17 @@ public class T_user_follows {
     //关注用户名
     private String followName;
 
+    @Override
+    public String toString() {
+        return "T_user_follows{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", followId=" + followId +
+                ", createTime=" + createTime +
+                ", followName='" + followName + '\'' +
+                '}';
+    }
+
     //
     public Integer getId() {
         return id;

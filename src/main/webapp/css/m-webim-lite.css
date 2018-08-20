@@ -1,0 +1,833 @@
+@charset "utf-8";
+
+.BD-QIAO-WEBIM-LITE-WRAP div,
+.BD-QIAO-WEBIM-LITE-WRAP a,
+.BD-QIAO-WEBIM-LITE-WRAP span,
+.BD-QIAO-WEBIM-LITE-WRAP em,
+.BD-QIAO-WEBIM-LITE-WRAP select,
+.BD-QIAO-WEBIM-LITE-WRAP option,
+.BD-QIAO-WEBIM-LITE-WRAP table,
+.BD-QIAO-WEBIM-LITE-WRAP tr,
+.BD-QIAO-WEBIM-LITE-WRAP td,
+.BD-QIAO-WEBIM-LITE-WRAP img {
+    color: inherit;
+    width: auto;
+    text-align: left;
+    float: none;
+    clear: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.BD-QIAO-WEBIM-LITE-WRAP div,
+.BD-QIAO-WEBIM-LITE-WRAP a,
+.BD-QIAO-WEBIM-LITE-WRAP span,
+.BD-QIAO-WEBIM-LITE-WRAP em,
+.BD-QIAO-WEBIM-LITE-WRAP option,
+.BD-QIAO-WEBIM-LITE-WRAP table,
+.BD-QIAO-WEBIM-LITE-WRAP tr,
+.BD-QIAO-WEBIM-LITE-WRAP td,
+.BD-QIAO-WEBIM-LITE-WRAP img {
+    border: none;
+}
+
+.BD-QIAO-WEBIM-LITE-WRAP table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP::before,
+#BD_QIAO_WEBIM_LITE_WRAP::after,
+#BD_QIAO_WEBIM_LITE_WRAP div::before,
+#BD_QIAO_WEBIM_LITE_WRAP div::after,
+#BD_QIAO_WEBIM_LITE_WRAP a::before,
+#BD_QIAO_WEBIM_LITE_WRAP a::after,
+#BD_QIAO_WEBIM_LITE_WRAP table::before,
+#BD_QIAO_WEBIM_LITE_WRAP table::after,
+#BD_QIAO_WEBIM_LITE_WRAP tr::before,
+#BD_QIAO_WEBIM_LITE_WRAP tr::after
+#BD_QIAO_WEBIM_LITE_WRAP td::before,
+#BD_QIAO_WEBIM_LITE_WRAP td::after {
+    content: '';
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP {
+    position: fixed;
+    right:0px;
+    bottom:0px;
+    width: 320px;
+    font-size:12px;
+    line-height: 1.5;
+    z-index: 2147483647;
+    background: #FFF;
+    color: #333;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-bottom-width: 0px;
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title {
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+    text-align: left;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-text {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+    _zoom : 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify-text {
+    margin-left:10px;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    _zoom : 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify .m-lite-title-notify-text {
+    display: inline;
+}
+
+
+
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify-text em {
+    display: inline-block;
+    margin-right: 3px;
+    height: 19px;
+    width: 19px;
+    line-height: 14px;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    background-position: -2px -163px;
+    background-position: -2px -154px \9;
+    /*background-position: -2px -163px\0;*/
+    *display: inline;
+    *zoom: 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-btn {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-close {
+    background-position: -16px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-close:hover {
+    background-position: 0px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-max i {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-position: -2px -139px;
+    background-position: -2px -133px \9;
+    /*background-position: -2px -139px\0;*/
+    /*background-position: -2px -139px\0;*/
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-min i {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 7px;
+    background-position: -2px -2px;
+}
+
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-content {
+    position: relative;
+    padding-top: 10px;
+    height: 284px;
+    overflow-y: auto;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg {
+    position: relative;
+    width: 255px;
+    margin-bottom: 30px;
+    clear: both;
+    *clear: none;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-info {
+    margin: 0px auto;
+    width: 235px;
+    margin: 0 auto 20px;
+    color: #bbb;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    height: 22px;
+    clear: both;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-info .m-lite-msg-info-inner {
+    word-wrap: break-word;
+    break-word: break-all;
+    text-align: center;
+    clear: both;
+    padding: 0 10px;
+    background-color: #fff;
+    position: relative;
+    top: 11px;
+    display: inline;
+    *display: inline;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-title {
+    color: #2c7cff;
+    text-align: left;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-content {
+    padding: 6px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    word-wrap: break-word;
+    break-word: break-all;
+    text-align: left;
+    width: auto;
+    margin-top: 6px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    max-width: 241px;
+    *display: inline;
+    *zoom: 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-cursor {
+    position: absolute;
+    top: 24px;
+    width: 11px;
+    height: 9px;
+    overflow: hidden;
+    display: none \9;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server {
+    float: left;
+    *float: none;
+    padding-left:10px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server .m-lite-msg-content {
+    border-color: #e9f2ff;
+    background: #e9f2ff;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server .m-lite-msg-content .map-location img {
+    width: 200px;
+    height: 89px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server .m-lite-msg-cursor {
+    background-position: -2px -8px;
+    left: 8px;
+    display: none \9;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client {
+    float: right;
+    text-align: right;
+    clear: right;
+    padding-right:10px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-content {
+    background: #fff;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-title {
+    color: #9e9e9e;
+    text-align: right;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-title .m-lite-msg-name {
+    margin-right: 6px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-title .m-lite-msg-name {
+    color: #656565;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-cursor {
+    /*background-position: -2px -184px;*/
+    background-position: -2px -184px;
+    background-position: -2px -174px \9;
+    right: 8px;
+    right: 1px \9;
+    top: 23px \9;
+    display: none \9;
+
+}
+
+:root #BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-cursor {
+    right: 8px;
+    top: 24px;
+    display: block;
+}
+:root #BD_QIAO_WEBIM_LITE_WRAP .msg-sever .m-lite-msg-cursor {
+    display: block;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-editor {
+    background-color: #f4f4f4;
+    overflow: visible;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-btn {
+    float: right;
+    width: 68px; /* 隐藏发送选项按钮 */
+    height: 32px;
+    margin-right: 10px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 32px;
+    position: relative;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-btn .m-lite-opt-btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool a {
+    color: #333;
+    text-decoration: none;
+    line-height: 26px;
+}
+
+/*表情按钮图片修改 by wangjie23 20151217*/
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-btn {
+    float: left;
+    width: 24px;
+    height: 22px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face {
+    background-position: -2px -70px;
+    background-position: 0 -66px \9;
+    /*background-position: -2px -70px \9\0;*/
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-export {
+    background-position: -2px -19px;
+    background-position: -2px -18px \9;
+    /*ackground-position: -2px -19px\0;*/
+}
+
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face:hover,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face-active {
+    background-position-x: -30px;
+    background-position-x: -25px \9;
+    /*background-position-x: -30px\0;*/
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-export:hover,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-export-active {
+    background-position-x: -30px;
+    background-position-x: -27px \9;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-font {
+    background: url(../../img/webim_toolbar.gif) 0 -89px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-font:hover {
+    background-position: 0px -109px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-font-active {
+    background-position: 0px -129px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-face {
+    position: absolute;
+    left: 0px;
+    top: -182px;
+    z-index: 20;
+    background: #fff;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-font {
+    width: 298px;
+    height:25px;
+    padding:5px 10px 0;
+    background:#fff;
+    position:absolute;
+    top:-32px;
+    border:1px solid #A8B3C7;
+    left:-1px;
+    z-index: 10;
+    width: auto;
+    overflow: visible;
+}
+
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-input-area {
+    height: 88px;
+    padding: 8px 10px 10px;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-input-area iframe {
+    margin: 0px;
+    padding: 0px;
+    height: 76px;
+    padding: 6px 0;
+    border: 1px solid #96aacd;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    display: block;
+    overflow: hidden;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt {
+    height: 15px;
+    line-height: 15px;
+    padding: 8px 0;
+    position: relative;
+    color: #bdbdbd;
+    width: auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-logo {
+    display: inline-block;
+    height: 16px;
+    width: 17px;
+    margin: 0px 5px;
+    overflow: hidden;
+    background-position: -2px -121px;
+    background-position: -2px -114px \9;
+    /*background-position: -2px -121px\0;*/
+    *display: inline;
+    *zoom: 1;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-and-send {
+    padding-bottom: 10px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-clear {
+    clear: both;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-and-send .m-lite-tool {
+    height: 21px;
+    line-height: 21px;
+    width: auto;
+    position: relative;
+    overflow: visible;
+    padding: 7px 0 0 10px;
+    float: left;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-qiao {
+    font-family: "微软雅黑";
+    display: inline-block;
+    color: #bdbdbd;
+    vertical-align: 4px;
+    text-decoration: none;
+    *vertical-align: 2px;
+    *display: inline;
+    *zoom: 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-btn:hover {
+    background-position: -93px -16px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-btn:active {
+    background-position: -93px -44px;
+}
+/* add by wangjie23 结束沟通后按钮置灰*/
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-unablebtn {
+    background-color: #ccc!important;
+    cursor: default!important;
+    /*background-position: -151px -44px;*/
+    /*background: url(../../img/matrix/webim.png)  -151px -44px no-repeat;*/
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-unablebtn:hover {
+    /*background: url(../../img/matrix/webim.png)  -151px -44px no-repeat;*/
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-unablebtn:active {
+    /*background: url(../../img/matrix/webim.png)  -151px -44px no-repeat;*/
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tip {
+    height: 24px;
+    line-height: 24px;
+    background-color: #fff;
+    padding: 0px 5px;
+    text-align: left;
+    color: #333;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tip span {
+    vertical-align: middle;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .BD-QIAO-IM-FACE-WRAP table {
+    border-collapse: collapse;
+    border: 0;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .BD-QIAO-IM-FACE-WRAP td {
+    border: 1px solid #bcd;
+    background-color: #fff;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .BD-QIAO-IM-FACE-WRAP td a{
+    padding: 5px;
+    display: block;
+    background-color: #fff;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .BD-QIAO-IM-FACE-WRAP td a:hover {
+    background:url(../../img/webim_toolbar.gif);
+}
+#BD_QIAO_WEBIM_LITE_WRAP .BD-QIAO-IM-FACE-WRAP td img {
+    display: block;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
+
+
+
+#FaceTab {
+    height: 19px;
+    width: 350px;
+    cursor: default;
+}
+#FaceTab a {
+    float: left;
+    width: 61px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+#FaceTab a.active {
+    background: url(../../img/webim_facetab.gif);
+}
+#FaceGroup table {
+    border-collapse: collapse;
+    border:0;
+}
+#FaceGroup td {
+    width: 19px;
+    height: 19px;
+    border: 1px #bcd solid;
+    padding: 5px;
+}
+#FaceGroup td.over {
+    background: url(../../img/webim_toolbar.gif);
+}
+#FaceGroup table img {
+    display: block;
+    width: 19px;
+    height: 19px;
+}
+#FaceGroup table span {
+    display: block;
+    width: 19px;
+    height: 19px;
+    cursor: default;
+}
+
+
+
+.BD-QIAO-IM-FONT-WRAP .m-font-family-select {
+    width: 135px;
+    vertical-align: 4px;
+    margin-right: 3px;
+    *vertical-align: -3px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-size-select {
+    width: 45px;
+    vertical-align: 4px;
+    margin-right: 3px;
+    *vertical-align: -3px;
+    color: #000;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-family-select option,
+.BD-QIAO-IM-FONT-WRAP .m-font-size-select option {
+    color: #000;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-btn {
+    width:20px;
+    height:20px;
+    display:inline-block;
+    background: url(../../img/webim_toolbar.gif) no-repeat;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-btn {
+    *zoom: 1;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-bold {
+    background-position: 0 -149px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-bold:hover {
+    background-position: 0 -169px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-bold-on {
+    background-position: 0 -189px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-italic {
+    background-position: 0 -209px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-italic:hover {
+    background-position: 0 -229px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-italic-on {
+    background-position: 0 -249px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-underline {
+    background-position: 0 -269px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-underline:hover {
+    background-position: 0 -289px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-underline-on {
+    background-position: 0 -309px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-color{
+    background-position: 0 -329px
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-color:hover{
+    background-position: 0 -349px
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-color-on{
+    background-position: 0 -369px
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette {
+    position:absolute;
+    z-index:20;
+    border:1px #a8b3c7 solid;
+    background:#fff;
+    padding:5px;
+    top:30px;
+    right:-1px;
+    line-height: 0px;
+    width: auto;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette table,
+.BD-QIAO-IM-FONT-WRAP .m-font-palette tbody,
+.BD-QIAO-IM-FONT-WRAP .m-font-palette tr {
+    background-color: #fff;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette td {
+    font-size: 0;
+    background-color: #fff;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette a {
+    padding: 5px;
+    display: block;
+    background-color: #fff;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette a:hover {
+    background: #ccc;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette td span{
+    display: block;
+    width: 12px;
+    height: 10px;
+    border: 1px #669 solid;
+    cursor: pointer;
+}
+
+#Font {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border: 0;
+    margin-right: 3px;
+}
+.fontnormal {
+    background:url(../../img/webim_toolbar.gif) 0 -89px;
+}
+.fontover {
+    background:url(../../img/webim_toolbar.gif) 0 -109px;
+}
+.fonton {
+    background:url(../../img/webim_toolbar.gif) 0 -129px;
+}
+.bd-map {
+    text-decoration: underline !important;
+}
+.mess-res-voice {
+    color: #abaaa8;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tip i {
+    background-position: -2px -196px;
+    background-position: -2px -185px \9;
+    width: 20px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify-text em,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-btn i,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-cursor,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-btn,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-logo,
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tip i,
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method a.selected {
+    background-image: url(../../img/spritesheet1117@2x.png);
+    background-repeat: no-repeat;
+    background-size: 56px auto;
+    background-image: url(../../img/spritesheet1117.png)\9;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-main {
+    font-family: "微软雅黑";
+    display: block;
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    margin: 0;
+    color: #fff;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method-btn {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 32px;
+    cursor: pointer;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method-btn i {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    border: 5px solid #fff;
+    margin-top: 14px;
+    border-color: #fff transparent transparent transparent;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .arrow i {
+    border-color: transparent transparent #fff transparent;
+    margin-top: 9px;
+}
+
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method {
+    position: absolute;
+    z-index: 20;
+    border: 1px #ccc solid;
+    background: #fff;
+    padding: 3px;
+    top: -48px;
+    left: -61px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method a {
+    display: block;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    padding: 2px 2px 2px 25px;
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method a.selected {
+    background-position: -22px 6px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method a:hover,
+#BD_QIAO_WEBIM_LITE_WRAP .m-send-method a.selected {
+    background-color: #eef5ff;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-preview {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+    width: 100%;
+    height: 100%;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .qiao-webimlite-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2147483648;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000, endcolorstr=#7F000000);
+}
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-preview img {
+    display: block;
+    position: relative;
+    z-index: 2147483648;
+    margin: 50% auto 0  auto;
+}
+#BD_QIAO_WEBIM_LITE_WRAP .qiao-webimlite-close {
+    display: block;
+    position: relative;
+    z-index: 2147483648;
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../img/spritesheet1117@2x.png);
+    background-repeat: no-repeat;
+    background-size: 56px auto;
+    background-position: -20px -139px;
+    background-image: url(../../img/spritesheet1117.png)\9;
+    background-position: -22px -129px \9;
+    margin-right: 10px;
+}

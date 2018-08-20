@@ -13,6 +13,16 @@ public class T_course_classify {
     //父级别，如果值为0则代表是一级分类
     private String parentCode;
 
+    @Override
+    public String toString() {
+        return "T_course_classify{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", code='" + code + '\'' +
+                ", parentCode='" + parentCode + '\'' +
+                '}';
+    }
+
     //
     public Integer getId() {
         return id;

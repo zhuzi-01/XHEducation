@@ -19,6 +19,18 @@ public class T_course_section {
     //课程章节表
     private String videoUrl;
 
+    @Override
+    public String toString() {
+        return "T_course_section{" +
+                "id=" + id +
+                ", courseId=" + courseId +
+                ", parentId=" + parentId +
+                ", name='" + name + '\'' +
+                ", time='" + time + '\'' +
+                ", videoUrl='" + videoUrl + '\'' +
+                '}';
+    }
+
     //
     public Integer getId() {
         return id;

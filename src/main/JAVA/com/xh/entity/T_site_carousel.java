@@ -16,6 +16,17 @@ public class T_site_carousel {
     //权重
     private Integer weight;
 
+    @Override
+    public String toString() {
+        return "T_site_carousel{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", picture='" + picture + '\'' +
+                ", url='" + url + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
+
     //
     public Integer getId() {
         return id;

@@ -1,0 +1,57 @@
+#qiao-wrap #qiao-invite-wrap{position:fixed;_position:absolute}
+#qiao-flash-storage{position:fixed;_position:absolute;width:1px;height:1px;bottom:0;left:0}
+#qiao-wrap{display:block}
+#qiao-invite-wrap{overflow:hidden!important}
+#BDBridgeFixedWrap #qiao-icon-wrap,#qiao-fixed-wrap #qiao-icon-wrap{position:static}
+#qiao-wrap #qiao-icon-wrap{position:fixed;_position:absolute}
+#qiao-wrap .qiao-icon-fixed{bottom:0;right:0}
+#qiao-wrap .qiao-mess-wrap{margin:0 4px 4px}
+#qiao-wrap .qiao-mess-select{margin-top:5px}
+#qiao-wrap .qiao-mess-wrap-center{left:50%;top:50%;margin:-160px 0 0 -129px}
+#qiao-wrap #qiao-mess-wrap form,#qiao-wrap a,#qiao-wrap input,#qiao-wrap ins,#qiao-wrap select,#qiao-wrap textarea{font-family:"微软雅黑";outline:0}
+#qiao-invite-wrap .qiao-invite-text p,#qiao-invite-wrap .qiao-invite-text span,.qiao-mess-wrap form{width:auto;height:auto;margin:0;padding:0;background-color:transparent;background-position:0 0;background-size:auto;background-repeat:repeat;background-origin:padding-box;background-clip:border-box;background-attachment:scroll;background-image:none;border:none;outline:invert none medium;color:#000;direction:ltr;letter-spacing:normal;line-height:normal;text-align:left;text-decoration:none;text-indent:0;text-transform:none;white-space:normal;word-spacing:normal;font-size:12px;font-family:"微软雅黑",Tahoma,"宋体",Helvetica,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:inherit;visibility:inherit;overflow:visible;list-style:none;float:none;clear:none;position:static;top:auto;left:auto;vertical-align:baseline;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box}
+#qiao-invite-wrap .qiao-invite-text p span{display:inline}
+#BDBridgeFixedWrap a::after,#BDBridgeFixedWrap a::before,#BDBridgeFixedWrap ins::after,#BDBridgeFixedWrap ins::before,#BDBridgeFixedWrap::after,#BDBridgeFixedWrap::before,#qiao-fixed-wrap a::after,#qiao-fixed-wrap a::before,#qiao-fixed-wrap ins::after,#qiao-fixed-wrap ins::before,#qiao-fixed-wrap::after,#qiao-fixed-wrap::before,#qiao-wrap a::after,#qiao-wrap a::before,#qiao-wrap input::after,#qiao-wrap input::before,#qiao-wrap ins::after,#qiao-wrap ins::before,#qiao-wrap textarea::after,#qiao-wrap textarea::before,#qiao-wrap::after,#qiao-wrap::before{content:""}
+#qiao-mess-wrap .qiao-mess-clearfix:after,#qiao-mess-wrap .qiao-mess-clearfix:before{content:"";display:table}
+#qiao-mess-wrap .qiao-mess-clearfix:after{clear:both}
+#qiao-mess-wrap .qiao-mess-clearfix{*zoom:1}
+#qiao-prevent-auth,#qiao-prevent-auth a,#qiao-prevent-auth input,#qiao-prevent-auth ins,#qiao-prevent-second,#qiao-prevent-second a,#qiao-prevent-second input,#qiao-prevent-second ins{width:auto;height:auto;margin:0;padding:0;background-color:transparent;background-position:0 0;background-size:auto;background-repeat:repeat;background-origin:padding-box;background-clip:border-box;background-attachment:scroll;background-image:none;border:none;outline:invert none medium;color:#000;direction:ltr;letter-spacing:normal;line-height:normal;text-align:left;text-decoration:none;text-indent:0;text-transform:none;white-space:normal;word-spacing:normal;font-size:12px;font-family:"微软雅黑",Tahoma,"宋体",Helvetica,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:inherit;visibility:inherit;overflow:visible;list-style:none;float:none;clear:none;position:static;top:auto;left:auto;vertical-align:baseline;-moz-box-sizing:content-box;-ms-box-sizing:content-box;-o-box-sizing:content-box;box-sizing:content-box}
+#qiao-prevent-auth ins,#qiao-prevent-second ins{display:block}
+#qiao-prevent-auth a,#qiao-prevent-second a{display:inline}
+#qiao-prevent-auth,#qiao-prevent-second{width:340px;position:absolute;border:2px solid #0291e5;top:50%;left:50%;z-index:2147483647;background-color:#fff}
+#qiao-prevent-second{height:140px;margin:-70px 0 0 -170px}
+#qiao-prevent-auth{height:200px;margin:-100px 0 0 -170px}
+#qiao-prevent-auth .qiao-mask-iframe,#qiao-prevent-second .qiao-mask-iframe{position:absolute;top:0;left:0;z-index:-1;_filter:alpha(opacity=0)}
+#qiao-prevent-auth .qiao-prevent-inputauth{display:block;margin:18px auto 0;text-align:center;position:relative;*zoom:1}
+#qiao-prevent-auth .qiao-prevent-inputimg{margin:0 auto;text-align:center;position:relative;*zoom:1}
+#qiao-prevent-auth .qiao-prevent-container,#qiao-prevent-second .qiao-prevent-container{display:block;width:280px;margin:28px auto 0;text-align:center}
+#qiao-prevent-second .qiao-prevent-container{margin:30px auto 0}
+#qiao-prevent-auth .qiao-prevent-text,#qiao-prevent-second .qiao-prevent-text{font-family:'微软雅黑';color:#484848;text-align:center}
+#qiao-prevent-auth .qiao-prevent-input{width:143px;height:24px;line-height:24px;border:1px solid #e3e3e3;font-size:14px;padding:0 0 0 5px}
+#qiao-prevent-auth .qiao-prevent-input:focus{outline:0}
+#qiao-prevent-auth .qiao-prevent-authimg{width:150px;height:60px;margin:6px 0 0 0}
+#qiao-prevent-auth .qiao-prevent-changeimg{font-size:12px;color:#68c2f8;cursor:pointer;position:absolute;bottom:0;right:15px}
+#qiao-prevent-auth .qiao-prevent-error{color:red;position:absolute;top:5px;right:0}
+#qiao-prevent-auth .qiao-prevent-button,#qiao-prevent-second .qiao-prevent-button{display:inline}
+#qiao-prevent-auth .qiao-prevent-cancle,#qiao-prevent-auth .qiao-prevent-confirmcode,#qiao-prevent-second .qiao-prevent-cancle,#qiao-prevent-second .qiao-prevent-confirmcode{width:75px;height:23px;border-radius:3px;text-align:center;line-height:23px;color:#fff;display:inline-block;cursor:pointer;border:1px solid #0291e5}
+#qiao-prevent-auth .qiao-prevent-confirmcode,#qiao-prevent-second .qiao-prevent-confirmcode{background-color:#0291e5;margin:10px 0 0 0}
+#qiao-prevent-second .qiao-prevent-confirmcode{margin:36px 0 0 0}
+#qiao-prevent-auth .qiao-prevent-cancle,#qiao-prevent-second .qiao-prevent-cancle{background-color:#bbb;color:#fff;margin:0 0 0 5px;border:none}
+#qiao-prevent-second .qiao-prevent-cancle{margin:0 0 0 15px}
+.qiao-prevent-close{display:none!important}
+#qiao-invite-wrap .qiao-invite-text p{display:block}
+#qiao-mess-wrap .errBg,#qiao-mess-wrap .qiao-mess-item-mess .errBg{border:1px solid #ed4926}
+#qiao-mess-wrap .qiao-mess-head-text{margin-top:0;line-height:35px}
+#qiao-mess-wrap .qiao-mess-foot-logo{height:23px}
+#qiao-mess-wrap .qiao-mess-send-disable{opacity:.6;filter:alpha(opacity=60)}
+#qiao-mess-wrap .qiao-mess-item-mess textarea{line-height:16px;outline:0}
+#qiao-mess-wrap .qiao-mess-item input{height:15px;line-height:15px;padding:9px 0 7px 0}
+#qiao-mess-wrap .qiao-mess-item select{-webkit-appearance:menulist-button;background-color:#fff;border:1px solid #ccc;padding:4px 0 8px 0}
+#qiao-mess-wrap .head_bd_bp_messEmail{margin-top:2px}
+#qiao-mess-wrap .qiao-mess-item input:hover{outline:0!important}
+#qiao-mess-wrap .qiao-mess-item:hover{border-color:#ccc}
+#qiao-mess-wrap .errBg:hover{border-color:#ed4926}
+#qiao-mess-wrap .qiao-mess-contentarea{margin-right:20px}
+#qiao-mess-wrap .qiao-mess-error-tip{line-height:16px}
+@media screen and (min-width:0px){#qiao-mess-wrap .qiao-mess-item select{padding:4px 0 8px 0}
+}

@@ -36,6 +36,21 @@ public class T_course_comment {
     private Date createTime;
 
     //
+
+    @Override
+    public String toString() {
+        return "T_course_comment{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", toUsername='" + toUsername + '\'' +
+                ", courseId=" + courseId +
+                ", sectionId=" + sectionId +
+                ", sectionTitle='" + sectionTitle + '\'' +
+                ", content='" + content + '\'' +
+                ", createTime=" + createTime +
+                '}';
+    }
+
     public Integer getId() {
         return id;
     }

@@ -19,6 +19,18 @@ public class T_user_collections {
     private String courseName;
 
     //
+
+    @Override
+    public String toString() {
+        return "T_user_collections{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", courseId=" + courseId +
+                ", createTime=" + createTime +
+                ", courseName='" + courseName + '\'' +
+                '}';
+    }
+
     public Integer getId() {
         return id;
     }

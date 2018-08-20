@@ -28,6 +28,21 @@ public class T_user_course_section {
     private Date createTime;
 
     //
+
+    @Override
+    public String toString() {
+        return "T_user_course_section{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", courseId=" + courseId +
+                ", sectionId=" + sectionId +
+                ", status=" + status +
+                ", rate=" + rate +
+                ", updateTime=" + updateTime +
+                ", createTime=" + createTime +
+                '}';
+    }
+
     public Integer getId() {
         return id;
     }
