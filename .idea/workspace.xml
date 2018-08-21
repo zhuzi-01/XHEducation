@@ -6,72 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/regxy.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/saved_resource.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/send_validate_code.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/user_reg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/fix.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/float.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/kefu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/m-webim-lite.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/myaccount.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/reg3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/tpshop.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/aqlm.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/er.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/feiniu-index-icon-01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/feiniu_footer_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/fn-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icomoon.ttf.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icomoon.woff.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/loginchat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/q1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/time_cnnic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/Enter.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/b.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bsl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/global.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/h.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/lxb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/main_icon_invite_mess_api.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/v.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/02index-banner-8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/5db61c1f81444cf505e797939e3a7e4e.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/chg_image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/e75573654d7107b7398f9d16a8a27c05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/footer_logo2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/login_pic.jpg" />
+    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="fifth">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/common.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/jh.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_239_80_80.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_242_80_80.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_245_78_78.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_245_80_80.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_256_80_80.jpeg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_comment.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_comment.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_section.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_section.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_site_carousel.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_site_carousel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_collections.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_collections.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_follows.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_follows.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/8.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/app/header.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/header.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/reg.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" />
@@ -81,9 +38,13 @@
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_collections.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_collections.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_course_section.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_course_section.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_follows.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_follows.class" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/gooddetail.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/gooddetail.html" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" />
@@ -105,99 +66,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="reg.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_userController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="388">
+              <caret line="143" column="9" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="143" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gooddetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1728">
-              <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_courseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="152" column="47" lean-forward="true" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T_course.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_user.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="349" column="36" lean-forward="true" selection-start-line="349" selection-start-column="36" selection-end-line="349" selection-end-column="36" />
+            <state relative-caret-position="138">
+              <caret line="111" column="21" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="111" selection-end-column="21" />
               <folding>
-                <element signature="e#9399#9400#0" expanded="true" />
-                <element signature="e#9460#9461#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goodslist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="338" column="54" lean-forward="true" selection-start-line="338" selection-start-column="54" selection-end-line="338" selection-end-column="54" />
-              <folding>
-                <marker date="1534685946419" expanded="true" signature="22926:22930" ph="&amp;lt;" />
-                <marker date="1534685946419" expanded="true" signature="23503:23507" ph="&amp;gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_userMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="49" />
-              <folding>
-                <marker date="1534779074735" expanded="true" signature="1624:1680" ph="delete from t_user... " />
-                <marker date="1534779074735" expanded="true" signature="1954:2517" ph="insert into t_user... " />
-                <marker date="1534779074735" expanded="true" signature="2803:3388" ph="update t_user... " />
-                <marker date="1534779074735" expanded="true" signature="3697:3870" ph="select id, u... t_user" />
-                <marker date="1534779074735" expanded="true" signature="4136:4271" ph="select id, u... t_user" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,8 +125,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1490">
-              <caret line="399" column="0" lean-forward="true" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="16" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -218,49 +137,46 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>web home</find>
-      <find>小学</find>
-      <find>log2</find>
-      <find>footer_logo</find>
-      <find>qifeng</find>
-      <find>getOnecourse</find>
-      <find>w-main m-auto ovhidden</find>
-      <find>/Redirect</find>
-      <find>iframe</find>
-      <find>gooddetail</find>
-      <find>./注册-学海教育官网-小初高个性化教育项目综合运营商_files</find>
-      <find>js.下载</find>
-      <find>./登录-学海教育官网-小初高个性化教育项目综合运营商_files</find>
-      <find>.js</find>
-      <find>/layer/default/layer.css</find>
-      <find>enter</find>
-      <find>png</find>
-      <find>w-all w-minw bg-c-e3e3e3 p-t-15 ovhidden</find>
-      <find>qiao-icon-head</find>
-      <find>qiao-mess-container</find>
-      <find>5db61c1f81444cf505e797939e3a7e4e.gif</find>
-      <find>02index-banner-8.gif</find>
-      <find>fn-icon.png</find>
-      <find>callee</find>
-      <find>layui-layer-setwin</find>
-      <find>齐峰</find>
       <find>e75573654d7107b7398f9d16a8a27c05</find>
       <find>demo-icon</find>
       <find>check_submit()</find>
       <find>jqAlert</find>
+      <find>课程列表页面</find>
+      <find>双师单页</find>
+      <find>join/</find>
+      <find>css/</find>
+      <find>pics/</find>
+      <find>&lt;meta name=&quot;author&quot; content=&quot;山东商讯在线 http://www.sdsoon.com/&quot;&gt;</find>
+      <find>&quot;pics</find>
+      <find>&quot;images</find>
+      <find>课程详情</find>
+      <find>&quot;课程详情</find>
+      <find>双师单页.html</find>
+      <find>小学</find>
+      <find>小学&lt;/a&gt;&lt;/li&gt;</find>
+      <find>body</find>
+      <find>\&lt;div style\=\&quot;margin\-bottom\: \-6px\; position\: relative\; z\-index\: 1000\;\&quot; id\=\&quot;head\&quot;\&gt;\n\	\&lt;iframe src\=\&quot;header\.html\&quot; frameborder\=\&quot;0\&quot; height\=\&quot;165px\&quot; width\=\&quot;100\%\&quot; scrolling\=\&quot;no\&quot; \&gt;\&lt;\/iframe\&gt;\n\&lt;\/div\&gt;</find>
+      <find>\&lt;div class\=\&quot;w\-all w\-minw bd\-sd\-b hg\-45\&quot;\&gt;\n    \&lt;div class\=\&quot;w\-main m\-auto\&quot;\&gt; \n        \&lt;\!\-\- top left start\-\-\&gt;\n        \&lt;div class\=\&quot;fl\&quot;\&gt; \&lt;span class\=\&quot;fs\-12 line\-h45 ftc\-000000 dsblock fl\&quot;\&gt; 济南\&lt;\/span\&gt; \&lt;a href\=\&quot;城市\.html\&quot; class\=\&quot;dsblock fl line\-h45 fs\-12 ftc\-fc0503\&quot;\&gt;\[切换地图\]\&lt;\/a\&gt; \&lt;a href\=\&quot;index\.html\&quot; class\=\&quot;dsblock fl fs\-12 ftc\-000000 line\-h45 m\-l\-70\&quot;\&gt;首页\&lt;\/a\&gt; \n            \&lt;\!\-\-top 导航 start\-\-\&gt;\n            \&lt;div class\=\&quot;hover\-topnav fl m\-l\-45\&quot;\&gt;\n                \&lt;div class\=\&quot;dh_nav fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;\&lt;span class\=\&quot;dsblock hg\-45\&quot;\&gt;\&lt;i class\=\&quot;p\-l\-15 ql_icon dh_topnav hg\-45 fl\&quot;\&gt;\&lt;\/i\&gt;导航\&lt;\/span\&gt;\n                     \&lt;ul class\=\&quot;dh_nav_sub bg\-c\-ffffff bd\-sd\-b\&quot;\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;小学\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;初中\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;高中\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;心理课\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;teacher\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;讲师\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;attract\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;加盟\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;school\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;分校\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;message\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;资讯\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;connect\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;联系我们\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n                    \&lt;\/ul\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-top 导航 end\-\-\&gt; \n            \&lt;\!\-\-top wap start\-\-\&gt;\n            \&lt;div class\=\&quot;hover\-topnav fl m\-l\-45\&quot;\&gt;\n                \&lt;div class\=\&quot;dh_nav fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;\&lt;span class\=\&quot;dsblock hg\-45\&quot;\&gt;\&lt;i class\=\&quot;p\-l\-15 ql_icon top_wapewem hg\-45 fl\&quot;\&gt;\&lt;\/i\&gt;手机端\&lt;\/span\&gt;\n                    \&lt;div class\=\&quot;top_wap_ewem bg\-c\-ffffff bd\-sd\-b\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/pics\/wap\.png\&quot; width\=\&quot;100\&quot; alt\=\&quot;\&quot;\/\&gt;\n                        \&lt;p class\=\&quot;w\-all fs\-13 text\-c line\-h25\&quot;\&gt;扫描二维码\&lt;\/p\&gt;\n                    \&lt;\/div\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;\!\-\- top left end\-\-\&gt; \n        \&lt;\!\-\- top right start\-\-\&gt;\n        \&lt;div class\=\&quot;fr\&quot;\&gt; \n            \&lt;\!\-\-登录注册 start\-\-\&gt;\n            \&lt;div class\=\&quot;fl\&quot;\&gt; \&lt;a class\=\&quot;fs\-12 ftc\-000000 line\-h45\&quot; href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;p\-l\-20 ql_icon login_icon hg\-45 fl m\-r\-10\&quot;\&gt;\&lt;\/i\&gt;请登录\&lt;\/a\&gt; \&lt;span class\=\&quot;fs\-12 ftc\-000000 line\-h45 m\-l\-15 m\-r\-15\&quot;\&gt;\|\&lt;\/span\&gt; \&lt;a class\=\&quot;fs\-12 ftc\-000000 line\-h45\&quot; href\=\&quot;\#\&quot;\&gt;注册\&lt;\/a\&gt; \&lt;\/div\&gt;\n            \&lt;\!\-\-登录注册 end\-\-\&gt; \n            \&lt;\!\-\-我的购物车 start\-\-\&gt;\n            \&lt;div class\=\&quot;fl m\-l\-30\&quot; id\=\&quot;hd\-my\-cart\&quot;\&gt;\n                \&lt;div class\=\&quot;my\-cart\&quot;\&gt; \&lt;i class\=\&quot;p\-l\-25 ql_icon cart_icon hg\-45 fl m\-r\-10\&quot;\&gt;\&lt;em\&gt;0\&lt;\/em\&gt;\&lt;\/i\&gt;\n                    \&lt;p class\=\&quot;fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;我的购物车\&lt;\/p\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-我的购物车 end\-\-\&gt; \n            \&lt;\!\-\-top 客服中心 start\-\-\&gt;\n            \&lt;div class\=\&quot;hover\-topkf fl m\-l\-45\&quot;\&gt;\n                \&lt;div class\=\&quot;top_kf fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;\&lt;span class\=\&quot;dsblock hg\-45\&quot;\&gt;客服中心\&lt;i class\=\&quot;p\-l\-10 m\-l\-10 ql_icon top_kficon hg\-45 fr\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/span\&gt;\n                    \&lt;ul class\=\&quot;top_kf_list bg\-c\-ffffff bd\-sd\-b\&quot;\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;加盟热线  \：400\-996\-9910\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;联系电话\：0531\-81768062\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;邮箱\：qifengedu\@yeah\.net\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n                    \&lt;\/ul\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-top 客服中心 start\-\-\&gt; \n        \&lt;\/div\&gt;\n        \&lt;\!\-\- top right end\-\-\&gt; \n    \&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\!\-\-web\-top end\-\-\&gt;\n\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\&lt;\!\-\-web logo and search start\-\-\&gt;\n\&lt;div class\=\&quot;w\-main m\-auto m\-t\-37 m\-b\-25 ovhidden\&quot;\&gt; \n    \&lt;\!\-\-web logo start\-\-\&gt; \n    \&lt;a href\=\&quot;index\.html\&quot; class\=\&quot;logo fl\&quot;\&gt;\&lt;img src\=\&quot;\.\.\/pics\/ql_logo\.gif\&quot; width\=\&quot;240\&quot; height\=\&quot;70\&quot; alt\=\&quot;学海教育logo\(图\)\&quot;\/\&gt;\&lt;\/a\&gt;\n    \&lt;\!\-\-web logo end\-\-\&gt; \n    \&lt;\!\-\-web search start\-\-\&gt;\n    \&lt;div class\=\&quot;search w\-540 m\-l\-115 m\-t\-15 fl\&quot;\&gt;\n        \&lt;form action\=\&quot;\#\&quot; method\=\&quot;get\&quot; id\=\&quot;searchform\&quot; name\=\&quot;searchform\&quot; onSubmit\=\&quot;return checkSearchForm\(\)\&quot; class\=\&quot;w\-540 search\-form\&quot;\&gt;\n            \&lt;input class\=\&quot;p\-l\-15 bd\-2s\-e9511b w\-435 line\-h35 hg\-35 fs\-12 ftc\-a9a9a9 fl\&quot; type\=\&quot;text\&quot; name\=\&quot;keywords\&quot; id\=\&quot;keyword\&quot; value\=\&quot;搜索\：初中物理\&quot; onfocus\=\&quot;if\(this\.value \=\= \'搜索\：初中物理\'\)this\.value \= \'\'\&quot; onblur\=\&quot;if\(this\.value \=\= \'\'\)this\.value\=\'搜索\：初中物理\'\&quot; autocomplete\=\&quot;off\&quot;\&gt;\n            \&lt;input type\=\&quot;hidden\&quot; value\=\&quot;k1\&quot; name\=\&quot;dataBi\&quot;\&gt;\n            \&lt;button type\=\&quot;submit\&quot; class\=\&quot;w\-85 line\-h39 hg\-39 fs\-16 ftc\-ffffff bg\-c\-e9511b fl\&quot;\&gt;提交\&lt;\/button\&gt;\n        \&lt;\/form\&gt;\n        \&lt;div class\=\&quot;w\-540 fl\&quot; id\=\&quot;hotkeywords\&quot;\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;一年级\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;二年级\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;三年级\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;语文\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;数学\&lt;\/a\&gt;\n            \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\!\-\-web search end\-\-\&gt;\n    \&lt;div class\=\&quot;fr\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/pics\/top_tel\.gif\&quot; width\=\&quot;199\&quot; height\=\&quot;70\&quot; alt\=\&quot;学海教育400电话\&quot;\/\&gt; \&lt;\/div\&gt;\n\&lt;\/div\&gt;</find>
+      <find>\&lt;iframe src\=\&quot;footer\.html\&quot; frameborder\=\&quot;0\&quot; height\=\&quot;319px\&quot; width\=\&quot;100\%\&quot; scrolling\=\&quot;no\&quot; \&gt;\&lt;\/iframe\&gt;\n</find>
+      <find>\&lt;div class\=\&quot;w\-all w\-minw bg\-c\-e3e3e3 p\-t\-15 ovhidden\&quot;\&gt; \n    \&lt;\!\-\-link start\-\-\&gt;\n    \&lt;div class\=\&quot;w\-main m\-auto\&quot;\&gt;\n        \&lt;div class\=\&quot;fl w\-65 fs\-12 ftc\-414141 line\-h30 ft\-w\-b\&quot;\&gt;友情链接\：\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;fr\&quot;\&gt;\n            \&lt;ul class\=\&quot;ql_link\&quot;\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;决胜教育网\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优米网\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;八维教育\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;雅思培训\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;中国夏令营\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;英语口语培训\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;英语培训\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;高考试题库\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;留学监理网\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;上海雅思培训\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;幼儿英语培训\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;广州机构总汇\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;吉林教育信息网\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;少儿英语外教\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;在职研究生\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;一级建造师\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;创客教育\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;百科知识\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;新航道\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;顺顺留学\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;国际学校\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;成人高考\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;\/ul\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\!\-\-link end\-\-\&gt; \n    \&lt;\!\-\-分割线 start\-\-\&gt;\n    \&lt;div class\=\&quot;w\-main m\-auto\&quot;\&gt;\n        \&lt;div class\=\&quot;w\-main fl hg\-12\&quot;\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;w\-main fl hg\-1 bg\-c\-d2d2d2\&quot;\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;w\-main fl hg\-24\&quot;\&gt;\&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\!\-\-分割线 start\-\-\&gt;\n    \&lt;div class\=\&quot;w\-main m\-auto m\-b\-23 ovhidden\&quot;\&gt;\n        \&lt;div class\=\&quot;m\-t\-12 fl\&quot;\&gt; \&lt;a href\=\&quot;index\.html\&quot; class\=\&quot;m\-t\-25 fl\&quot;\&gt;\&lt;img src\=\&quot;\.\.\/pics\/footer_logo\.png\&quot; width\=\&quot;235\&quot; height\=\&quot;70\&quot; alt\=\&quot;\&quot;\/\&gt;\&lt;\/a\&gt;\n            \&lt;div class\=\&quot;qlfooter_nav m\-l\-45 fl\&quot;\&gt;\n                \&lt;dl class\=\&quot;ql_f_nav fl\&quot;\&gt;\n                    \&lt;dt\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/dt\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;学海介绍\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;加盟学海\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;招贤纳士\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                \&lt;\/dl\&gt;\n                \&lt;dl class\=\&quot;ql_f_nav ql_f_navzp fl\&quot;\&gt;\n                    \&lt;dt\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;课程分类\&lt;\/a\&gt;\&lt;\/dt\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;小学阶段\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;初中阶段\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;高中阶段\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                    \&lt;dd\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;\&lt;\/i\&gt;家庭教育\&lt;\/a\&gt;\&lt;\/dd\&gt;\n                \&lt;\/dl\&gt;\n                \&lt;div class\=\&quot;ql_f_infp w\-200 m\-l\-15 fl\&quot;\&gt;\n                    \&lt;h3\&gt;联系我们\&lt;\/a\&gt;\&lt;\/h3\&gt;\n                    \&lt;p\&gt;\&lt;i\&gt;\&lt;\/i\&gt;电话\：0531\-81768062\&lt;\/p\&gt;\n                    \&lt;p\&gt;\&lt;i\&gt;\&lt;\/i\&gt;邮箱\：qifengedu\@yeah\.net\&lt;\/p\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;w\-244 fr\&quot;\&gt;\n            \&lt;div class\=\&quot;w\-112 m\-l\-10 fl\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/pics\/f_ewm1\.gif\&quot; width\=\&quot;112\&quot; height\=\&quot;112\&quot; alt\=\&quot;\&quot;\/\&gt;\n                \&lt;p class\=\&quot;w\-all fs\-12 ftc\-000000 text\-c line\-h25 fl\&quot;\&gt;手机端\&lt;\/p\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;w\-112 m\-l\-10 fl\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/pics\/f_ewm1\.gif\&quot; width\=\&quot;112\&quot; height\=\&quot;112\&quot; alt\=\&quot;\&quot;\/\&gt;\n                \&lt;p class\=\&quot;w\-all fs\-12 ftc\-000000 text\-c line\-h25 fl\&quot;\&gt;手机端\&lt;\/p\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\!\-\-web footer copyright start\-\-\&gt;\n\&lt;div class\=\&quot;w\-all w\-minw bg\-c\-cccccc p\-t\-6 p\-b\-6 ovhidden\&quot;\&gt;\n    \&lt;div class\=\&quot;w\-main m\-auto text\-c fs\-12 ftc\-414141 line\-24\&quot;\&gt; Copyright 2010\-2017     鲁ICP备88888888号\-1\（济南学海教育咨询有限公司\） \&lt;br\/\&gt;\n        公司地址\：济南市市中区社会组织创新园307\（二环南路6086号\） \&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\!\-\-web footer copyright end\-\-\&gt;</find>
+      <find>'tearch</find>
+      <find>&quot;tearch</find>
+      <find>rili</find>
+      <find>下载</find>
+      <find>齐峰</find>
+      <find>upload</find>
+      <find>../pics/e75573654d7107b7398f9d16a8a27c05.png</find>
+      <find>list in itemList</find>
     </findStrings>
     <replaceStrings>
-      <replace>//</replace>
-      <replace>com.xh.entity</replace>
-      <replace>com.xh.dao.</replace>
       <replace>com.xh.entity.</replace>
       <replace>Integer</replace>
       <replace>..</replace>
@@ -269,7 +185,6 @@
       <replace>../pics</replace>
       <replace>src=&quot;../</replace>
       <replace>书海</replace>
-      <replace>goodslist</replace>
       <replace>课程</replace>
       <replace>xuehai</replace>
       <replace>Redirect</replace>
@@ -277,7 +192,20 @@
       <replace>/gooddetail.html</replace>
       <replace>js</replace>
       <replace>../css</replace>
+      <replace>goodslist</replace>
+      <replace>../join/</replace>
+      <replace>../css/</replace>
+      <replace>../pics/</replace>
       <replace />
+      <replace>&quot;../pics</replace>
+      <replace>&quot;../images</replace>
+      <replace>&quot;goodsdetail</replace>
+      <replace>课程&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;div style=&quot;margin-bottom: -6px; position: relative; z-index: 1000;&quot; id=&quot;head&quot;&gt;	&lt;iframe src=&quot;header.html&quot; frameborder=&quot;0&quot; height=&quot;165px&quot; width=&quot;100%&quot; scrolling=&quot;no&quot; &gt;&lt;/iframe&gt;&lt;/div&gt;</replace>
+      <replace>&lt;iframe src=&quot;footer.html&quot; frameborder=&quot;0&quot; height=&quot;319px&quot; width=&quot;100%&quot; scrolling=&quot;no&quot; &gt;&lt;/iframe&gt;</replace>
+      <replace>'../tearch</replace>
+      <replace>&quot;../tearch</replace>
+      <replace>../rili</replace>
       <replace>学海</replace>
     </replaceStrings>
     <dirStrings>
@@ -296,32 +224,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_sectionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_site_carouselMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_collectionsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_commentExample.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_sectionExample.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/Bean.xml" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_classifyMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_followsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_classifyMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/banner.index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/课程购买.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/Test/test.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/footer.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java" />
@@ -332,21 +237,44 @@
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_follows.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/layer.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/saved_resource.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/main_icon_invite_mess_api.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/reg3.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/regxy.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_user.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/分校详情.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/双师单页.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/招商单页.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/考试日历.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/讲师.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/讲师详情.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/资讯列表.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/资讯详情.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/联系我们.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/attract.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/exam_calendar.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/doubletea.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/connect.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/index.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/reg3.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/test.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/JavaScript.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/common.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
       </list>
     </option>
   </component>
@@ -390,10 +318,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="759" />
-    <option name="y" value="-14" />
-    <option name="width" value="1932" />
-    <option name="height" value="1048" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -541,10 +468,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -586,6 +509,15 @@
               <item name="JAVA" type="462c0819:PsiDirectoryNode" />
               <item name="xh" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="xh" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
@@ -645,10 +577,22 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -663,19 +607,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xh.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\js" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\images" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\js" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.xh.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -894,7 +838,8 @@
       <workItem from="1534594065290" duration="2025000" />
       <workItem from="1534665713149" duration="1474000" />
       <workItem from="1534668257948" duration="13922000" />
-      <workItem from="1534724097617" duration="31502000" />
+      <workItem from="1534724097617" duration="31747000" />
+      <workItem from="1534810295882" duration="38868000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -980,7 +925,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534691797652</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fifth">
+      <created>1534785809883</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534785809883</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fifth">
+      <created>1534856033253</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534856033253</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -992,7 +951,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125177000" />
+    <option name="totallyTimeSpent" value="164290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,7 +966,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5107296" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1024,10 +983,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2414163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1051,268 +1010,15 @@
     <MESSAGE value="second" />
     <MESSAGE value="third" />
     <MESSAGE value="forth" />
-    <option name="LAST_COMMIT_MESSAGE" value="forth" />
+    <MESSAGE value="fifth" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/Test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-          <folding>
-            <marker date="1534411058076" expanded="true" signature="1600:1658" ph="delete from t_course... " />
-            <marker date="1534411058076" expanded="true" signature="1934:2504" ph="insert into t_course... " />
-            <marker date="1534411058076" expanded="true" signature="2792:3376" ph="update t_course... " />
-            <marker date="1534411058076" expanded="true" signature="3685:3874" ph="select id, n... t_course" />
-            <marker date="1534411058076" expanded="true" signature="4140:4291" ph="select id, n... t_course" />
-            <marker date="1534411058076" expanded="true" signature="4382:4426" ph="SELECT * FRO... t_course" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="160" column="42" lean-forward="false" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/footer_logo1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/footer_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1682">
-          <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_site_carousel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_follows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_section.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="31" column="91" lean-forward="false" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="50" column="284" lean-forward="false" selection-start-line="50" selection-start-column="284" selection-end-line="50" selection-end-column="284" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/tpshop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/main_icon_invite_mess_api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="3" column="18821" lean-forward="false" selection-start-line="3" selection-start-column="18821" selection-end-line="3" selection-end-column="18821" />
-          <folding>
-            <marker date="1534761459297" expanded="true" signature="45740:45752" ph="..." />
-            <marker date="1534761459297" expanded="true" signature="45847:45871" ph="..." />
-            <marker date="1534761459297" expanded="true" signature="45986:45998" ph="..." />
-            <marker date="1534761459297" expanded="true" signature="61395:61522" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3770">
-          <caret line="26" column="105" lean-forward="true" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/user_reg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/reg3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1807">
-          <caret line="351" column="0" lean-forward="true" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3016">
-          <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/saved_resource.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/send_validate_code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/regxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/school_con.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/ql_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/ql_logo.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/footer_logo1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/footer_logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1333,22 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1357,117 +1047,454 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <marker date="1534779074735" expanded="true" signature="1624:1680" ph="delete from t_user... " />
-            <marker date="1534779074735" expanded="true" signature="1954:2517" ph="insert into t_user... " />
-            <marker date="1534779074735" expanded="true" signature="2803:3388" ph="update t_user... " />
-            <marker date="1534779074735" expanded="true" signature="3697:3870" ph="select id, u... t_user" />
-            <marker date="1534779074735" expanded="true" signature="4136:4271" ph="select id, u... t_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="1189">
           <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="349" column="36" lean-forward="true" selection-start-line="349" selection-start-column="36" selection-end-line="349" selection-end-column="36" />
-          <folding>
-            <element signature="e#9399#9400#0" expanded="true" />
-            <element signature="e#9460#9461#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/join/join1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1490">
-          <caret line="399" column="0" lean-forward="true" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/f_ewm1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/connect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="338" column="54" lean-forward="true" selection-start-line="338" selection-start-column="54" selection-end-line="338" selection-end-column="54" />
+        <state relative-caret-position="316">
+          <caret line="181" column="6" lean-forward="false" selection-start-line="181" selection-start-column="6" selection-end-line="181" selection-end-column="6" />
           <folding>
-            <marker date="1534685946419" expanded="true" signature="22926:22930" ph="&amp;lt;" />
-            <marker date="1534685946419" expanded="true" signature="23503:23507" ph="&amp;gt;" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/attract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="190" column="95" lean-forward="true" selection-start-line="190" selection-start-column="95" selection-end-line="190" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#12;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/doubletea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="184" column="75" lean-forward="true" selection-start-line="184" selection-start-column="75" selection-end-line="184" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/exam_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4118">
+          <caret line="142" column="46" lean-forward="true" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="145" column="58" lean-forward="false" selection-start-line="145" selection-start-column="58" selection-end-line="145" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/messagedetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="145" column="32" lean-forward="false" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/school.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/schooldetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="226" column="14" lean-forward="true" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="142" column="34" lean-forward="false" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="46" />
+          <folding>
+            <marker date="1534816900676" expanded="true" signature="569:574" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/teadetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="142" column="34" lean-forward="false" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="46" />
+          <folding>
+            <marker date="1534816900961" expanded="true" signature="569:574" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="67" selection-end-column="30" />
+          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/reg3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="165" column="20" lean-forward="true" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/reg3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="165" column="15" lean-forward="false" selection-start-line="165" selection-start-column="15" selection-end-line="165" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="267" column="0" lean-forward="false" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
+            <marker date="1534821873946" expanded="true" signature="22898:22902" ph="&amp;lt;" />
+            <marker date="1534821873946" expanded="true" signature="23475:23479" ph="&amp;gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/JavaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-841">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <marker date="1534858838053" expanded="true" signature="1624:1680" ph="delete from t_user... " />
+            <marker date="1534858838053" expanded="true" signature="1954:2517" ph="insert into t_user... " />
+            <marker date="1534858838053" expanded="true" signature="2803:3388" ph="update t_user... " />
+            <marker date="1534858838053" expanded="true" signature="3697:3870" ph="select id, u... t_user" />
+            <marker date="1534858838053" expanded="true" signature="3979:4163" ph="select id, u... t_user" />
+            <marker date="1534858838053" expanded="true" signature="4429:4564" ph="select id, u... t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="e#852#853#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#875#876#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728">
-          <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="44" />
+        <state relative-caret-position="4749">
+          <caret line="381" column="5" lean-forward="true" selection-start-line="381" selection-start-column="5" selection-end-line="381" selection-end-column="5" />
+          <folding>
+            <marker date="1534815329443" expanded="true" signature="28153:28159" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28159:28165" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28165:28171" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28171:28177" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28177:28183" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28183:28189" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28380:28386" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28386:28392" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28392:28398" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28398:28404" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28404:28410" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28410:28416" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28516:28522" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28522:28528" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28528:28534" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28534:28540" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28540:28546" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28546:28552" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28652:28658" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28658:28664" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28664:28670" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28670:28676" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28676:28682" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="28682:28688" ph="&amp;nbsp;" />
+            <marker date="1534815329443" expanded="true" signature="31858:31862" ph="&amp;lt;" />
+            <marker date="1534815329443" expanded="true" signature="32375:32379" ph="&amp;gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/common.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="1" column="171" lean-forward="false" selection-start-line="1" selection-start-column="171" selection-end-line="1" selection-end-column="171" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="122" column="74" lean-forward="true" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
+        <state relative-caret-position="1983">
+          <caret line="187" column="73" lean-forward="false" selection-start-line="187" selection-start-column="73" selection-end-line="187" selection-end-column="73" />
+          <folding>
+            <element signature="n#ins#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="111" column="21" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="111" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="143" column="9" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="143" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/ql_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/ql_logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/footer_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/footer_logo2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_239_80_80.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/footer_logo1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="152" column="47" lean-forward="true" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@ public interface IT_userService {
     boolean deluser(Integer id);
     //查
     T_user queryoneuser(Integer id);
+    T_user queryoneuserbyname(String name);
     //改
     boolean updateuser(T_user user);
 }

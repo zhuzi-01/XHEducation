@@ -27,6 +27,11 @@ public class T_userServiceImpl implements IT_userService {
     }
 
     @Override
+    public T_user queryoneuserbyname(String name) {
+        return userdao.selectByusername(name);
+    }
+
+    @Override
     public boolean updateuser(T_user user) {
         return userdao.updateByPrimaryKey(user)>0?true:false;
     }

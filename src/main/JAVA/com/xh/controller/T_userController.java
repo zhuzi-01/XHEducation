@@ -7,6 +7,7 @@ import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -26,9 +27,6 @@ public class T_userController {
         user.setPassword(password);
         System.out.println(user);
         JSONObject json=new JSONObject();
-
-
-
         if (userService.adduser(user)){
             json.put("result","success");
         }else{
@@ -38,12 +36,33 @@ public class T_userController {
     }
 
     @RequestMapping("/login")
-    public String Login(HttpServletRequest request, T_user user){
-        System.out.println(user);
-        T_user t_user2=userService.queryoneuser(user.getId());
+    @ResponseBody
+    public String Login(HttpServletRequest request, String username,String password){
+        T_user t_user2=userService.queryoneuserbyname(username);
+        JSONObject json=new JSONObject();
+        if (t_user2.getPassword().equals(password)){
+            HttpSession session=request.getSession();
+            session.setAttribute("user",t_user2);
+             json.put("result","success");
+        }else{
+            json.put("result","fail");
+        }
+        return json.toString();
+    }
 
+    @RequestMapping("/islogin")
+    @ResponseBody
+    public String ISLogin(HttpServletRequest request){
+        JSONObject json=new JSONObject();
         HttpSession session=request.getSession();
-        session.setAttribute("user",user);
-        return "order";
+        T_user user= (T_user) session.getAttribute("user");
+        System.out.println(user);
+        if (user!=null){
+            json.put("user",user);
+            json.put("result","success");
+        }else{
+            json.put("result","fail");
+        }
+        return json.toString();
     }
 }

@@ -10,26 +10,30 @@
     <!--学海的共有样式-->
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/qlclass.pl.js"></script>
+
 </head>
-<body >
+<body>
 <!--web-top start-->
 <div class="w-all w-minw bd-sd-b hg-45">
     <div class="w-main m-auto">
         <!-- top left start-->
-        <div class="fl"> <span class="fs-12 line-h45 ftc-000000 dsblock fl"> 济南</span> <a href="城市.html" class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a> <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a>
+        <div class="fl"><span class="fs-12 line-h45 ftc-000000 dsblock fl"> 济南</span> <a href="城市.html"
+                                                                                         class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a>
+            <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a>
             <!--top 导航 start-->
             <div class="hover-topnav fl m-l-45">
-                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i
+                        class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
                     <ul class="dh_nav_sub bg-c-ffffff bd-sd-b">
-                        <li> <a href="goodslist.html"><i class="ql_icon"></i>课程</a> </li>
-                        <li> <a href="goodslist.html"><i class="ql_icon"></i>初中</a> </li>
-                        <li> <a href="goodslist.html"><i class="ql_icon"></i>高中</a> </li>
-                        <li> <a href="goodslist.html"><i class="ql_icon"></i>心理课</a> </li>
-                        <li> <a href="teacher.html"><i class="ql_icon"></i>讲师</a> </li>
-                        <li> <a href="attract.html"><i class="ql_icon"></i>加盟</a> </li>
-                        <li> <a href="school.html"><i class="ql_icon"></i>分校</a> </li>
-                        <li> <a href="message.html"><i class="ql_icon"></i>资讯</a> </li>
-                        <li> <a href="connect.html"><i class="ql_icon"></i>联系我们</a> </li>
+                        <li><a href="goodslist.html"><i class="ql_icon"></i>课程</a></li>
+                        <li><a href="goodslist.html"><i class="ql_icon"></i>初中</a></li>
+                        <li><a href="goodslist.html"><i class="ql_icon"></i>高中</a></li>
+                        <li><a href="goodslist.html"><i class="ql_icon"></i>心理课</a></li>
+                        <li><a href="teacher.html"><i class="ql_icon"></i>讲师</a></li>
+                        <li><a href="attract.html"><i class="ql_icon"></i>加盟</a></li>
+                        <li><a href="school.html"><i class="ql_icon"></i>分校</a></li>
+                        <li><a href="message.html"><i class="ql_icon"></i>资讯</a></li>
+                        <li><a href="connect.html"><i class="ql_icon"></i>联系我们</a></li>
                         <div class="clear"></div>
                     </ul>
                 </div>
@@ -37,8 +41,9 @@
             <!--top 导航 end-->
             <!--top wap start-->
             <div class="hover-topnav fl m-l-45">
-                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon top_wapewem hg-45 fl"></i>手机端</span>
-                    <div class="top_wap_ewem bg-c-ffffff bd-sd-b"> <img src="../pics/wap.png" width="100" alt=""/>
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i
+                        class="p-l-15 ql_icon top_wapewem hg-45 fl"></i>手机端</span>
+                    <div class="top_wap_ewem bg-c-ffffff bd-sd-b"><img src="../pics/wap.png" width="100" alt=""/>
                         <p class="w-all fs-13 text-c line-h25">扫描二维码</p>
                     </div>
                 </div>
@@ -48,22 +53,36 @@
         <!-- top right start-->
         <div class="fr">
             <!--登录注册 start-->
-            <div class="fl"> <a class="fs-12 ftc-000000 line-h45" target="_parent" href="login.html"><i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>请登录</a> <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span> <a class="fs-12 ftc-000000 line-h45"  target="_parent" href="reg.html">注册</a> </div>
+            <div class="fl" >
+                <a class="fs-12 ftc-000000 line-h45" target="_parent" href="login.html" >
+                    <i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>
+                    <span id="name">请登录</span>
+                </a>
+                <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span>
+                <a class="fs-12 ftc-000000 line-h45" target="_parent" href="reg.html">
+                    注册
+                </a>
+            </div>
             <!--登录注册 end-->
             <!--我的购物车 start-->
             <div class="fl m-l-30" id="hd-my-cart">
-                <div class="my-cart"> <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em>0</em></i>
-                    <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
+                <div class="my-cart">
+                    <a href="cart.html" target="_parent">
+                        <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em>0</em></i>
+                        <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
+                    </a>
+
                 </div>
             </div>
             <!--我的购物车 end-->
             <!--top 客服中心 start-->
             <div class="hover-topkf fl m-l-45">
-                <div class="top_kf fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45">客服中心<i class="p-l-10 m-l-10 ql_icon top_kficon hg-45 fr"></i></span>
+                <div class="top_kf fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45">客服中心<i
+                        class="p-l-10 m-l-10 ql_icon top_kficon hg-45 fr"></i></span>
                     <ul class="top_kf_list bg-c-ffffff bd-sd-b">
-                        <li> <a href="#"><i class="ql_icon"></i>加盟热线  ：400-996-9910</a> </li>
-                        <li> <a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a> </li>
-                        <li> <a href="#"><i class="ql_icon"></i>邮箱：xuehaiedu@yeah.net</a> </li>
+                        <li><a href="#"><i class="ql_icon"></i>加盟热线 ：400-996-9910</a></li>
+                        <li><a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a></li>
+                        <li><a href="#"><i class="ql_icon"></i>邮箱：xuehaiedu@yeah.net</a></li>
                         <div class="clear"></div>
                     </ul>
                 </div>
@@ -82,19 +101,47 @@
     <!--web logo end-->
     <!--web search start-->
     <div class="search w-540 m-l-115 m-t-15 fl">
-        <form action="#" method="get" id="searchform" name="searchform" onSubmit="return checkSearchForm()" class="w-540 search-form">
-            <input class="p-l-15 bd-2s-e9511b w-435 line-h35 hg-35 fs-12 ftc-a9a9a9 fl" type="text" name="keywords" id="keyword" value="搜索：初中物理" onfocus="if(this.value == '搜索：初中物理')this.value = ''" onblur="if(this.value == '')this.value='搜索：初中物理'" autocomplete="off">
+        <form action="#" method="get" id="searchform" name="searchform" onSubmit="return checkSearchForm()"
+              class="w-540 search-form">
+            <input class="p-l-15 bd-2s-e9511b w-435 line-h35 hg-35 fs-12 ftc-a9a9a9 fl" type="text" name="keywords"
+                   id="keyword" value="搜索：初中物理" onfocus="if(this.value == '搜索：初中物理')this.value = ''"
+                   onblur="if(this.value == '')this.value='搜索：初中物理'" autocomplete="off">
             <input type="hidden" value="k1" name="dataBi">
             <button type="submit" class="w-85 line-h39 hg-39 fs-16 ftc-ffffff bg-c-e9511b fl">提交</button>
         </form>
-        <div class="w-540 fl" id="hotkeywords"> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">一年级</a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">二年级</a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">三年级</a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">语文</a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">数学</a>
+        <div class="w-540 fl" id="hotkeywords"><a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">一年级</a>
+            <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">二年级</a> <a href="#"
+                                                                                       class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">三年级</a>
+            <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">语文</a> <a href="#"
+                                                                                      class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">数学</a>
             <div class="clear"></div>
         </div>
     </div>
     <!--web search end-->
-    <div class="fr"> <img src="../pics/top_tel.gif" width="199" height="70" alt="学海教育400电话"/> </div>
+    <div class="fr"><img src="../pics/top_tel.gif" width="199" height="70" alt="学海教育400电话"/></div>
 </div>
 <!--web logo and search end-->
+<script src="../js/jqAlert.min.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            type : 'post',
+            url : '/islogin',
+            //data : {"username":username,"password":password},
+            dataType : 'json',
+            success : function(res){
+                var res=eval(res);
+                if(res.result == 'success'){
+                    //jqAlert.Confirm('已登录');
+                    $("#name").empty().append(res.user.username);
+                }else{
+                    //jqAlert.Confirm('未登录');
+                }
+            }
 
+        });
+    })
+</script>
 </body>
+
 </html>

@@ -79,6 +79,12 @@
     from t_user
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectByusername" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select id, username, password, gender, header, phone, education, college_name, title,
+    sign, province, city, weight
+    from t_user
+    where username = #{username,jdbcType=VARCHAR}
+  </select>
   <select id="selectAll" resultMap="BaseResultMap">
     <!--
       WARNING - @mbg.generated
