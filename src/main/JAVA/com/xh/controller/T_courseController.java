@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +32,8 @@ public class T_courseController {
 
     @RequestMapping("/")
     public String index(){
-        return "forward:/app/index.html";
+        return "redirect:/app/index.html";
+
     }
 
     @RequestMapping("/courselist")
@@ -45,7 +47,7 @@ public class T_courseController {
     @ResponseBody
     public String getcoursesbypages(Model model,Integer currPage){
         final int PAGE_SIZE;
-        if (currPage==0){
+        if (currPage==999){
              PAGE_SIZE=5;
              currPage=1;
         }else{

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>分校列表_学海教育</title>
+<meta name="keywords" content="学海教育">
+<meta name="description" content="学海教育">
+
+<link rel="stylesheet" href="../css/qfbase.css">
+<!--学海的共有样式-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/qlclass.pl.js"></script>
+<body>
+<!--web-top start-->
+<div style="margin-bottom: -6px; position: relative; z-index: 1000;" id="head">	<iframe src="header.html" frameborder="0" height="165px" width="100%" scrolling="no" ></iframe></div>
+<!--web logo and search end--> 
+<!--网站导航 start--> 
+<div class="w-all w-minw hg-60 bd-bs-e9511b bg-c-ffffff ql_webnav">
+    <!--网站导航 start-->
+    <div class="w-main m-auto ps-r hg-60">
+        <!--全部商品分类-->
+        <div class="hc_lnav jslist">
+            <div class="allbtn">
+                <h2><a href="#">全部商品分类</a></h2>
+                <ul style="width:250px" class="jspop box">
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                </ul>
+            </div>
+        </div>
+        <!--全部商品分类-->
+         <ul class="w-950 hg-60 ql_nav">
+        <li><a href="index.html" class="cur">首页</a></li>
+        <li><a href="goodslist.html">课程</a></li>
+        <li><a href="doubletea.html">双师课堂</a></li>
+        <li><a href="exam_calendar.html">考试日历</a></li>
+        <li><a href="teacher.html">名师</a></li>
+        <li><a href="attract.html" class="ql_navhot">招商加盟</a></li>
+        <li><a href="school.html">分校</a></li>
+        <li><a href="message.html">资讯</a></li>
+        <li><a href="connect.html">联系我们</a></li>
+    </ul>
+    </div>
+</div>
+<!--网站导航 end--> 
+
+<!--web main body start-->
+<div class="w-all w-minw bg-c-fcfcfc ovhidden">
+    <div class="w-main m-auto"> 
+        <!--面包屑 start-->
+        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl"> 网站位置：首页  >  分校 </div>
+        <!--面包屑 end--> 
+        
+        <!--排序 start-->
+        <div class="w-1170 bg-c-ffffff p-t-10 p-b-10 p-r-15 p-l-15 m-t-30 fl">
+            <dl class="ql_sort">
+                <dd class="w-60 p-l-10 curpter fs-14 ftc-000000 line-h24 m-l-12 fl">综合排序</dd>
+                <dd class="w-60 p-l-10 curpter fs-14 ftc-000000 line-h24 m-l-12 fl cur">时间</dd>
+                <div class="clear"></div>
+            </dl>
+        </div>
+        <!--排序 end-->
+        <div class="w-all hg-26 fl"></div>
+        <!--分校_list start-->
+        <div class="w-1140 p-l-30 p-r-30 bg-c-ffffff ovhidden fl">
+            <ul class="w-1140 ql_sclist ovhidden fl">
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="w-all p-b-16 m-t-15 bd-bs-f8f8f8 fl"> <a href="schooldetail.html" class="dsblock w-224 hg-168 ql_sc_img ovhidden fl"><img src="../pics/schooll.jpg" alt=""/></a>
+                    <div class="w-860 fr">
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h36 ft-w-b m-r-10 fl">学校名称：</span><a href="schooldetail.html" class="dsblock w-770 fl fs-18 ftc-000000 line-h36">学海教育淄博站</a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校地点：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">山东省淄博市</p>
+                            </a> </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校荣誉：</span>
+                            <dl class="w-770 fs-14 line-h22 ftc-787878 ql_sclistry fl">
+                                <dd class="fl p-r-15 line m-r-15">学海教育CEO</dd>
+                                <dd class="fl p-r-15 line m-r-15">学海教育名师团团长</dd>
+                                <dd class="fl p-r-15 line m-r-15">济南市中区桃园计划项目组负责人</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师硅谷级名师</dd>
+                                <dd class="fl p-r-15 line m-r-15">疯狂老师金</dd>
+                                <dd class="fl p-r-15  m-r-15">宗奖运营总监</dd>
+                                <div class="clear"></div>
+                            </dl>
+                        </div>
+                        <div class="w-all m-t-3 m-b-3 fl"> <span class="dsblock w-80 fs-14 ftc-000000 line-h22 ft-w-b m-r-10 fl">学校简介：</span>
+                            <p class="w-770 fs-14 line-h22 ftc-787878 fl">学海老师于200*年毕业于大学，并任教于，此处将对此教师的履历进行描写介绍此处将对此教师的履历进行描写介绍，此处将
+                                对此教师的履历进行描写介绍。</p>
+                        </div>
+                    </div>
+                </li>
+                <div class="clear"></div>
+            </ul>
+            <div class="w-1140 hg-30 fl"></div>
+            <!--pages start-->
+            <ul class="w-560 hg-36 ql_pages m-auto">
+                <li class="fl"><a class="" href="#">&lt;</a></li>
+                <li class="fl"><a class="cur" href="#">1</a></li>
+                <li class="fl"><a class="" href="#">2</a></li>
+                <li class="fl"><a class="" href="#">3</a></li>
+                <li class="fl"><a class="" href="#">...</a></li>
+                <li class="fl"><a class="" href="#">12</a></li>
+                <li class="fl"><a class="" href="#">&gt;</a></li>
+            </ul>
+            <!--pages end-->
+            <div class="w-1140 hg-30 fl"></div>
+        </div>
+        <div class="w-main hg-30 fl"></div>
+        <!--分校_list end--> 
+    </div>
+</div>
+<!--web main body start--> 
+<!--like start-->
+<div class="w-all w-minw bg-c-f6f6f6 ovhidden">
+    <div class="w-main m-auto"> 
+        <!--title start-->
+        <div class="w-main ovhidden p-t-10 fl">
+            <h3 class="fl fs-20 ft-w-b line-h40"><span class="dsblock ql_icon ql_like tx-ind m-r-15 fl">猜你喜欢</span>猜你喜欢</h3>
+        </div>
+        <!--title end-->
+        <ul class="ql_likeclass w-1210 ovhidden">
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+        </ul>
+        <div class="w-amin hg-30 ovhidden"></div>
+    </div>
+</div>
+<!--like end--> 
+<!--web footer start-->
+<iframe src="footer.html" frameborder="0" height="319px" width="100%" scrolling="no" ></iframe>
+<!--web footer end-->
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/user.css" type="text/css" rel="stylesheet" />
+    <title>login</title>
+</head>
+<body>
+<!--<div class="user-body-bg"></div>-->
+<!--<div class="user-login-bg"></div>-->
+<!--<div class="user-bottom-bg"></div>-->
+
+
+        <label class="form-inline">
+            <div class="form-inline-font">
+                Verification :
+            </div>
+            <div class="form-inline-input">
+                <div class="code-box" id="code-box">
+                    <input type="text" name="code" class="code-input" />
+                    <p></p>
+                    <span>>>></span>
+                </div>
+            </div>
+        </label>
+
+</body>
+<script src="../js/login.js"></script>
+<script>
+
+    window.addEventListener('load',function(){
+
+        //code是后台传入的验证字符串
+        var code = "jsaidaisd656",
+            codeFn = new moveCode(code);
+
+        //获取当前的code值
+        //console.log(codeFn.getCode());
+
+        //改变code值
+        //code = '46asd546as5';
+        //codeFn.setCode(code);
+
+        //重置为初始状态
+        //codeFn.resetCode();
+    });
+</script>
+</html>

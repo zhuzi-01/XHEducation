@@ -163,6 +163,7 @@ background:#f5f5f5;
     font-size:14px;
     vertical-align:middle;
     width:290px;
+    margin-top:8px;
 }
 ::-webkit-input-placeholder {
     color: #ccc;

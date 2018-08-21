@@ -23,8 +23,14 @@
     <link rel="stylesheet" type="text/css" href="../css/fix.css">
     <link type="text/css" rel="stylesheet" href="../css/m-webim-lite.css">
     <script data-require-id="front/webimlite/main" src="../js/main.js" async=""></script>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/user.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body style="">
+
+
 <ins id="qiao-wrap">
 
     </ins>
@@ -52,17 +58,9 @@
                                        onkeyup="this.value=this.value.replace(/[^\d]/g,'')" id="username"
                                        required="">
                             </div>
+                            <span class="mobile_hint" style="font-size: 30px;"></span>
                         </div>
-                        <div class="line">
-                            <label class="linel"><span class="dt">图像验证码：</span></label>
-                            <div class="liner">
-                                <input type="text" class="inp imgcode J_imgcode" placeholder="图像验证码" name="verify_code"
-                                       required="">
-                                <img width="100" height="35" src="user_reg.html" id="reflsh_code2" class="po-ab to0">
-                                <a><img onclick="verify('reflsh_code2')" src="../pics/chg_image.png" class="ma-le-210"></a>
-                            </div>
-                            <div id="show-voice" class="show-voice"></div>
-                        </div>
+
                         <div class="line">
                             <label class="linel"><span class="dt">设置密码：</span></label>
                             <div class="liner">
@@ -70,6 +68,7 @@
                                        autocomplete="off" maxlength="16" id="password" name="password" value=""
                                        required="">
                             </div>
+                            <span class="password_hint"  style="font-size: 30px;"></span>
                         </div>
                         <div class="line">
                             <label class="linel"><span class="dt">确认密码：</span></label>
@@ -77,14 +76,28 @@
                                 <input type="password" class="inp fsecpass J_password2" placeholder="请再次输入密码"
                                        autocomplete="off" maxlength="16" id="password2" name="password2" required=""
                                        value="">
+
                             </div>
+                            <span class="confirm_hint" style="font-size: 30px;"></span>
                         </div>
+
+
+                            <div class="form-inline-font" style="width: 90px;margin-left: 295px;margin-top: 10px; font-size: 12px">
+                                滑动验证 :
+                            </div>
+                            <div class="form-inline-input" style="width: 409px; padding-left: 85px;">
+                                <div class="code-box" id="code-box"style="width: 290px;">
+                                    <input type="text" name="code" class="code-input" />
+                                    <p id="pp"></p>
+                                    <span style="background: deepskyblue">>>></span>
+                                </div>
+                            </div>
+
                         <div class="line liney clearfix">
                             <label class="linel">&nbsp;</label>
                             <div class="liner">
                                 <div class="clearfix checkcon">
-                                    <p class="fn-fl checktxt"><input type="checkbox" class="iyes fn-fl J_protocal"
-                                                                     checked="">
+                                    <p class="fn-fl checktxt"><input type="checkbox" class="iyes fn-fl J_protocal" checked="" id="chee">
                                         <span class="fn-fl">我已阅读并同意</span><a class="itxt fn-fl" onclick="xieyi(this)"
                                                                              href="javascript:;" target="_blank">《学海教育服务协议》</a>
                                     </p>
@@ -92,8 +105,7 @@
                                 </div>
                                 <a class="regbtn J_btn_agree" href="javascript:void(0);" onclick="submit()">同意协议并注册</a>
                                 <p class="v-txt" id="err_check_code">
-                                    <span class="fnred">请勾选</span>我已阅读并同意<a class="itxt" onclick="xieyi(this)"
-                                                                            href="javascript:;">《学海教育服务协议》</a>
+                                    <span class="fnred">请勾选</span>我已阅读并同意<a class="itxt" onclick="xieyi(this)" href="javascript:;">《学海教育服务协议》</a>
                                 </p>
                             </div>
                         </div>
@@ -104,28 +116,85 @@
 
     </div>
 </div>
+
+<script type="text/javascript" src="../js/login.js"></script>
+<script>
+
+    $("#username").blur(function(){
+        if ((/^1[34578]\d{9}$/).test($("#username").val())){
+            $('.mobile_hint').html("✔").css("color","green");
+            Mobile_Boolean = true;
+        }else {
+            $('.mobile_hint').html("×").css("color","red");
+            Mobile_Boolean = false;
+        }
+    });
+    // password
+    $("#password").blur(function(){
+        if ((/^[a-z0-9_-]{6,16}$/).test($("#password").val())){
+            $('.password_hint').html("✔").css("color","green");
+            password_Boolean = true;
+        }else {
+            $('.password_hint').html("×").css("color","red");
+            password_Boolean = false;
+        }
+    });
+
+
+    // password_confirm
+    $("#password2").blur(function(){
+        if (($("#password").val())==($("#password2").val())){
+            $('.confirm_hint').html("✔").css("color","green");
+            varconfirm_Boolean = true;
+        }else {
+            $('.confirm_hint').html("×").css("color","red");
+            varconfirm_Boolean = false;
+        }
+    });
+    window.addEventListener('load',function(){
+
+        //code是后台传入的验证字符串
+        var code = "jsaidaisd656",
+            codeFn = new moveCode(code);
+
+        //获取当前的code值
+        //console.log(codeFn.getCode());
+
+        //改变code值
+        //code = '46asd546as5';
+        //codeFn.setCode(code);
+
+        //重置为初始状态
+        //codeFn.resetCode();
+    });
+</script>
 <script src="../js/jqAlert.min.js"></script>
 <script type="text/javascript">
 
     function submit() {
-        var username=$("#username").val();
-        var password=$("#password").val();
-        $.ajax({
-            type: "get",
-            dataType: "json",
-            url: "/reg",
-            data: {"username":username,"password":password},
+        if( password_Boolean && varconfirm_Boolean && Mobile_Boolean&&$("#chee").prop('checked') == true){
+            var username=$("#username").val();
+            var password=$("#password").val();
+            $.ajax({
+                type: "get",
+                dataType: "json",
+                url: "/reg",
+                data: {"username":username,"password":password},
 
-            success: function (data) {
-                var data=eval(data);
-                if (data.result=='success'){
-                    jqAlert.Confirm('注册成功');
-                    setInterval('window.location.href="index.html"',3000);
-                }else{
-                    jqAlert.Confirm('注册失败请重试');
+                success: function (data) {
+                    var data=eval(data);
+                    if (data.result=='success'){
+                        jqAlert.Confirm('注册成功');
+                        setInterval('window.location.href="index.html"',3000);
+                    }else{
+                        jqAlert.Confirm('注册失败请重试');
+                    }
                 }
-            }
-        });
+            });
+
+        }else {
+            jqAlert.Confirm("请完善信息");
+        }
 
     }
 </script>
@@ -262,6 +331,7 @@
         }
 
         function check_submit() {
+
             $.ajax({
                 type: "POST",
                 url: "reg.html",
