@@ -5,72 +5,86 @@
 
          $(function () {
              list();
+
          })
 
          function list() {
+             $("#html").hide();
+             $(".sc-acti-list,.sc-pro-list").hide();
              $.ajax({
                  type: "get",
                  dataType: "json",
                  url: "/getorder",
 
                  success: function (data) {
-                     var html='<table width="100%" border="0" cellspacing="0" cellpadding="1">\n' +
-                         '      <tr class="ba-co-danhui">\n' +
-                         '        <th class="pa-le-9" align="center" valign="middle">&nbsp;&nbsp;</th>\n' +
-                         '        <th align="center" valign="middle" colspan="2">课程</th>\n' +
-                         '        <th align="center" valign="middle">原价（元）</th>                        \n' +
-                         '        <th align="center" valign="middle">当前价格（元）</th>\n' +
-                         '        <th align="center" valign="middle">数量</th>\n' +
-                         '        <th align="center" valign="middle">小计（元）</th>\n' +
-                         '        <th align="center" valign="middle">操作</th>\n' +
-                         '      </tr>';
+                     var data=eval(data);
+                     if (data.orders[0]!=null){
+                         var html='<table width="100%" border="0" cellspacing="0" cellpadding="1">\n' +
+                             '      <tr class="ba-co-danhui">\n' +
+                             '        <th class="pa-le-9" align="center" valign="middle">&nbsp;&nbsp;</th>\n' +
+                             '        <th align="center" valign="middle" colspan="2">课程</th>\n' +
+                             '        <th align="center" valign="middle">原价（元）</th>                        \n' +
+                             '        <th align="center" valign="middle">当前价格（元）</th>\n' +
+                             '        <th align="center" valign="middle">数量</th>\n' +
+                             '        <th align="center" valign="middle">小计（元）</th>\n' +
+                             '        <th align="center" valign="middle">操作</th>\n' +
+                             '      </tr>';
+                         var i=0;
+                         var money=0;
+                         data.orders.forEach(function (order) {
+                             money+=order.rate;
+                             var name=data.names[i++];
+                             html=html+
+                                 '<tr>'+
+                                 '<td class="pa-le-9" style="border-right:0" align="center" valign="middle">'+
+                                 '<input type="checkbox" name="cart_select[464]" checked="checked" value="1" onclick="ajax_cart_list();">'+
+                                 '</td>'+
+                                 '<td style="border-left:0px;;border-right:0px" class="pa-to-20 pa-bo-20 bo-ri-0" width="80px" align="center" valign="top">'+
+                                 '<a class="gwc-wp-list di-bl wi63 hi63" href="gooddetail.html?course_id='+order.courseId+'">'+
+                                 '<img class="wi63 hi63" src="../pics/goods_thumb_245_78_78.jpeg">'+
+                                 '</a>'+
+                                 '</td>'+
+                                 '<td style="border-left:0px; border-right:0px" class="pa-to-20 wi516" align="left" valign="top">'+
+                                 '<p class="gwc-ys-pp">'+
+                                 '<a href="gooddetail.html?course_id='+order.courseId+'" style="vertical-align:middle">'+name+'</a>'+
+                                 '   <!--团购-->                <!--抢购-->            </p>'+
+                                 '<p class="ggwc-ys-hs"></p>'+
+                                 '</td>'+
+                                 '<td style="border-left:0px" align="center" valign="middle"><span><del>￥60</del></span></td>'+
+                                 '<td style="border-left:0px" align="center" valign="middle"><span>￥'+order.rate+'</span></td>'+
 
-                     data.forEach(function (order) {
+                                 '<td align="center" valign="middle">'+
+                                 '   <div class="sc-stock-area">'+
+                                 '   <div class="stock-area">'+
+                                 '    1'+
+                                 '   <!--<a onClick="switch_num(-1,464,);" title="减">-</a>-->'+
+                                 '   <input class="wi43 fl" type="hidden" value="1" name="goods_num[464]" id="goods_num[464]" readonly="">'+
+                                 '   <!--<a onClick="switch_num(1,464,);" title="加">+</a>-->'+
+                                 '   </div>'+
+                                 '   </div>'+
+                                 '</td>'+
+                                 '   <td align="center" valign="middle">￥'+order.rate+'</td>'+
+                                 '   <td align="center" valign="middle"><a class="gwc-gb" href="javascript:void(0);" onclick="ajax_del_cart('+order.id+');"></a></td>'+
+                                 '</tr>' ;
 
-                         html=html+
-                         '<tr>'+
-                         '<td class="pa-le-9" style="border-right:0" align="center" valign="middle">'+
-                         '<input type="checkbox" name="cart_select[464]" checked="checked" value="1" onclick="ajax_cart_list();">'+
-                         '</td>'+
-                         '<td style="border-left:0px;;border-right:0px" class="pa-to-20 pa-bo-20 bo-ri-0" width="80px" align="center" valign="top">'+
-                         '<a class="gwc-wp-list di-bl wi63 hi63" href="gooddetail.html?course_id='+order.courseId+'">'+
-                         '<img class="wi63 hi63" src="../pics/goods_thumb_245_78_78.jpeg">'+
-                         '</a>'+
-                         '</td>'+
-                         '   <td style="border-left:0px; border-right:0px" class="pa-to-20 wi516" align="left" valign="top">'+
-                         '   <p class="gwc-ys-pp">'+
-                         '   <a href="gooddetail.html?course_id='+order.courseId+'" style="vertical-align:middle">寒假专项突击班</a>'+
-                         '   <!--团购-->                <!--抢购-->            </p>'+
-                         ' <p class="ggwc-ys-hs"></p>'+
-                         '   </td>'+
-                         '   <td style="border-left:0px" align="center" valign="middle"><span>￥1200.00</span></td>'+
-                         '<td style="border-left:0px" align="center" valign="middle"><span>￥840.00</span></td>'+
+                         })
+                         html=html+'</table>';
+                         $("#html").html(html);
+                         $(".sc-acti-list,.sc-pro-list").show();
+                         $("#none").hide();
+                         $("#money").empty().append('￥'+money);
+                     }else{
+                         $(".sc-acti-list,.sc-pro-list").hide();
+                         $("#none").show();
+                     }
 
-                         '<td align="center" valign="middle">'+
-                         '   <div class="sc-stock-area">'+
-                         '   <div class="stock-area">'+
-                         '    1'+
-                         '   <!--<a onClick="switch_num(-1,464,);" title="减">-</a>-->'+
-                         '   <input class="wi43 fl" type="hidden" value="1" name="goods_num[464]" id="goods_num[464]" readonly="">'+
-                         '   <!--<a onClick="switch_num(1,464,);" title="加">+</a>-->'+
-                         '   </div>'+
-                         '   </div>'+
-                         '   </td>'+
-                         '   <td align="center" valign="middle">￥840</td>'+
-                         '   <td align="center" valign="middle"><a class="gwc-gb" href="javascript:void(0);" onclick="ajax_del_cart(464);"></a></td>'+
-                         '</tr>' ;
-
-                     })
-                     html=html+'</table>';
-                     $("#html").html(html);
-                     $(".sc-acti-list,.sc-pro-list").show();
-                     $("#none").hide();
                  }
+
              });
 
          }
 
-	    $(".sc-acti-list,.sc-pro-list").hide();
+
      </script>
   
 
@@ -128,7 +142,7 @@
             <a href="javascript:void(0);" onclick="del_cart_more();">删除选中课程</a>
         </td>
         <td width="190" align="right">总计金额：</td>
-        <td width="69" align="right">￥0</td>
+          <td width="69" align="left"><div id="money">￥0</div></td>
         <td>&nbsp;</td>
       </tr>
 

@@ -7,22 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="sixth">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/null_cart2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/sprites6.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/cart2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/icon33.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/logo(1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/logo.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/Test/test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/app/cart.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/fix.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
@@ -73,8 +67,8 @@
       <file leaf-file-name="T_orderController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            <state relative-caret-position="312">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +76,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="T_orderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IT_orderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_courseServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+            <state relative-caret-position="244">
+              <caret line="409" column="51" lean-forward="false" selection-start-line="409" selection-start-column="51" selection-end-line="409" selection-end-column="51" />
               <folding>
                 <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -97,7 +124,18 @@
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#18288#18831#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="841">
+              <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,8 +143,8 @@
       <file leaf-file-name="gooddetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="370" column="33" lean-forward="true" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
+            <state relative-caret-position="-600">
+              <caret line="370" column="33" lean-forward="false" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
               <folding>
                 <marker date="1534924312038" expanded="true" signature="28147:28153" ph="&amp;nbsp;" />
                 <marker date="1534924312038" expanded="true" signature="28153:28159" ph="&amp;nbsp;" />
@@ -142,18 +180,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="754">
               <caret line="378" column="81" lean-forward="false" selection-start-line="378" selection-start-column="42" selection-end-line="378" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxCartList.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxCartList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+            <state relative-caret-position="203">
+              <caret line="141" column="62" lean-forward="false" selection-start-line="141" selection-start-column="62" selection-end-line="141" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                 <element signature="n#tr#0;n#table#0;n#div#0;n#!!top" expanded="false" />
@@ -163,36 +201,15 @@
                 <element signature="n#style#0;n#a#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#tr#0;n#table#0;n#div#1;n#!!top" expanded="false" />
-                <marker date="1534926208724" expanded="true" signature="704:710" ph="&amp;nbsp;" />
-                <marker date="1534926208724" expanded="true" signature="710:716" ph="&amp;nbsp;" />
-                <marker date="1534926208724" expanded="true" signature="1483:1497" ph="..." />
-                <marker date="1534926208724" expanded="true" signature="1736:1769" ph="..." />
-                <marker date="1534926208724" expanded="true" signature="2169:2202" ph="..." />
-                <marker date="1534926208724" expanded="true" signature="2400:2421" ph="..." />
-                <marker date="1534926208724" expanded="true" signature="2652:2667" ph="..." />
-                <marker date="1534926208724" expanded="true" signature="2766:2781" ph="..." />
+                <marker date="1534945557739" expanded="true" signature="892:898" ph="&amp;nbsp;" />
+                <marker date="1534945557739" expanded="true" signature="898:904" ph="&amp;nbsp;" />
+                <marker date="1534945557739" expanded="true" signature="1903:1917" ph="..." />
+                <marker date="1534945557739" expanded="true" signature="2180:2213" ph="..." />
+                <marker date="1534945557739" expanded="true" signature="2650:2683" ph="..." />
+                <marker date="1534945557739" expanded="true" signature="2891:2912" ph="..." />
+                <marker date="1534945557739" expanded="true" signature="3169:3184" ph="..." />
+                <marker date="1534945557739" expanded="true" signature="3297:3312" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_user_course_section.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_userController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,8 +217,8 @@
       <file leaf-file-name="T_courseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="261">
+              <caret line="30" column="35" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -220,17 +237,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>css/</find>
-      <find>pics/</find>
-      <find>&lt;meta name=&quot;author&quot; content=&quot;山东商讯在线 http://www.sdsoon.com/&quot;&gt;</find>
-      <find>&quot;pics</find>
-      <find>&quot;images</find>
-      <find>课程详情</find>
-      <find>&quot;课程详情</find>
-      <find>双师单页.html</find>
-      <find>小学</find>
-      <find>小学&lt;/a&gt;&lt;/li&gt;</find>
-      <find>body</find>
       <find>\&lt;div style\=\&quot;margin\-bottom\: \-6px\; position\: relative\; z\-index\: 1000\;\&quot; id\=\&quot;head\&quot;\&gt;\n\	\&lt;iframe src\=\&quot;header\.html\&quot; frameborder\=\&quot;0\&quot; height\=\&quot;165px\&quot; width\=\&quot;100\%\&quot; scrolling\=\&quot;no\&quot; \&gt;\&lt;\/iframe\&gt;\n\&lt;\/div\&gt;</find>
       <find>\&lt;div class\=\&quot;w\-all w\-minw bd\-sd\-b hg\-45\&quot;\&gt;\n    \&lt;div class\=\&quot;w\-main m\-auto\&quot;\&gt; \n        \&lt;\!\-\- top left start\-\-\&gt;\n        \&lt;div class\=\&quot;fl\&quot;\&gt; \&lt;span class\=\&quot;fs\-12 line\-h45 ftc\-000000 dsblock fl\&quot;\&gt; 济南\&lt;\/span\&gt; \&lt;a href\=\&quot;城市\.html\&quot; class\=\&quot;dsblock fl line\-h45 fs\-12 ftc\-fc0503\&quot;\&gt;\[切换地图\]\&lt;\/a\&gt; \&lt;a href\=\&quot;index\.html\&quot; class\=\&quot;dsblock fl fs\-12 ftc\-000000 line\-h45 m\-l\-70\&quot;\&gt;首页\&lt;\/a\&gt; \n            \&lt;\!\-\-top 导航 start\-\-\&gt;\n            \&lt;div class\=\&quot;hover\-topnav fl m\-l\-45\&quot;\&gt;\n                \&lt;div class\=\&quot;dh_nav fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;\&lt;span class\=\&quot;dsblock hg\-45\&quot;\&gt;\&lt;i class\=\&quot;p\-l\-15 ql_icon dh_topnav hg\-45 fl\&quot;\&gt;\&lt;\/i\&gt;导航\&lt;\/span\&gt;\n                     \&lt;ul class\=\&quot;dh_nav_sub bg\-c\-ffffff bd\-sd\-b\&quot;\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;小学\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;初中\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;高中\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;goodslist\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;心理课\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;teacher\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;讲师\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;attract\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;加盟\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;school\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;分校\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;message\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;资讯\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;connect\.html\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;联系我们\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n                    \&lt;\/ul\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-top 导航 end\-\-\&gt; \n            \&lt;\!\-\-top wap start\-\-\&gt;\n            \&lt;div class\=\&quot;hover\-topnav fl m\-l\-45\&quot;\&gt;\n                \&lt;div class\=\&quot;dh_nav fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;\&lt;span class\=\&quot;dsblock hg\-45\&quot;\&gt;\&lt;i class\=\&quot;p\-l\-15 ql_icon top_wapewem hg\-45 fl\&quot;\&gt;\&lt;\/i\&gt;手机端\&lt;\/span\&gt;\n                    \&lt;div class\=\&quot;top_wap_ewem bg\-c\-ffffff bd\-sd\-b\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/pics\/wap\.png\&quot; width\=\&quot;100\&quot; alt\=\&quot;\&quot;\/\&gt;\n                        \&lt;p class\=\&quot;w\-all fs\-13 text\-c line\-h25\&quot;\&gt;扫描二维码\&lt;\/p\&gt;\n                    \&lt;\/div\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;\!\-\- top left end\-\-\&gt; \n        \&lt;\!\-\- top right start\-\-\&gt;\n        \&lt;div class\=\&quot;fr\&quot;\&gt; \n            \&lt;\!\-\-登录注册 start\-\-\&gt;\n            \&lt;div class\=\&quot;fl\&quot;\&gt; \&lt;a class\=\&quot;fs\-12 ftc\-000000 line\-h45\&quot; href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;p\-l\-20 ql_icon login_icon hg\-45 fl m\-r\-10\&quot;\&gt;\&lt;\/i\&gt;请登录\&lt;\/a\&gt; \&lt;span class\=\&quot;fs\-12 ftc\-000000 line\-h45 m\-l\-15 m\-r\-15\&quot;\&gt;\|\&lt;\/span\&gt; \&lt;a class\=\&quot;fs\-12 ftc\-000000 line\-h45\&quot; href\=\&quot;\#\&quot;\&gt;注册\&lt;\/a\&gt; \&lt;\/div\&gt;\n            \&lt;\!\-\-登录注册 end\-\-\&gt; \n            \&lt;\!\-\-我的购物车 start\-\-\&gt;\n            \&lt;div class\=\&quot;fl m\-l\-30\&quot; id\=\&quot;hd\-my\-cart\&quot;\&gt;\n                \&lt;div class\=\&quot;my\-cart\&quot;\&gt; \&lt;i class\=\&quot;p\-l\-25 ql_icon cart_icon hg\-45 fl m\-r\-10\&quot;\&gt;\&lt;em\&gt;0\&lt;\/em\&gt;\&lt;\/i\&gt;\n                    \&lt;p class\=\&quot;fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;我的购物车\&lt;\/p\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-我的购物车 end\-\-\&gt; \n            \&lt;\!\-\-top 客服中心 start\-\-\&gt;\n            \&lt;div class\=\&quot;hover\-topkf fl m\-l\-45\&quot;\&gt;\n                \&lt;div class\=\&quot;top_kf fl fs\-12 ftc\-000000 line\-h45\&quot;\&gt;\&lt;span class\=\&quot;dsblock hg\-45\&quot;\&gt;客服中心\&lt;i class\=\&quot;p\-l\-10 m\-l\-10 ql_icon top_kficon hg\-45 fr\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/span\&gt;\n                    \&lt;ul class\=\&quot;top_kf_list bg\-c\-ffffff bd\-sd\-b\&quot;\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;加盟热线  \：400\-996\-9910\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;联系电话\：0531\-81768062\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;li\&gt; \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i class\=\&quot;ql_icon\&quot;\&gt;\&lt;\/i\&gt;邮箱\：qifengedu\@yeah\.net\&lt;\/a\&gt; \&lt;\/li\&gt;\n                        \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n                    \&lt;\/ul\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-top 客服中心 start\-\-\&gt; \n        \&lt;\/div\&gt;\n        \&lt;\!\-\- top right end\-\-\&gt; \n    \&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\!\-\-web\-top end\-\-\&gt;\n\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\&lt;\!\-\-web logo and search start\-\-\&gt;\n\&lt;div class\=\&quot;w\-main m\-auto m\-t\-37 m\-b\-25 ovhidden\&quot;\&gt; \n    \&lt;\!\-\-web logo start\-\-\&gt; \n    \&lt;a href\=\&quot;index\.html\&quot; class\=\&quot;logo fl\&quot;\&gt;\&lt;img src\=\&quot;\.\.\/pics\/ql_logo\.gif\&quot; width\=\&quot;240\&quot; height\=\&quot;70\&quot; alt\=\&quot;学海教育logo\(图\)\&quot;\/\&gt;\&lt;\/a\&gt;\n    \&lt;\!\-\-web logo end\-\-\&gt; \n    \&lt;\!\-\-web search start\-\-\&gt;\n    \&lt;div class\=\&quot;search w\-540 m\-l\-115 m\-t\-15 fl\&quot;\&gt;\n        \&lt;form action\=\&quot;\#\&quot; method\=\&quot;get\&quot; id\=\&quot;searchform\&quot; name\=\&quot;searchform\&quot; onSubmit\=\&quot;return checkSearchForm\(\)\&quot; class\=\&quot;w\-540 search\-form\&quot;\&gt;\n            \&lt;input class\=\&quot;p\-l\-15 bd\-2s\-e9511b w\-435 line\-h35 hg\-35 fs\-12 ftc\-a9a9a9 fl\&quot; type\=\&quot;text\&quot; name\=\&quot;keywords\&quot; id\=\&quot;keyword\&quot; value\=\&quot;搜索\：初中物理\&quot; onfocus\=\&quot;if\(this\.value \=\= \'搜索\：初中物理\'\)this\.value \= \'\'\&quot; onblur\=\&quot;if\(this\.value \=\= \'\'\)this\.value\=\'搜索\：初中物理\'\&quot; autocomplete\=\&quot;off\&quot;\&gt;\n            \&lt;input type\=\&quot;hidden\&quot; value\=\&quot;k1\&quot; name\=\&quot;dataBi\&quot;\&gt;\n            \&lt;button type\=\&quot;submit\&quot; class\=\&quot;w\-85 line\-h39 hg\-39 fs\-16 ftc\-ffffff bg\-c\-e9511b fl\&quot;\&gt;提交\&lt;\/button\&gt;\n        \&lt;\/form\&gt;\n        \&lt;div class\=\&quot;w\-540 fl\&quot; id\=\&quot;hotkeywords\&quot;\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;一年级\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;二年级\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;三年级\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;语文\&lt;\/a\&gt; \&lt;a href\=\&quot;\#\&quot; class\=\&quot;dsblock fs\-12 ftc\-8b8b8b line\-h30 fl m\-r\-20\&quot;\&gt;数学\&lt;\/a\&gt;\n            \&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\!\-\-web search end\-\-\&gt;\n    \&lt;div class\=\&quot;fr\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/pics\/top_tel\.gif\&quot; width\=\&quot;199\&quot; height\=\&quot;70\&quot; alt\=\&quot;学海教育400电话\&quot;\/\&gt; \&lt;\/div\&gt;\n\&lt;\/div\&gt;</find>
       <find>\&lt;iframe src\=\&quot;footer\.html\&quot; frameborder\=\&quot;0\&quot; height\=\&quot;319px\&quot; width\=\&quot;100\%\&quot; scrolling\=\&quot;no\&quot; \&gt;\&lt;\/iframe\&gt;\n</find>
@@ -239,7 +245,6 @@
       <find>&quot;tearch</find>
       <find>rili</find>
       <find>下载</find>
-      <find>齐峰</find>
       <find>upload</find>
       <find>../pics/e75573654d7107b7398f9d16a8a27c05.png</find>
       <find>list in itemList</find>
@@ -250,11 +255,20 @@
       <find>f.send</find>
       <find>index.php?</find>
       <find>加入购物车</find>
+      <find>齐峰</find>
+      <find>订单支付-学海教育官网-小初高个性化教育项目综合运营商_files</find>
+      <find>.下载</find>
+      <find>./</find>
+      <find>w-all w-minw bg-c-e3e3e3 p-t-15 ovhidden</find>
+      <find>&quot;./</find>
+      <find>getco</find>
+      <find>cs</find>
+      <find>imges</find>
+      <find>&lt;ins</find>
+      <find>qiao-wrap</find>
+      <find>main</find>
     </findStrings>
     <replaceStrings>
-      <replace>com.xh.entity.</replace>
-      <replace>Integer</replace>
-      <replace>..</replace>
       <replace>课程列表页面</replace>
       <replace>../js</replace>
       <replace>../pics</replace>
@@ -271,7 +285,6 @@
       <replace>../join/</replace>
       <replace>../css/</replace>
       <replace>../pics/</replace>
-      <replace />
       <replace>&quot;../pics</replace>
       <replace>&quot;../images</replace>
       <replace>&quot;goodsdetail</replace>
@@ -282,6 +295,10 @@
       <replace>&quot;../tearch</replace>
       <replace>../rili</replace>
       <replace>学海</replace>
+      <replace>pics</replace>
+      <replace />
+      <replace>../</replace>
+      <replace>&quot;../</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation</dir>
@@ -299,8 +316,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_follows.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/layer.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/saved_resource.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/main_icon_invite_mess_api.js" />
@@ -346,10 +361,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/Test/test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/cart2.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
       </list>
     </option>
   </component>
@@ -651,7 +668,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -679,11 +712,11 @@
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\js" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\images" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\js" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\images" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.xh.service.impl" />
@@ -823,7 +856,8 @@
       <listeners />
     </configuration>
     <configuration name="XHEducation" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="XHEducation:war exploded">
           <settings>
@@ -934,7 +968,7 @@
       <workItem from="1534668257948" duration="13922000" />
       <workItem from="1534724097617" duration="31747000" />
       <workItem from="1534810295882" duration="38961000" />
-      <workItem from="1534899105707" duration="14357000" />
+      <workItem from="1534899105707" duration="29824000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -1041,7 +1075,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534870306209</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="sixth">
+      <created>1534927143080</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1534927143080</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1068,7 +1109,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178740000" />
+    <option name="totallyTimeSpent" value="194207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1083,7 +1124,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5107296" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.51287556" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1100,7 +1141,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.48712447" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1136,28 +1177,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/teadetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="142" column="34" lean-forward="false" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/8.html" />
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/reg3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="165" column="20" lean-forward="true" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/reg3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="165" column="15" lean-forward="false" selection-start-line="165" selection-start-column="15" selection-end-line="165" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1236,6 +1255,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-261">
           <caret line="1" column="171" lean-forward="false" selection-start-line="1" selection-start-column="171" selection-end-line="1" selection-end-column="171" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,14 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1411,36 +1423,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1461,14 +1450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3259">
@@ -1480,10 +1461,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/qfbase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="477" column="44" lean-forward="true" selection-start-line="477" selection-start-column="44" selection-end-line="477" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/qf_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="370" column="33" lean-forward="true" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
+        <state relative-caret-position="-600">
+          <caret line="370" column="33" lean-forward="false" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
           <folding>
             <marker date="1534924312038" expanded="true" signature="28147:28153" ph="&amp;nbsp;" />
             <marker date="1534924312038" expanded="true" signature="28153:28159" ph="&amp;nbsp;" />
@@ -1515,10 +1533,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/h.js.下载">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="201" column="39" lean-forward="true" selection-start-line="201" selection-start-column="39" selection-end-line="201" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/fix.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="378" column="81" lean-forward="false" selection-start-line="378" selection-start-column="42" selection-end-line="378" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="141" column="62" lean-forward="false" selection-start-line="141" selection-start-column="62" selection-end-line="141" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#tr#0;n#table#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1534945557739" expanded="true" signature="892:898" ph="&amp;nbsp;" />
+            <marker date="1534945557739" expanded="true" signature="898:904" ph="&amp;nbsp;" />
+            <marker date="1534945557739" expanded="true" signature="1903:1917" ph="..." />
+            <marker date="1534945557739" expanded="true" signature="2180:2213" ph="..." />
+            <marker date="1534945557739" expanded="true" signature="2650:2683" ph="..." />
+            <marker date="1534945557739" expanded="true" signature="2891:2912" ph="..." />
+            <marker date="1534945557739" expanded="true" signature="3169:3184" ph="..." />
+            <marker date="1534945557739" expanded="true" signature="3297:3312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+        <state relative-caret-position="244">
+          <caret line="409" column="51" lean-forward="false" selection-start-line="409" selection-start-column="51" selection-end-line="409" selection-end-column="51" />
           <folding>
             <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1529,79 +1649,7 @@
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="378" column="81" lean-forward="false" selection-start-line="378" selection-start-column="42" selection-end-line="378" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/qfbase.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="477" column="44" lean-forward="true" selection-start-line="477" selection-start-column="44" selection-end-line="477" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/qf_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#tr#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#tr#0;n#table#0;n#div#1;n#!!top" expanded="false" />
-            <marker date="1534926208724" expanded="true" signature="704:710" ph="&amp;nbsp;" />
-            <marker date="1534926208724" expanded="true" signature="710:716" ph="&amp;nbsp;" />
-            <marker date="1534926208724" expanded="true" signature="1483:1497" ph="..." />
-            <marker date="1534926208724" expanded="true" signature="1736:1769" ph="..." />
-            <marker date="1534926208724" expanded="true" signature="2169:2202" ph="..." />
-            <marker date="1534926208724" expanded="true" signature="2400:2421" ph="..." />
-            <marker date="1534926208724" expanded="true" signature="2652:2667" ph="..." />
-            <marker date="1534926208724" expanded="true" signature="2766:2781" ph="..." />
+            <element signature="e#18288#18831#0" expanded="false" />
           </folding>
         </state>
       </provider>

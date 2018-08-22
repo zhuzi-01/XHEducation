@@ -294,6 +294,7 @@
         </div>
     </div>
 </div>
+<script src="../js/jqAlert.min.js"></script>
         <script type="text/javascript">
             //置顶图标显示
             $('#top-back').hide()
@@ -365,32 +366,30 @@
                 $("input[name^='cart_select']").prop('checked', vt);
                 // var checked = !$('#select_all').attr('checked');
                 // $("input[name^='cart_select']").attr("checked",!checked);
-                ajax_cart_list(); // ajax 更新商品价格 和数量
+                //ajax_cart_list(); // ajax 更新商品价格 和数量
             }
 
             var isdel = 1;
 
             // ajax 删除购物车的商品
-            function ajax_del_cart(ids) {
+            function ajax_del_cart(id) {
                 layer.confirm('您确定要删除吗', {
                     btn: ['确定', '取消']
                 }, function () {
+                    layer.closeAll('dialog');
                     $.ajax({
                         type: "POST",
-                        url: "ajaxDelCart.html",//+tab,
-                        data: {ids: ids}, //
+                        url: "/delorder",//+tab,
+                        data: {"id": id}, //
                         dataType: 'json',
                         success: function (data) {
-                            layer.closeAll();
-                            if (data.status == 1) {
-                                $('.fn-delete-alert').show();
-                                $('.fn-delete-alert').find('.ng-binding').html(isdel);
-                                isdel++;
-                                ajax_cart_list(); // ajax 请求获取购物车列表
-                                layer.msg(data.msg, {icon: 1});
-                            } else {
-                                layer.msg(data.msg, {icon: 1});
+                            var data=eval(data);
+                            if (data.result=="success"){
+                                list();
+                            }else{
+                                jqAlert.Confirm("删除失败");
                             }
+
                         }
                     });
                 })
@@ -402,15 +401,25 @@
 //            if(!confirm('确定要删除吗?'))
 //                return false;
                 // 循环获取复选框选中的值
-                var chk_value = [];
-                $('input[name^="cart_select"]:checked').each(function () {
-                    var s_name = $(this).attr('name');
-                    var id = s_name.replace('cart_select[', '').replace(']', '');
-                    chk_value.push(id);
-                });
-                // ajax  调用删除
-                if (chk_value.length > 0)
-                    ajax_del_cart(chk_value.join(','));
+                layer.confirm('您确定要全部删除吗', {
+                    btn: ['确定', '取消']
+                }, function () {
+                    layer.closeAll('dialog');
+                    $.ajax({
+                        type: "POST",
+                        url: "/delAllorder",//+tab,//
+                        dataType: 'json',
+                        success: function (data) {
+                            var data=eval(data);
+                            if (data.result=="success"){
+                                list();
+                            }else{
+                                jqAlert.Confirm("删除失败");
+                            }
+
+                        }
+                    });
+                })
             }
 
             $('.gwc-qjs').click(function () {

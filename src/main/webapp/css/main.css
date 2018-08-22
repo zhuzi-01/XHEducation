@@ -199,7 +199,7 @@ ins#qiao-icon-wrap {
 
 /* icon head title */
 #qiao-icon-wrap .qiao-icon-title {
-                background: url() no-repeat;
+                background:  no-repeat;
         _background: none;
         _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="");
     
@@ -510,7 +510,8 @@ ins#qiao-invite-wrap {
     color: #000;
     text-align: center;
     cursor: pointer;
-}
+}
+
 .clearfix:before, .clearfix:after {
     content: "";
     display: table;
@@ -953,4 +954,4 @@ ins#qiao-mess-wrap {
 
 #qiao-mess-wrap .errBg, #qiao-mess-wrap .qiao-mess-item-mess .errBg{
     border: 1px solid #f00;
-}
+}
