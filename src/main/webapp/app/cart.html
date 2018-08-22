@@ -130,7 +130,7 @@
                                 <div id="ajax_return"></div>
                             </form>
                             <div class="sc-acti-list ma-to-20 "><a class="gwc-jxgw" href="javascript:history.go(-1);">继续购课</a>
-                                <a class="gwc-qjs" href="javascript:void(0)" data-url="/index.php/Home/Cart/cart2.html">去结算</a>
+                                <a class="gwc-qjs" href="javascript:void(0)" data-url="cart2.html">去结算</a>
                             </div>
                         </div>
                     </div>
@@ -293,6 +293,7 @@
 
         </div>
     </div>
+</div>
         <script type="text/javascript">
             //置顶图标显示
             $('#top-back').hide()
@@ -330,7 +331,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "/index.php/Home/Cart/ajaxCartList.html",//+tab,
+                    url: "ajaxCartList.html",//+tab,
                     data: $('#cart_form').serialize(),// 你的formid
                     success: function (data) {
                         $("#ajax_return").empty().append(data);
@@ -376,7 +377,7 @@
                 }, function () {
                     $.ajax({
                         type: "POST",
-                        url: "/index.php/Home/Cart/ajaxDelCart.html",//+tab,
+                        url: "ajaxDelCart.html",//+tab,
                         data: {ids: ids}, //
                         dataType: 'json',
                         success: function (data) {
@@ -422,7 +423,7 @@
                         shadeClose: true,
                         shade: 0.5,
                         area: ['490px', '460px'],
-                        content: "/index.php/Home/User/pop_login.html",
+                        content: "pop_login.html",
                     });
                 } else {
                     window.location.href = $(this).attr('data-url');
@@ -450,6 +451,7 @@
                 });
             })
         </script>
+
 
 </body>
 </html>

@@ -6,29 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="fifth">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/common.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/jh.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_239_80_80.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_242_80_80.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_245_78_78.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_245_80_80.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pics/goods_thumb_256_80_80.jpeg" />
+    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="sixth">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/null_cart2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/sprites6.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/8.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/header.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/header.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/login.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/reg.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/cart.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_course_sectionMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_course_sectionMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" />
@@ -42,9 +41,13 @@
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery-1.11.3.min.js" />
       <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_course_sectionMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_course_sectionMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" />
@@ -54,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_collections.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_collections.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_course_section.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_course_section.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_follows.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_follows.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,57 +70,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
+      <file leaf-file-name="T_orderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="143" column="9" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="143" selection-end-column="9" />
+            <state relative-caret-position="348">
+              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="152" column="47" lean-forward="true" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+            <state relative-caret-position="232">
+              <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
+      <file leaf-file-name="gooddetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="111" column="21" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="111" selection-end-column="21" />
+            <state relative-caret-position="183">
+              <caret line="370" column="33" lean-forward="true" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1534924312038" expanded="true" signature="28147:28153" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28153:28159" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28159:28165" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28165:28171" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28171:28177" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28177:28183" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28374:28380" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28380:28386" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28386:28392" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28392:28398" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28398:28404" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28404:28410" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28510:28516" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28516:28522" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28522:28528" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28528:28534" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28534:28540" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28540:28546" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28646:28652" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28652:28658" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28658:28664" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28664:28670" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28670:28676" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="28676:28682" ph="&amp;nbsp;" />
+                <marker date="1534924312038" expanded="true" signature="31846:31850" ph="&amp;lt;" />
+                <marker date="1534924312038" expanded="true" signature="32363:32367" ph="&amp;gt;" />
               </folding>
             </state>
           </provider>
@@ -125,8 +142,66 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="16" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="406">
+              <caret line="378" column="81" lean-forward="false" selection-start-line="378" selection-start-column="42" selection-end-line="378" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajaxCartList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#tr#0;n#table#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#tr#0;n#table#0;n#div#1;n#!!top" expanded="false" />
+                <marker date="1534926208724" expanded="true" signature="704:710" ph="&amp;nbsp;" />
+                <marker date="1534926208724" expanded="true" signature="710:716" ph="&amp;nbsp;" />
+                <marker date="1534926208724" expanded="true" signature="1483:1497" ph="..." />
+                <marker date="1534926208724" expanded="true" signature="1736:1769" ph="..." />
+                <marker date="1534926208724" expanded="true" signature="2169:2202" ph="..." />
+                <marker date="1534926208724" expanded="true" signature="2400:2421" ph="..." />
+                <marker date="1534926208724" expanded="true" signature="2652:2667" ph="..." />
+                <marker date="1534926208724" expanded="true" signature="2766:2781" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_user_course_section.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_userController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_courseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -137,21 +212,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>e75573654d7107b7398f9d16a8a27c05</find>
-      <find>demo-icon</find>
-      <find>check_submit()</find>
-      <find>jqAlert</find>
-      <find>课程列表页面</find>
-      <find>双师单页</find>
-      <find>join/</find>
       <find>css/</find>
       <find>pics/</find>
       <find>&lt;meta name=&quot;author&quot; content=&quot;山东商讯在线 http://www.sdsoon.com/&quot;&gt;</find>
@@ -175,6 +243,13 @@
       <find>upload</find>
       <find>../pics/e75573654d7107b7398f9d16a8a27c05.png</find>
       <find>list in itemList</find>
+      <find>null_cart2.jpg</find>
+      <find>AjaxAddCart</find>
+      <find>ajaxCartList.html</find>
+      <find>index.php?m=Home&amp;c=Cart&amp;a=ajaxAddCart</find>
+      <find>f.send</find>
+      <find>index.php?</find>
+      <find>加入购物车</find>
     </findStrings>
     <replaceStrings>
       <replace>com.xh.entity.</replace>
@@ -224,17 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/app/footer.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_comment.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_section.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_site_carousel.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_collections.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_follows.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/layer.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/saved_resource.html" />
@@ -257,7 +321,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/doubletea.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/connect.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/index.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/reg3.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/test.html" />
@@ -274,7 +337,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/common.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/pc_common.js" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/Test/test.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" />
       </list>
     </option>
   </component>
@@ -468,6 +543,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -575,24 +651,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pics" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,22 +671,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../1PPT/Springboot/HelloWorld" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.xh.service.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\js" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\js" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\images" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xh.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -655,6 +722,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="T_orderController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xh.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="XHEducation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xh.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.xh.controller.T_orderController" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -808,13 +900,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.XHEducation" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.test.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.T_orderController.test" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.test.test1" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.T_orderController.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.test.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -839,7 +933,8 @@
       <workItem from="1534665713149" duration="1474000" />
       <workItem from="1534668257948" duration="13922000" />
       <workItem from="1534724097617" duration="31747000" />
-      <workItem from="1534810295882" duration="38868000" />
+      <workItem from="1534810295882" duration="38961000" />
+      <workItem from="1534899105707" duration="14357000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -939,19 +1034,41 @@
       <option name="project" value="LOCAL" />
       <updated>1534856033253</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="sixth">
+      <created>1534870306209</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1534870306209</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="T_courseServiceImpl_get - 2018.08.15 at 20h 28m 15s.xml">
       <configuration name="T_courseServiceImpl.get" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="T_orderController_test - 2018.08.22 at 15h 13m 16s.xml">
+      <configuration name="T_orderController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T_orderController_test - 2018.08.22 at 15h 14m 39s.xml">
+      <configuration name="T_orderController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T_orderController_test - 2018.08.22 at 15h 16m 52s.xml">
+      <configuration name="T_orderController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T_orderController_test - 2018.08.22 at 15h 22m 38s.xml">
+      <configuration name="T_orderController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T_orderController_test - 2018.08.22 at 15h 23m 26s.xml">
+      <configuration name="T_orderController.test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="test_test1 - 2018.08.15 at 14h 11m 06s.xml">
       <configuration name="test.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164290000" />
+    <option name="totallyTimeSpent" value="178740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +1103,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2414163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1011,197 +1128,26 @@
     <MESSAGE value="third" />
     <MESSAGE value="forth" />
     <MESSAGE value="fifth" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth" />
+    <MESSAGE value="sixth" />
+    <option name="LAST_COMMIT_MESSAGE" value="sixth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/school_con.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="171" column="3" lean-forward="true" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/join/join1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pics/f_ewm1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/connect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="181" column="6" lean-forward="false" selection-start-line="181" selection-start-column="6" selection-end-line="181" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/attract.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424">
-          <caret line="190" column="95" lean-forward="true" selection-start-line="190" selection-start-column="95" selection-end-line="190" selection-end-column="95" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#12;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/doubletea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="184" column="75" lean-forward="true" selection-start-line="184" selection-start-column="75" selection-end-line="184" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/exam_calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4118">
-          <caret line="142" column="46" lean-forward="true" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="145" column="58" lean-forward="false" selection-start-line="145" selection-start-column="58" selection-end-line="145" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/messagedetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="145" column="32" lean-forward="false" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/school.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/schooldetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="226" column="14" lean-forward="true" selection-start-line="226" selection-start-column="14" selection-end-line="226" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/teacher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="142" column="34" lean-forward="false" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="46" />
-          <folding>
-            <marker date="1534816900676" expanded="true" signature="569:574" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/teadetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="142" column="34" lean-forward="false" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="46" />
-          <folding>
-            <marker date="1534816900961" expanded="true" signature="569:574" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/8.html" />
     <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/reg3.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="165" column="20" lean-forward="true" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,18 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
           <caret line="165" column="15" lean-forward="false" selection-start-line="165" selection-start-column="15" selection-end-line="165" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="267" column="0" lean-forward="false" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
-          <folding>
-            <marker date="1534821873946" expanded="true" signature="22898:22902" ph="&amp;lt;" />
-            <marker date="1534821873946" expanded="true" signature="23475:23479" ph="&amp;gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,23 +1169,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/JavaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/JavaScript.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-841">
           <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,84 +1232,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding>
-            <element signature="e#852#853#0" expanded="false" />
-            <element signature="e#907#908#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#875#876#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4749">
-          <caret line="381" column="5" lean-forward="true" selection-start-line="381" selection-start-column="5" selection-end-line="381" selection-end-column="5" />
-          <folding>
-            <marker date="1534815329443" expanded="true" signature="28153:28159" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28159:28165" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28165:28171" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28171:28177" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28177:28183" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28183:28189" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28380:28386" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28386:28392" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28392:28398" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28398:28404" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28404:28410" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28410:28416" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28516:28522" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28522:28528" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28528:28534" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28534:28540" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28540:28546" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28546:28552" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28652:28658" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28658:28664" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28664:28670" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28670:28676" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28676:28682" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="28682:28688" ph="&amp;nbsp;" />
-            <marker date="1534815329443" expanded="true" signature="31858:31862" ph="&amp;lt;" />
-            <marker date="1534815329443" expanded="true" signature="32375:32379" ph="&amp;gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/common.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-261">
           <caret line="1" column="171" lean-forward="false" selection-start-line="1" selection-start-column="171" selection-end-line="1" selection-end-column="171" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,51 +1245,27 @@
           <caret line="187" column="73" lean-forward="false" selection-start-line="187" selection-start-column="73" selection-end-line="187" selection-end-column="73" />
           <folding>
             <element signature="n#ins#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="111" column="21" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="111" selection-end-column="21" />
+        <state relative-caret-position="3219">
+          <caret line="111" column="21" lean-forward="false" selection-start-line="109" selection-start-column="13" selection-end-line="111" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="143" column="9" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="143" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1477,10 +1300,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="152" column="47" lean-forward="true" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+        <state relative-caret-position="603">
+          <caret line="130" column="30" lean-forward="false" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1489,11 +1312,296 @@
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="2503" column="20" lean-forward="false" selection-start-line="2503" selection-start-column="20" selection-end-line="2503" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.php~m=Home&amp;c=Fenxiao&amp;a=verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/pc_common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_collectionsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+          <folding>
+            <marker date="1534922320488" expanded="true" signature="1328:1399" ph="delete from t_user_course_section... " />
+            <marker date="1534922320488" expanded="true" signature="1688:2073" ph="insert into t_user_course_section... " />
+            <marker date="1534922320488" expanded="true" signature="2374:2773" ph="update t_user_course_section... " />
+            <marker date="1534922320488" expanded="true" signature="3082:3232" ph="select id, u... t_user_course_section" />
+            <marker date="1534922320488" expanded="true" signature="3341:3500" ph="select id, u... t_user_course_section" />
+            <marker date="1534922320488" expanded="true" signature="3766:3878" ph="select id, u... t_user_course_section" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3259">
+          <caret line="276" column="33" lean-forward="true" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+          <folding>
+            <marker date="1534821873946" expanded="true" signature="22898:22902" ph="&amp;lt;" />
+            <marker date="1534821873946" expanded="true" signature="23475:23479" ph="&amp;gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="370" column="33" lean-forward="true" selection-start-line="370" selection-start-column="33" selection-end-line="370" selection-end-column="33" />
+          <folding>
+            <marker date="1534924312038" expanded="true" signature="28147:28153" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28153:28159" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28159:28165" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28165:28171" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28171:28177" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28177:28183" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28374:28380" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28380:28386" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28386:28392" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28392:28398" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28398:28404" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28404:28410" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28510:28516" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28516:28522" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28522:28528" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28528:28534" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28534:28540" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28540:28546" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28646:28652" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28652:28658" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28658:28664" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28664:28670" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28670:28676" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="28676:28682" ph="&amp;nbsp;" />
+            <marker date="1534924312038" expanded="true" signature="31846:31850" ph="&amp;lt;" />
+            <marker date="1534924312038" expanded="true" signature="32363:32367" ph="&amp;gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+          <folding>
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="378" column="81" lean-forward="false" selection-start-line="378" selection-start-column="42" selection-end-line="378" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_user_course_section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/qfbase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="477" column="44" lean-forward="true" selection-start-line="477" selection-start-column="44" selection-end-line="477" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/qf_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#tr#0;n#table#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#tr#0;n#table#0;n#div#1;n#!!top" expanded="false" />
+            <marker date="1534926208724" expanded="true" signature="704:710" ph="&amp;nbsp;" />
+            <marker date="1534926208724" expanded="true" signature="710:716" ph="&amp;nbsp;" />
+            <marker date="1534926208724" expanded="true" signature="1483:1497" ph="..." />
+            <marker date="1534926208724" expanded="true" signature="1736:1769" ph="..." />
+            <marker date="1534926208724" expanded="true" signature="2169:2202" ph="..." />
+            <marker date="1534926208724" expanded="true" signature="2400:2421" ph="..." />
+            <marker date="1534926208724" expanded="true" signature="2652:2667" ph="..." />
+            <marker date="1534926208724" expanded="true" signature="2766:2781" ph="..." />
           </folding>
         </state>
       </provider>
