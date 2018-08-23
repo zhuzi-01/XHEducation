@@ -54,9 +54,9 @@
         <div class="fr">
             <!--登录注册 start-->
             <div class="fl" >
-                <a class="fs-12 ftc-000000 line-h45" target="_parent" href="login.html" >
+                <a class="fs-12 ftc-000000 line-h45" target="_parent" href="login.html" onclick="loginOut();" id="logout" >
                     <i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>
-                    <span id="name">请登录</span>
+                    <span id="name" >请登录</span>
                 </a>
                 <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span>
                 <a class="fs-12 ftc-000000 line-h45" target="_parent" href="reg.html">
@@ -68,7 +68,7 @@
             <div class="fl m-l-30" id="hd-my-cart">
                 <div class="my-cart">
                     <a href="cart.html" target="_parent">
-                        <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em>0</em></i>
+                        <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em id="cou">0</em></i>
                         <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
                     </a>
 
@@ -134,13 +134,49 @@
                 if(res.result == 'success'){
                     //jqAlert.Confirm('已登录');
                     $("#name").empty().append(res.user.username);
+                    $("#logout").attr("href","javascript:loginOut()");
                 }else{
                     //jqAlert.Confirm('未登录');
                 }
             }
 
         });
+        $.ajax({
+            type : 'post',
+            url : '/getorder',
+            //data : {"username":username,"password":password},
+            dataType : 'json',
+            success : function(res){
+                var res=eval(res);
+                if(res.names.length>0){
+                    //jqAlert.Confirm(res.names.length);
+                    $("#cou").empty().append(res.names.length);
+                }
+            }
+
+        });
     })
+
+   function loginOut() {
+       $.ajax({
+           type : 'post',
+           url : '/loginout',
+           //data : {"username":username,"password":password},
+           dataType : 'json',
+           success : function(res){
+               var res=eval(res);
+               if(res.result == 'success'){
+                   //self.parent
+                   alert('退出成功');
+                   self.parent.location.href="index.html";
+
+               }else{
+                   jqAlert.Confirm('退出失败');
+               }
+           }
+
+       });
+    }
 </script>
 </body>
 

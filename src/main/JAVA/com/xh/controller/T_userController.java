@@ -65,4 +65,20 @@ public class T_userController {
         }
         return json.toString();
     }
+
+    @RequestMapping("/loginout")
+    @ResponseBody
+    public String loginout(HttpServletRequest request){
+        JSONObject json=new JSONObject();
+        HttpSession session=request.getSession();
+        T_user user= (T_user) session.getAttribute("user");
+        System.out.println(user);
+        if (user!=null){
+            session.removeAttribute("user");
+            json.put("result","success");
+        }else{
+            json.put("result","fail");
+        }
+        return json.toString();
+    }
 }
