@@ -23,6 +23,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 @Controller
 @SessionAttributes("course_id")
@@ -49,7 +50,7 @@ public class T_courseController {
         final int PAGE_SIZE;
         if (currPage==999){
              PAGE_SIZE=5;
-             currPage=1;
+             currPage=new Random().nextInt((courseService.numofcourse()/PAGE_SIZE-1)+1)+1;
         }else{
              PAGE_SIZE=8; //每页显示8条
         }

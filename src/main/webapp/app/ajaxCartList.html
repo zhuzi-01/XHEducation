@@ -1,14 +1,14 @@
           
-     <p style="text-align:center" id="none"><a href="/"><img src="../images/null_cart2.jpg"  /></a></p>
+     <p style="text-align:center" id="none"><a href="goodslist.html"><img src="../images/null_cart2.jpg"  /></a></p>
      <script src="../js/jqAlert.min.js"></script>
      <script type="text/javascript">
 
          $(function () {
-             list();
+             listORDER();
 
          })
 
-         function list() {
+         function listORDER() {
              $("#html").hide();
              $(".sc-acti-list,.sc-pro-list").hide();
              $.ajax({
@@ -33,6 +33,7 @@
                          var money=0;
                          data.orders.forEach(function (order) {
                              money+=order.rate;
+                             var oldmoney=order.rate>0?order.rate*1.5:30;
                              var name=data.names[i++];
                              html=html+
                                  '<tr>'+
@@ -41,16 +42,16 @@
                                  '</td>'+
                                  '<td style="border-left:0px;;border-right:0px" class="pa-to-20 pa-bo-20 bo-ri-0" width="80px" align="center" valign="top">'+
                                  '<a class="gwc-wp-list di-bl wi63 hi63" href="gooddetail.html?course_id='+order.courseId+'">'+
-                                 '<img class="wi63 hi63" src="../pics/goods_thumb_245_78_78.jpeg">'+
+                                 '<img class="wi63 hi63" src="../pics/course/'+order.courseId+'.jpg" style="width: 113px;">'+
                                  '</a>'+
                                  '</td>'+
                                  '<td style="border-left:0px; border-right:0px" class="pa-to-20 wi516" align="left" valign="top">'+
-                                 '<p class="gwc-ys-pp">'+
+                                 '<p class="gwc-ys-pp"  style=" width: 400px; margin-left: 70px; ">'+
                                  '<a href="gooddetail.html?course_id='+order.courseId+'" style="vertical-align:middle">'+name+'</a>'+
                                  '   <!--团购-->                <!--抢购-->            </p>'+
                                  '<p class="ggwc-ys-hs"></p>'+
                                  '</td>'+
-                                 '<td style="border-left:0px" align="center" valign="middle"><span><del>￥60</del></span></td>'+
+                                 '<td style="border-left:0px" align="center" valign="middle"><span><del>￥'+oldmoney+'</del></span></td>'+
                                  '<td style="border-left:0px" align="center" valign="middle"><span>￥'+order.rate+'</span></td>'+
 
                                  '<td align="center" valign="middle">'+
@@ -73,7 +74,10 @@
                          $(".sc-acti-list,.sc-pro-list").show();
                          $("#none").hide();
                          $("#money").empty().append('￥'+money);
-                         $("#cou").empty().append(i);
+                         if(res.names.length>0){
+                             //jqAlert.Confirm(res.names.length);
+                             $("#cou").empty().append(res.names.length);
+                         }
                      }else{
                          $(".sc-acti-list,.sc-pro-list").hide();
                          $("#none").show();

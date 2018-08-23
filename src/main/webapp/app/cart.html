@@ -22,83 +22,8 @@
 </head>
 <body class="ng-scope">
 <!-- 头部顶栏 start [[-->
-<div class="w-all w-minw bd-sd-b hg-45">
-    <div class="w-main m-auto">
-        <!-- top left start-->
-        <div class="fl"><span class="fs-12 line-h45 ftc-000000 dsblock fl"> 济南</span> <a href="城市.html"
-                                                                                         class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a>
-            <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a>
-            <!--top 导航 start-->
-            <div class="hover-topnav fl m-l-45">
-                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i
-                        class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
-                    <ul class="dh_nav_sub bg-c-ffffff bd-sd-b">
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>课程</a></li>
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>初中</a></li>
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>高中</a></li>
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>心理课</a></li>
-                        <li><a href="teacher.html"><i class="ql_icon"></i>讲师</a></li>
-                        <li><a href="attract.html"><i class="ql_icon"></i>加盟</a></li>
-                        <li><a href="school.html"><i class="ql_icon"></i>分校</a></li>
-                        <li><a href="message.html"><i class="ql_icon"></i>资讯</a></li>
-                        <li><a href="connect.html"><i class="ql_icon"></i>联系我们</a></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-            </div>
-            <!--top 导航 end-->
-            <!--top wap start-->
-            <div class="hover-topnav fl m-l-45">
-                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i
-                        class="p-l-15 ql_icon top_wapewem hg-45 fl"></i>手机端</span>
-                    <div class="top_wap_ewem bg-c-ffffff bd-sd-b"><img src="../pics/wap.png" width="100" alt=""/>
-                        <p class="w-all fs-13 text-c line-h25">扫描二维码</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- top left end-->
-        <!-- top right start-->
-        <div class="fr">
-            <!--登录注册 start-->
-            <div class="fl">
-                <a class="fs-12 ftc-000000 line-h45" target="_parent" href="login.html">
-                    <i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>
-                    <span id="name">请登录</span>
-                </a>
-                <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span>
-                <a class="fs-12 ftc-000000 line-h45" target="_parent" href="reg.html">
-                    注册
-                </a>
-            </div>
-            <!--登录注册 end-->
-            <!--我的购物车 start-->
-            <div class="fl m-l-30" id="hd-my-cart">
-                <div class="my-cart">
-                    <a href="cart.html" target="_parent">
-                        <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em id="cou">0</em></i>
-                        <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
-                    </a>
-
-                </div>
-            </div>
-            <!--我的购物车 end-->
-            <!--top 客服中心 start-->
-            <div class="hover-topkf fl m-l-45">
-                <div class="top_kf fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45">客服中心<i
-                        class="p-l-10 m-l-10 ql_icon top_kficon hg-45 fr"></i></span>
-                    <ul class="top_kf_list bg-c-ffffff bd-sd-b">
-                        <li><a href="#"><i class="ql_icon"></i>加盟热线 ：400-996-9910</a></li>
-                        <li><a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a></li>
-                        <li><a href="#"><i class="ql_icon"></i>邮箱：xuehaiedu@yeah.net</a></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-            </div>
-            <!--top 客服中心 start-->
-        </div>
-        <!-- top right end-->
-    </div>
+<div style="margin-bottom: -6px; position: relative; z-index: 1000;" id="head">
+    <iframe src="header.html" frameborder="0" height="45px" width="100%" scrolling="no" ></iframe>
 </div>
 <!-- 头部顶栏 end ]]-->
 <div class="fn-cart-clearing">
@@ -129,7 +54,9 @@
                             <form name="cart_form" id="cart_form" action="ajaxCartList.html">
                                 <div id="ajax_return"></div>
                             </form>
-                            <div class="sc-acti-list ma-to-20 "><a class="gwc-jxgw" href="javascript:history.go(-1);">继续购课</a>
+                            <div class="sc-acti-list ma-to-20 ">
+                                <!--<a class="gwc-jxgw" href="javascript:history.go(-1);">继续购课</a>-->
+                                <a class="gwc-jxgw" href="goodslist.html">继续购课</a>
                                 <a class="gwc-qjs" href="javascript:void(0)" data-url="cart2.html">去结算</a>
                             </div>
                         </div>
@@ -385,7 +312,8 @@
                         success: function (data) {
                             var data=eval(data);
                             if (data.result=="success"){
-                                list();
+                                window.location.reload();
+                                //listORDER();
                             }else{
                                 jqAlert.Confirm("删除失败");
                             }
@@ -412,7 +340,7 @@
                         success: function (data) {
                             var data=eval(data);
                             if (data.result=="success"){
-                                list();
+                                window.location.reload();
                             }else{
                                 jqAlert.Confirm("删除失败");
                             }

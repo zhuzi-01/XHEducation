@@ -66,7 +66,6 @@ public class T_orderController {
             orderService.delorder(order.getId());
             i++;
         }
-
         if (i==orders.size()){
             json.put("result","success");
         }else{
@@ -75,4 +74,31 @@ public class T_orderController {
         return json.toString();
     }
 
+    @RequestMapping("/addorder")
+    @ResponseBody
+    public String addorder(HttpServletRequest request,Integer course_id){
+        HttpSession session=request.getSession();
+        T_user user= (T_user) session.getAttribute("user");
+        JSONObject json=new JSONObject();
+        T_user_course_section order=new T_user_course_section();
+        int rate=0;
+        int level=courseService.getOnecourse(course_id).getLevel();
+        if (level==1){
+            rate=0;
+        }else if (level==2){
+            rate=30;
+        }else{
+            rate=60;
+        }
+        if (user!=null){
+            json.put("result","success");
+            order.setUserId(user.getId());
+            order.setCourseId(course_id);
+            order.setRate(rate);
+            orderService.addorder(order);
+        }else{
+            json.put("result","fail");
+        }
+        return json.toString();
+    }
 }
