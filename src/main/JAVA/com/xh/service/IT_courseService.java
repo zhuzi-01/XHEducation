@@ -14,5 +14,7 @@ public interface IT_courseService {
     //查询单个课程
     T_course getOnecourse(Integer id);
     //分类查询
+    List<T_course> getCoursesbyclassifywithPages(int start,int pagesize,T_course course);
+
     List<T_course> getCoursesbyclassify(T_course course);
 }

@@ -73,7 +73,7 @@ public class T_courseController {
 
     @RequestMapping("/getOnecourse")
     @ResponseBody
-    public List<T_course> getOnecourses(Model model,Integer course_id){
+    public List<T_course> getOnecourses(Integer course_id){
         System.out.println(course_id);
         List<T_course> list = new ArrayList<>();
         list.add(courseService.getOnecourse(course_id));
@@ -82,29 +82,37 @@ public class T_courseController {
 
     @RequestMapping("/getcoursesbyclassify")
     @ResponseBody
-    public String getcoursesbyclassify(Model model,Integer currPage){
-//        final int PAGE_SIZE;
-//        if (currPage==999){
-//            PAGE_SIZE=5;
-//            currPage=new Random().nextInt((courseService.numofcourse()/PAGE_SIZE-1)+1)+1;
-//        }else{
-//            PAGE_SIZE=8; //每页显示8条
-//        }
+    public String getcoursesbyclassify(Integer currPage,String num1,String num2){
+       // int currPage=1; //前端传回来的当前页码
+        if ("666".equals(num1))
+            num1=null;
+        if ("666".equals(num2))
+            num2=null;
+        T_course course=new T_course(num1,num2);
+        List<T_course> courses=courseService.getCoursesbyclassify(course);
+        System.out.println(courses);
+        final int PAGE_SIZE;
+        if (currPage==999){
+            PAGE_SIZE=5;
+            currPage=new Random().nextInt((courses.size()/PAGE_SIZE-1)+1)+1;
+        }else{
+            PAGE_SIZE=8; //每页显示8条
+        }
 
-        //int currPage=1; //前端传回来的当前页码
 
-//        int count=courseService.numofcourse();//总记录数
-//        int pages;//总页数
-//        if (count%PAGE_SIZE==0) {
-//            pages=count/PAGE_SIZE;
-//        } else {
-//            pages=count/PAGE_SIZE+1;
-//        }
+        int count=courses.size();//总记录数
+        int pages;//总页数
+        if (count%PAGE_SIZE==0) {
+            pages=count/PAGE_SIZE;
+        } else {
+            pages=count/PAGE_SIZE+1;
+        }
         JSONObject json=new JSONObject();
-        //json.put("courses",courseService.getCoursesByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE));
-        //json.put("pages",pages);
-        T_course course=new T_course("1","5");
-        json.put("courses",courseService.getCoursesbyclassify(course));
+        System.out.println(course);
+        json.put("courses",courseService.getCoursesbyclassifywithPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,course));
+        json.put("pages",pages);
+        //json.put("courses",courses);
+        //System.out.println(courses);
         return json.toString();
     }
 

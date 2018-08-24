@@ -35,6 +35,11 @@ public class T_courseServiceImpl implements IT_courseService {
     }
 
     @Override
+    public List<T_course> getCoursesbyclassifywithPages(int start,int pagesize,T_course course) {
+        return coursedao.selectByclassifywithPages(start,pagesize,course);
+    }
+
+    @Override
     public List<T_course> getCoursesbyclassify(T_course course) {
         return coursedao.selectByclassify(course);
     }

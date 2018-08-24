@@ -104,45 +104,88 @@
   weight = #{weight,jdbcType=INTEGER},
   brief = #{brief,jdbcType=LONGVARCHAR}
   where id = #{id,jdbcType=INTEGER}-->
-  <select id="selectByclassify" resultType="com.xh.entity.T_course">
+    <select id="selectByclassify" resultType="com.xh.entity.T_course">
+        select * from t_course
+        <where>
+            <if test="id!=null">
+                id = #{id,jdbcType=INTEGER}
+            </if>
+            <if test="name!=null">
+                and name = #{name,jdbcType=VARCHAR}
+            </if>
+            <if test="classify!=null">
+                and classify = #{classify,jdbcType=VARCHAR}
+            </if>
+            <if test="classifyName!=null">
+                and classify_name = #{classifyName,jdbcType=VARCHAR}
+            </if>
+            <if test="subClassify!=null">
+                and sub_classify = #{subClassify,jdbcType=VARCHAR}
+            </if>
+            <if test="subClassifyName!=null">
+                and sub_classify_name = #{subClassifyName,jdbcType=VARCHAR}
+            </if>
+            <if test="username!=null">
+                and username = #{username,jdbcType=VARCHAR}
+            </if>
+            <if test="level!=null">
+                and level = #{level,jdbcType=BIT}
+            </if>
+            <if test="duration!=null">
+                and duration = #{duration,jdbcType=VARCHAR}
+            </if>
+            <if test="studyCount!=null">
+                and study_count = #{studyCount,jdbcType=INTEGER}
+            </if>
+            <if test="weight!=null">
+                and weight = #{weight,jdbcType=INTEGER}
+            </if>
+            <if test="brief!=null">
+                and brief = #{brief,jdbcType=LONGVARCHAR}
+            </if>
+        </where>
+    </select>
+  <select id="selectByclassifywithPages" resultType="com.xh.entity.T_course">
     select * from t_course
     <where>
-      <if test="id!=null">
-        id = #{id,jdbcType=INTEGER}
+      <if test="arg2.id!=null">
+          /*&amp;&amp;#{arg2.id}!=&quot;&quot;*/
+        id = #{arg2.id,jdbcType=INTEGER}
       </if>
-      <if test="name!=null">
-        and name = #{name,jdbcType=VARCHAR}
+      <if test="arg2.name!=null">
+        and name = #{arg2.name,jdbcType=VARCHAR}
       </if>
-      <if test="classify!=null">
-        and classify = #{classify,jdbcType=VARCHAR}
+      <if test="arg2.classify!=null">
+        and classify = #{arg2.classify,jdbcType=VARCHAR}
       </if>
-      <if test="classifyName!=null">
-        and classify_name = #{classifyName,jdbcType=VARCHAR}
+      <if test="arg2.classifyName!=null">
+        and classify_name = #{arg2.classifyName,jdbcType=VARCHAR}
       </if>
-      <if test="subClassify!=null">
-        and sub_classify = #{subClassify,jdbcType=VARCHAR}
+      <if test="arg2.subClassify!=null">
+        and sub_classify = #{arg2.subClassify,jdbcType=VARCHAR}
       </if>
-      <if test="subClassifyName!=null">
-        and sub_classify_name = #{subClassifyName,jdbcType=VARCHAR}
+      <if test="arg2.subClassifyName!=null">
+        and sub_classify_name = #{arg2.subClassifyName,jdbcType=VARCHAR}
       </if>
-      <if test="username!=null">
-        and username = #{username,jdbcType=VARCHAR}
+      <if test="arg2.username!=null">
+        and username = #{arg2.username,jdbcType=VARCHAR}
       </if>
-      <if test="level!=null">
-        and level = #{level,jdbcType=BIT}
+      <if test="arg2.level!=null">
+        and level = #{arg2.level,jdbcType=BIT}
       </if>
-      <if test="duration!=null">
-        and duration = #{duration,jdbcType=VARCHAR}
+      <if test="arg2.duration!=null">
+        and duration = #{arg2.duration,jdbcType=VARCHAR}
       </if>
-      <if test="studyCount!=null">
-        and study_count = #{studyCount,jdbcType=INTEGER}
+      <if test="arg2.studyCount!=null">
+        and study_count = #{arg2.studyCount,jdbcType=INTEGER}
       </if>
-      <if test="weight!=null">
-        and weight = #{weight,jdbcType=INTEGER}
+      <if test="arg2.weight!=null">
+        and weight = #{arg2.weight,jdbcType=INTEGER}
       </if>
-      <if test="brief!=null">
-        and brief = #{brief,jdbcType=LONGVARCHAR}
+      <if test="arg2.brief!=null">
+        and brief = #{arg2.brief,jdbcType=LONGVARCHAR}
       </if>
     </where>
+       LIMIT #{st},#{pa}
   </select>
 </mapper>
