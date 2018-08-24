@@ -34,4 +34,9 @@ public class T_courseServiceImpl implements IT_courseService {
         return coursedao.selectByPrimaryKey(id);
     }
 
+    @Override
+    public List<T_course> getCoursesbyclassify(T_course course) {
+        return coursedao.selectByclassify(course);
+    }
+
 }

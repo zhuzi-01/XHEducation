@@ -38,6 +38,14 @@ public class T_course {
     //课程描述
     private String brief;
 
+    public T_course() {
+    }
+
+    public T_course(String classify, String subClassify) {
+        this.classify = classify;
+        this.subClassify = subClassify;
+    }
+
     @Override
     public String toString() {
         return "T_course{" +

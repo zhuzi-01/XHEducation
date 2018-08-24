@@ -80,5 +80,33 @@ public class T_courseController {
         return list;
     }
 
+    @RequestMapping("/getcoursesbyclassify")
+    @ResponseBody
+    public String getcoursesbyclassify(Model model,Integer currPage){
+//        final int PAGE_SIZE;
+//        if (currPage==999){
+//            PAGE_SIZE=5;
+//            currPage=new Random().nextInt((courseService.numofcourse()/PAGE_SIZE-1)+1)+1;
+//        }else{
+//            PAGE_SIZE=8; //每页显示8条
+//        }
+
+        //int currPage=1; //前端传回来的当前页码
+
+//        int count=courseService.numofcourse();//总记录数
+//        int pages;//总页数
+//        if (count%PAGE_SIZE==0) {
+//            pages=count/PAGE_SIZE;
+//        } else {
+//            pages=count/PAGE_SIZE+1;
+//        }
+        JSONObject json=new JSONObject();
+        //json.put("courses",courseService.getCoursesByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE));
+        //json.put("pages",pages);
+        T_course course=new T_course("1","5");
+        json.put("courses",courseService.getCoursesbyclassify(course));
+        return json.toString();
+    }
+
 
 }

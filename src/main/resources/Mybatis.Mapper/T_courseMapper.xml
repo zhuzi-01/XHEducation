@@ -87,7 +87,62 @@
     level, duration, study_count, weight, brief
     from t_course
   </select>
+
   <select id="selectPages" parameterType="int" resultMap="BaseResultMap">
-    SELECT * FROM t_course LIMIT #{arg0},#{arg1}
+    SELECT * FROM t_course ORDER BY study_count DESC LIMIT #{arg0},#{arg1}
+  </select>
+
+ <!-- #{name,jdbcType=VARCHAR},
+  classify = #{classify,jdbcType=VARCHAR},
+  classify_name = #{classifyName,jdbcType=VARCHAR},
+  sub_classify = #{subClassify,jdbcType=VARCHAR},
+  sub_classify_name = #{subClassifyName,jdbcType=VARCHAR},
+  username = #{username,jdbcType=VARCHAR},
+  level = #{level,jdbcType=BIT},
+  duration = #{duration,jdbcType=VARCHAR},
+  study_count = #{studyCount,jdbcType=INTEGER},
+  weight = #{weight,jdbcType=INTEGER},
+  brief = #{brief,jdbcType=LONGVARCHAR}
+  where id = #{id,jdbcType=INTEGER}-->
+  <select id="selectByclassify" resultType="com.xh.entity.T_course">
+    select * from t_course
+    <where>
+      <if test="id!=null">
+        id = #{id,jdbcType=INTEGER}
+      </if>
+      <if test="name!=null">
+        and name = #{name,jdbcType=VARCHAR}
+      </if>
+      <if test="classify!=null">
+        and classify = #{classify,jdbcType=VARCHAR}
+      </if>
+      <if test="classifyName!=null">
+        and classify_name = #{classifyName,jdbcType=VARCHAR}
+      </if>
+      <if test="subClassify!=null">
+        and sub_classify = #{subClassify,jdbcType=VARCHAR}
+      </if>
+      <if test="subClassifyName!=null">
+        and sub_classify_name = #{subClassifyName,jdbcType=VARCHAR}
+      </if>
+      <if test="username!=null">
+        and username = #{username,jdbcType=VARCHAR}
+      </if>
+      <if test="level!=null">
+        and level = #{level,jdbcType=BIT}
+      </if>
+      <if test="duration!=null">
+        and duration = #{duration,jdbcType=VARCHAR}
+      </if>
+      <if test="studyCount!=null">
+        and study_count = #{studyCount,jdbcType=INTEGER}
+      </if>
+      <if test="weight!=null">
+        and weight = #{weight,jdbcType=INTEGER}
+      </if>
+      <if test="brief!=null">
+        and brief = #{brief,jdbcType=LONGVARCHAR}
+      </if>
+    </where>
   </select>
 </mapper>
