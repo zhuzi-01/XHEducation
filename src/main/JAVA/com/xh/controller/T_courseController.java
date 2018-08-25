@@ -31,11 +31,7 @@ public class T_courseController {
     @Autowired
     IT_courseService courseService;
 
-    @RequestMapping("/")
-    public String index(){
-        return "redirect:/app/index.html";
 
-    }
 
     @RequestMapping("/courselist")
     @ResponseBody
@@ -111,6 +107,7 @@ public class T_courseController {
         System.out.println(course);
         json.put("courses",courseService.getCoursesbyclassifywithPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,course));
         json.put("pages",pages);
+        json.put("count",count);
         //json.put("courses",courses);
         //System.out.println(courses);
         return json.toString();
@@ -143,7 +140,7 @@ public class T_courseController {
         //System.out.println(course);
         json.put("courses",courseService.researchcourseByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,text));
         json.put("pages",pages);
-        //json.put("courses",courses);
+        json.put("count",count);
         //System.out.println(courses);
         return json.toString();
     }

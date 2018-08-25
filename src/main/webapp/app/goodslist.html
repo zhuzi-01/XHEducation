@@ -274,7 +274,7 @@
                                     listresearch(curpage-1,text);
                                 }
                                 var html='<ul class="home_calss w-1224 ovhidden">';
-                                if (data.courses.length==0){
+                                if (data.count==0){
                                     jqAlert.Confirm('没有相关课程');
                                     setInterval("window.location.href='goodslist.html'",1500);
                                 }
@@ -394,7 +394,7 @@
                                     jqAlert.Confirm('这是最后一页');
                                 }
                                 var html='<ul class="home_calss w-1224 ovhidden">';
-                                if (data.courses.length==0){
+                                if (data.count==0){
                                     jqAlert.Confirm('没有相关课程');
                                     //setInterval("window.location.href='goodslist.html'",1500);
                                 }

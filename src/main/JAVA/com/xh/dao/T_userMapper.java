@@ -1,5 +1,6 @@
 package com.xh.dao;
 
+import com.xh.entity.T_course;
 import com.xh.entity.T_user;
 import java.util.List;
 
@@ -44,5 +45,5 @@ public interface T_userMapper {
      * @mbg.generated Wed Aug 15 20:15:46 CST 2018
      */
     int updateByPrimaryKey(T_user record);
-
+    int updatepwd(T_user user);
 }

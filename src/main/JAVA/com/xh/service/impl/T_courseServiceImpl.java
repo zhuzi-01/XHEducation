@@ -12,6 +12,22 @@ import java.util.List;
 public class T_courseServiceImpl implements IT_courseService {
     @Autowired
     T_courseMapper coursedao;
+
+    @Override
+    public boolean addcourse(T_course course) {
+        return coursedao.insert(course)>0?true:false;
+    }
+
+    @Override
+    public boolean delcourse(Integer id) {
+        return coursedao.deleteByPrimaryKey(id)>0?true:false;
+    }
+
+    @Override
+    public boolean updatecourse(T_course course) {
+        return coursedao.updatecourse(course)>0?true:false;
+    }
+
     @Override
     public List<T_course> getCourses() {
         return coursedao.selectAll();

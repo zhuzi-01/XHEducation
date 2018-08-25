@@ -50,5 +50,5 @@ public interface T_courseMapper {
      *
      * @mbg.generated Wed Aug 15 20:15:46 CST 2018
      */
-    int updateByPrimaryKey(T_course record);
+    int updatecourse(T_course record);
 }

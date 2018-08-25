@@ -5,6 +5,10 @@ import com.xh.entity.T_course;
 import java.util.List;
 
 public interface IT_courseService {
+    //
+    boolean addcourse(T_course course);
+    boolean delcourse(Integer id);
+    boolean updatecourse(T_course course);
     //显示课程列表
     List<T_course> getCourses();
     //分页显示

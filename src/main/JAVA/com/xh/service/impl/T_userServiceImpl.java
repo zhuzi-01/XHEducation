@@ -7,6 +7,8 @@ import com.xh.service.IT_userService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class T_userServiceImpl implements IT_userService {
     @Autowired
@@ -32,7 +34,17 @@ public class T_userServiceImpl implements IT_userService {
     }
 
     @Override
+    public List<T_user> queryall() {
+        return userdao.selectAll();
+    }
+
+    @Override
     public boolean updateuser(T_user user) {
         return userdao.updateByPrimaryKey(user)>0?true:false;
+    }
+
+    @Override
+    public boolean updatepwd(T_user user) {
+        return userdao.updatepwd(user)>0?true:false;
     }
 }
