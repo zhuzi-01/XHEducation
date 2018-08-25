@@ -116,5 +116,37 @@ public class T_courseController {
         return json.toString();
     }
 
+    @RequestMapping("/searchcourse")
+    @ResponseBody
+    public String searchcourse(Integer currPage,String text){
+//         currPage=2; //前端传回来的当前页码
+//         text="中";
+        List<T_course> courses=courseService.researchcourse(text);
+        //System.out.println(courses);
+        final int PAGE_SIZE;
+        if (currPage==999){
+            PAGE_SIZE=5;
+            currPage=new Random().nextInt((courses.size()/PAGE_SIZE-1)+1)+1;
+        }else{
+            PAGE_SIZE=8; //每页显示8条
+        }
+
+
+        int count=courses.size();//总记录数
+        int pages;//总页数
+        if (count%PAGE_SIZE==0) {
+            pages=count/PAGE_SIZE;
+        } else {
+            pages=count/PAGE_SIZE+1;
+        }
+        JSONObject json=new JSONObject();
+        //System.out.println(course);
+        json.put("courses",courseService.researchcourseByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,text));
+        json.put("pages",pages);
+        //json.put("courses",courses);
+        //System.out.println(courses);
+        return json.toString();
+    }
+
 
 }

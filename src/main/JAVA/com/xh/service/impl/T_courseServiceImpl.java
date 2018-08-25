@@ -44,4 +44,14 @@ public class T_courseServiceImpl implements IT_courseService {
         return coursedao.selectByclassify(course);
     }
 
+    @Override
+    public List<T_course> researchcourse(String text) {
+        return coursedao.research(text);
+    }
+
+    @Override
+    public List<T_course> researchcourseByPages(int start, int pagesize, String text) {
+        return coursedao.researchbypages(start,pagesize,text);
+    }
+
 }

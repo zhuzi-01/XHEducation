@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.0</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/xadmin.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <script>
+          $(function () {
+              $.ajax({
+                  type:"post",
+                  url:"/commodityTypeServlet?type=list",
+                  dataType:"json",
+                  async:false,
+                  success:function (data) {
+                      var json = eval(data);
+                      var result = json.result;
+                      var rs = "";
+                      $.each(result,function (index,commodityType) {
+                          rs +='<option >'+commodityType.type_name+'</option>'
+                      })
+                      $("#typeName").append(rs);
+                  }
+              })
+          });
+      </script>
+  </head>
+  <body>
+    <div class="x-body">
+        <form class="layui-form" id="commodityForm">
+          <div class="layui-form-item">
+              <label for="commodityName" class="layui-form-label">
+                  <span class="x-red">*</span>商品名称
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="commodityName" name="commodityName" required="" lay-verify="required"
+                  autocomplete="off" class="layui-input">
+              </div>
+              <label for="typeName" class="layui-form-label">
+                  <span class="x-red">*</span>类型
+              </label>
+              <div class="layui-input-inline">
+              	<select id="typeName" name="typeName">
+              	</select>
+              </div>
+              <label for="style_no" class="layui-form-label">
+                  <span class="x-red">*</span>款式号
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="style_no" name="style_no" required="" lay-verify=""
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="commodity_price" class="layui-form-label">
+                  <span class="x-red">*</span>单价
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="commodity_price" name="commodity_price" required="" lay-verify="required"
+                  autocomplete="off" class="layui-input">
+              </div>
+              <label for="quantity_commodity" class="layui-form-label">
+                  <span class="x-red">*</span>库存
+              </label>
+              <div class="layui-input-inline">
+                 <input type="text" id="quantity_commodity" name="quantity_commodity" required="" lay-verify="required"
+                  autocomplete="off" class="layui-input">
+              </div>
+              <label for="commodity_color" class="layui-form-label">
+                  <span class="x-red">*</span>颜色
+              </label>
+              <div class="layui-input-inline">
+                  <select id="commodity_color" name="commodity_color">
+                  	<option >D</option>
+                  	<option >E</option>
+                  	<option >F</option>
+                  	<option >G</option>
+                  	<option >H</option>
+                  	<option >I</option>
+                  	<option >J</option>
+                  </select>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="clarity" class="layui-form-label">
+                  <span class="x-red">*</span>净度
+              </label>
+              <div class="layui-input-inline">
+                  <select id="clarity" name="clarity">
+                  	<option >FL</option>
+                  	<option >IF</option>
+                  	<option >VVS1</option>
+                  	<option >VVS2</option>
+                  	<option >VS1</option>
+                  	<option >VS2</option>
+                  	<option >Sl1</option>
+                  	<option >Sl2</option>
+                  	<option >l1</option>
+                  	<option >l2</option>
+                  	<option >l3</option>
+                  </select>
+              </div>
+              <label for="cut" class="layui-form-label">
+                  <span class="x-red">*</span>切工
+              </label>
+              <div class="layui-input-inline">
+                  <select id="cut" name="cut">
+                  	<option >EX</option>
+                  	<option >VG</option>
+                  	<option >G</option>
+                  </select>
+              </div>
+              <label for="polishing" class="layui-form-label">
+                  <span class="x-red">*</span>抛光
+              </label>
+              <div class="layui-input-inline">
+                  <select id="polishing" name="polishing">
+                  	<option >EX</option>
+                  	<option >VG</option>
+                  	<option >G</option>
+                  </select>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="symmetry" class="layui-form-label">
+                  <span class="x-red">*</span>对称
+              </label>
+              <div class="layui-input-inline">
+                  <select id="symmetry" name="symmetry">
+                  	<option >EX</option>
+                  	<option >VG</option>
+                  	<option >G</option>
+                  </select>
+              </div>
+              <label for="texture" class="layui-form-label">
+                  <span class="x-red">*</span>材质
+              </label>
+              <div class="layui-input-inline">
+                 <select id="texture" name="texture">
+                 	<option >18k白金</option>
+                 	<option >PT950</option>
+                 </select>
+              </div>
+              <label for="weight" class="layui-form-label">
+                  <span class="x-red">*</span>重量
+              </label>
+              <div class="layui-input-inline">
+                  <select id="weight" name="weight">
+                  	<option >50分</option>
+                  	<option >60分</option>
+                  	<option >70分</option>
+                  	<option >80分</option>
+                  	<option >90分</option>
+                  	<option >1克拉</option>
+                  	<option >2克拉</option>
+                  	<option >3克拉</option>
+                  </select>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="size" class="layui-form-label">
+                  <span class="x-red">*</span>尺寸
+              </label>
+              <div class="layui-input-inline">
+                  <select id="size" name="size">
+                  	<option >6</option>
+                  	<option >7</option>
+                  	<option >8</option>
+                  	<option >9</option>
+                  	<option >10</option>
+                  	<option >11</option>
+                  	<option >12</option>
+                  	<option >13</option>
+                  	<option >14</option>
+                  	<option >15</option>
+                  	<option >16</option>
+                  	<option >17</option>
+                  	<option >18</option>
+                  	<option >19</option>
+                  	<option >20</option>
+                  	<option >21</option>
+                  	<option >22</option>
+                  	<option >23</option>
+                  </select>
+              </div>
+          </div>
+          <div class="layui-form-item layui-form-text">
+              <label for="commodity_introduction" class="layui-form-label">
+                  描述
+              </label>
+              <div class="layui-input-block">
+                  <textarea placeholder="请输入内容" id="commodity_introduction" name="commodity_introduction" class="layui-textarea"></textarea>
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label  class="layui-form-label">
+              </label>
+              <button  class="layui-btn" lay-filter="add" lay-submit="">
+                  增加
+              </button>
+          </div>
+      </form>
+    </div>
+    <script>
+        layui.use(['form','layer'], function(){
+            $ = layui.jquery;
+          var form = layui.form
+          ,layer = layui.layer;
+          //自定义验证规则
+          form.verify({
+            nikename: function(value){
+              if(value.length < 5){
+                return '昵称至少得5个字符啊';
+              }
+            }
+            ,pass: [/(.+){6,12}$/, '密码必须6到12位']
+            ,repass: function(value){
+                if($('#L_pass').val()!=$('#L_repass').val()){
+                    return '两次密码不一致';
+                }
+            }
+          });
+          //监听提交
+          form.on('submit(add)', function(data){
+            console.log(data);
+            //发异步，把数据提交给php
+              var dataForm = $("#commodityForm").serialize();
+              $.ajax({
+                  type:"post",
+                  url:"/commodityServlet?type=add",
+                  data:dataForm,
+                  dataType:"json",
+                  success:function (data) {
+                      var json = eval(data);
+                      var result = json.result;
+                      if (result == true) {
+                          layer.alert("增加成功", {icon: 6},function () {
+                              // 获得frame索引
+                              var index = parent.layer.getFrameIndex(window.name);
+                              //关闭当前frame
+                              parent.layer.close(index);
+                          });
+                      }
+              }
+              })
+            return false;
+          });
+        });
+    </script>
+  </body>
+</html>

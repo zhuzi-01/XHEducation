@@ -17,4 +17,7 @@ public interface IT_courseService {
     List<T_course> getCoursesbyclassifywithPages(int start,int pagesize,T_course course);
 
     List<T_course> getCoursesbyclassify(T_course course);
+
+    List<T_course> researchcourse(String text);
+    List<T_course> researchcourseByPages(int start,int pagesize,String text);
 }

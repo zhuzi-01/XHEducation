@@ -17,23 +17,23 @@
 <div class="w-all w-minw bd-sd-b hg-45">
     <div class="w-main m-auto">
         <!-- top left start-->
-        <div class="fl"><span class="fs-12 line-h45 ftc-000000 dsblock fl"> 济南</span> <a href="城市.html"
-                                                                                         class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a>
-            <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a>
+        <div class="fl"><span class="fs-12 line-h45 ftc-000000 dsblock fl"> 济南</span>
+            <a href="城市.html" target="_parent" class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a>
+            <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70" target="_parent">首页</a>
             <!--top 导航 start-->
             <div class="hover-topnav fl m-l-45">
                 <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i
                         class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
                     <ul class="dh_nav_sub bg-c-ffffff bd-sd-b">
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>课程</a></li>
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>初中</a></li>
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>高中</a></li>
-                        <li><a href="goodslist.html"><i class="ql_icon"></i>心理课</a></li>
-                        <li><a href="teacher.html"><i class="ql_icon"></i>讲师</a></li>
-                        <li><a href="attract.html"><i class="ql_icon"></i>加盟</a></li>
-                        <li><a href="school.html"><i class="ql_icon"></i>分校</a></li>
-                        <li><a href="message.html"><i class="ql_icon"></i>资讯</a></li>
-                        <li><a href="connect.html"><i class="ql_icon"></i>联系我们</a></li>
+                        <li><a href="goodslist.html" target="_parent"><i class="ql_icon"></i>课程</a></li>
+                        <li><a href="goodslist.html" target="_parent"><i class="ql_icon"></i>初中</a></li>
+                        <li><a href="goodslist.html" target="_parent"><i class="ql_icon"></i>高中</a></li>
+                        <li><a href="goodslist.html" target="_parent"><i class="ql_icon"></i>心理课</a></li>
+                        <li><a href="teacher.html" target="_parent"><i class="ql_icon"></i>讲师</a></li>
+                        <li><a href="attract.html" target="_parent"><i class="ql_icon"></i>加盟</a></li>
+                        <li><a href="school.html" target="_parent"><i class="ql_icon"></i>分校</a></li>
+                        <li><a href="message.html" target="_parent"><i class="ql_icon"></i>资讯</a></li>
+                        <li><a href="connect.html" target="_parent"><i class="ql_icon"></i>联系我们</a></li>
                         <div class="clear"></div>
                     </ul>
                 </div>
@@ -97,22 +97,21 @@
 <!--web logo and search start-->
 <div class="w-main m-auto m-t-37 m-b-25 ovhidden">
     <!--web logo start-->
-    <a href="index.html" class="logo fl"><img src="../pics/ql_logo.gif" width="240" height="70" alt="学海教育logo(图)"/></a>
+    <a href="index.html" target="_parent" class="logo fl"><img src="../pics/ql_logo.gif" width="240" height="70" alt="学海教育logo(图)"/></a>
     <!--web logo end-->
     <!--web search start-->
     <div class="search w-540 m-l-115 m-t-15 fl">
-        <form action="#" method="get" id="searchform" name="searchform" onSubmit="return checkSearchForm()"
-              class="w-540 search-form">
+        <form action="#" method="get" id="searchform" name="searchform" class="w-540 search-form">
             <input class="p-l-15 bd-2s-e9511b w-435 line-h35 hg-35 fs-12 ftc-a9a9a9 fl" type="text" name="keywords"
-                   id="keyword" value="搜索：初中物理" onfocus="if(this.value == '搜索：初中物理')this.value = ''"
-                   onblur="if(this.value == '')this.value='搜索：初中物理'" autocomplete="off">
+                   id="keyword" value="物理" onfocus="if(this.value == '物理')this.value = ''"
+                   onblur="if(this.value == '')this.value='物理'" autocomplete="off">
             <input type="hidden" value="k1" name="dataBi">
-            <button type="submit" class="w-85 line-h39 hg-39 fs-16 ftc-ffffff bg-c-e9511b fl">提交</button>
+            <button type="submit" class="w-85 line-h39 hg-39 fs-16 ftc-ffffff bg-c-e9511b fl" onclick="search()">提交</button>
         </form>
-        <div class="w-540 fl" id="hotkeywords"><a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">一年级</a>
-            <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">二年级</a> <a href="#"
-                                                                                       class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">三年级</a>
-            <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">语文</a> <a href="#"
+        <div class="w-540 fl" id="hotkeywords"><a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">高中</a>
+            <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">初中</a> <a href="#"
+                                                                                       class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">小学</a>
+            <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">化学</a> <a href="#"
                                                                                       class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20">数学</a>
             <div class="clear"></div>
         </div>
@@ -144,6 +143,10 @@
         getordernum();
 
     })
+    function search() {
+        var text=$("#keyword").val().trim();
+        self.parent.window.location.href="goodslist.html?text="+encodeURI(text);
+    }
     function getordernum() {
         $.ajax({
             type : 'post',

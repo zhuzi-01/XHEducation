@@ -170,6 +170,9 @@ codeFn = new moveCode(code);
                 var res=eval(res);
                 if(res.result == 'success'){
                     jqAlert.Confirm('登录成功');
+                    if (document.referrer.indexOf("gooddetail.html")!=-1){
+                        setInterval('window.history.go(-1)',1000);
+                    }
                     setInterval('window.location.href="index.html"',1000);
                 }else{
                     jqAlert.Confirm('登录失败请重试');

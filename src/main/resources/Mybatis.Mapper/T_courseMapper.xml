@@ -188,4 +188,21 @@
     </where>
        LIMIT #{st},#{pa}
   </select>
+
+    <select id="research" resultType="com.xh.entity.T_course">
+    select * from t_course where
+     name like '%${text}%'
+     or username like '%${text}%'
+     or classify_name like '%${text}%'
+     or sub_classify_name like '%${text}%'
+    </select>
+
+    <select id="researchbypages" resultType="com.xh.entity.T_course">
+        select * from t_course where
+        name like '%${text}%'
+        or username like '%${text}%'
+        or classify_name like '%${text}%'
+        or sub_classify_name like '%${text}%'
+        LIMIT #{st},#{pa}
+    </select>
 </mapper>
