@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="sixth">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/commodityType-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/commodityType-add.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_classifyMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_classifyMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" />
@@ -121,8 +100,8 @@
       <file leaf-file-name="member-list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="249" column="56" lean-forward="false" selection-start-line="249" selection-start-column="56" selection-end-line="249" selection-end-column="56" />
+            <state relative-caret-position="222">
+              <caret line="247" column="56" lean-forward="false" selection-start-line="247" selection-start-column="56" selection-end-line="247" selection-end-column="56" />
               <folding>
                 <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -151,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
-              <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -183,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="174" column="32" lean-forward="true" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
+              <caret line="174" column="32" lean-forward="false" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -950,7 +929,7 @@
       <workItem from="1534983836462" duration="20530000" />
       <workItem from="1535071291752" duration="40729000" />
       <workItem from="1535132225102" duration="140000" />
-      <workItem from="1535159133211" duration="43704000" />
+      <workItem from="1535159133211" duration="43918000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -1106,7 +1085,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535182568319</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="tenth">
+      <created>1535221168009</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1535221168009</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1133,7 +1119,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306174000" />
+    <option name="totallyTimeSpent" value="306388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1148,7 +1134,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2355606" sideWeight="0.5193133" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47225368" sideWeight="0.5193133" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1183,8 @@
     <MESSAGE value="seventh" />
     <MESSAGE value="eighth" />
     <MESSAGE value="nineth" />
-    <option name="LAST_COMMIT_MESSAGE" value="nineth" />
+    <MESSAGE value="tenth" />
+    <option name="LAST_COMMIT_MESSAGE" value="tenth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1651,7 +1638,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1675,7 +1662,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="174" column="32" lean-forward="true" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
+          <caret line="174" column="32" lean-forward="false" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1683,7 +1670,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1708,8 +1695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="249" column="56" lean-forward="false" selection-start-line="249" selection-start-column="56" selection-end-line="249" selection-end-column="56" />
+        <state relative-caret-position="222">
+          <caret line="247" column="56" lean-forward="false" selection-start-line="247" selection-start-column="56" selection-end-line="247" selection-end-column="56" />
           <folding>
             <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />

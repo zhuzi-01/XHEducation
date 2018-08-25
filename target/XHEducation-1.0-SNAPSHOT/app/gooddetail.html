@@ -5,7 +5,7 @@
 <title>课程列表页面_学海教育</title>
 <meta name="keywords" content="学海教育">
 <meta name="description" content="学海教育">
-<meta name="author" content="山东商讯在线 http://www.sdsoon.com/">
+
 <link rel="stylesheet" href="../css/qfbase.css">
 <!--学海的共有样式-->
 <script type="text/javascript" src="../js/jquery.min.js"></script>
@@ -141,13 +141,13 @@
          <ul class="w-950 hg-60 ql_nav">
         <li><a href="index.html" >首页</a></li>
         <li><a href="goodslist.html" class="cur">课程</a></li>
-        <li><a href="双师单页.html">双师课堂</a></li>
-        <li><a href="考试日历.html">考试日历</a></li>
-        <li><a href="讲师.html">名师</a></li>
-        <li><a href="招商单页.html" class="ql_navhot">招商加盟</a></li>
-        <li><a href="分校列表.html">分校</a></li>
-        <li><a href="资讯列表.html">资讯</a></li>
-        <li><a href="联系我们.html">联系我们</a></li>
+        <li><a href="doubletea.html">双师课堂</a></li>
+        <li><a href="exam_calendar.html">考试日历</a></li>
+        <li><a href="teacher.html">名师</a></li>
+        <li><a href="attract.html" class="ql_navhot">招商加盟</a></li>
+        <li><a href="school.html">分校</a></li>
+        <li><a href="message.html">资讯</a></li>
+        <li><a href="connect.html">联系我们</a></li>
     </ul>
     </div>
 </div>
@@ -164,12 +164,12 @@
     
     <!--web main bogy top start-->
     <div class="w-main m-auto ovhidden">
-        <div class="w-main m-auto bg-c-ffffff ovhidden"> 
+        <div class="w-main m-auto bg-c-ffffff ovhidden" id="htt">
             <!--left img start-->
             <div class="w-450 hg-338 fl"> <img src="../pics/calsscon.jpg" width="450" height="338" alt=""/> </div>
             <!--left img end--> 
             <!--right info start-->
-            <div class="w-680 hg-338 m-l-40 ovhidden ps-r fl" id="htt">
+            <div class="w-680 hg-338 m-l-40 ovhidden ps-r fl" >
                 <h3 class="w-all fs-24 ftc-000000 m-t-15 m-b-10 line-h36 fl">中小学金牌新概念英语1、2册连读【升级版】</h3>
                 <!--info right start-->
                 <div class="w-all fl">
@@ -184,7 +184,7 @@
                     </ul>
                 </div>
                 <!--info right end-->
-                <div class="standard ps-a pa-b-22"> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-e9511b ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="">立即购买</a> <a class="dsblock w-170 hg-42 text-c line-h42 ftc-e9511b fs-18 bd-rd-6 bd-2s-e9511b m-r-28 fl" href="javascript:;" onclick="">加入购物车</a> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-6595e4 ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="">免费试听</a> </div>
+                <div class="standard ps-a pa-b-22"> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-e9511b ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="cart.html" onclick="">立即购买</a> <a class="dsblock w-170 hg-42 text-c line-h42 ftc-e9511b fs-18 bd-rd-6 bd-2s-e9511b m-r-28 fl" href="cart.html" onclick="">加入购物车</a> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-6595e4 ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="">免费试听</a> </div>
             </div>
             <!--right info end--> 
         </div>
@@ -328,7 +328,7 @@
 
     $(function () {
         getone();
-        list1(0);
+        list1(999);
     })
 
     function getone() {
@@ -342,7 +342,10 @@
 
             success: function (data) {
 
-                var html='';
+                var html='<div class="w-450 hg-338 fl"> <img src="../pics/course/'+course_id+'.jpg" width="450" height="338" alt=""/> </div>' +
+                    '<!--left img end--> ' +
+                    '<!--right info start-->' +
+                    '<div class="w-680 hg-338 m-l-40 ovhidden ps-r fl" >';
 
                 data.forEach(function (course) {
                     if (course.level==1){
@@ -365,14 +368,15 @@
                     '<li class="w-all fs-14 ftc-000000 line-h28 fl">人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数：'+course.studyCount+'</li>'+
                     '<li class="w-all fs-14 ftc-000000 line-h28 fl">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：本课程为本公司所有，禁止恶意传播</li>'+
                     '<li class="w-all fs-14 ftc-000000 line-h28 fl">适用年级：'+course.classifyName+'</li>'+
-                    '<li class="w-all fs-14 ftc-000000 line-h28 fl">开班规律：随时开班</li>'+
+                    '<li class="w-all fs-14 ftc-000000 line-h28 fl">授课教师：'+course.username+'</li>'+
                     '<div class="claer"></div>'+
                         '</ul>'+
                         '</div>'+
                         '<!--info right end-->'+
-                        '<div class="standard ps-a pa-b-22"> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-e9511b ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="">立即购买</a> <a class="dsblock w-170 hg-42 text-c line-h42 ftc-e9511b fs-18 bd-rd-6 bd-2s-e9511b m-r-28 fl" href="javascript:;" onclick="">加入购物车</a> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-6595e4 ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="">免费试听</a> </div>' ;
+                        '<div class="standard ps-a pa-b-22"> <a  id="buynow" class="dsblock w-140 hg-46 text-c line-h46 bg-c-e9511b ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="#" onclick="addorder('+course.id+')">立即购买</a> <a class="dsblock w-170 hg-42 text-c line-h42 ftc-e9511b fs-18 bd-rd-6 bd-2s-e9511b m-r-28 fl" href="#" onclick="addorder('+course.id+')" id="add">加入购物车</a> <a class="dsblock w-140 hg-46 text-c line-h46 bg-c-6595e4 ftc-ffffff fs-18 bd-rd-6 m-r-28 fl" href="javascript:;" onclick="">免费试听</a> </div>' ;
 
                 })
+                html =html+'</div>';
                 $("#htt").html(html);
 
 
@@ -380,64 +384,22 @@
         });
 
     }
-    function list(curpage) {
+    function addorder(course_id) {
         $.ajax({
             type: "get",
             dataType: "json",
-            data:{"currPage":curpage},
-            url: "/cursourslist",
+            data:{"course_id":course_id},
+            url: "/addorder",
 
             success: function (data) {
                 var data=eval(data);
-                var pages=data.pages;
-                if (curpage<1){
-                    curpage=1;
-                }else if (curpage>pages){
-                    list(curpage-1);
-                    jqAlert.Confirm('这是最后一页');
+                if (data.result=="success"){
+                    jqAlert.Confirm("添加成功",2000);
+                    window.location.href="cart.html";
+                }else{
+                    jqAlert.Confirm('你还未登录');
+                    setInterval('window.location.href="login.html"',800);
                 }
-                var p1=curpage-1;
-                var p2=curpage+1;
-                var html='<ul class="home_calss w-1224 ovhidden">';
-
-                data.courses.forEach(function (course) {
-                    if (course.level==1){
-                        var level="免费体验";
-                        var level2="马上体验";
-                    }else if (course.level==2){
-                        var level="￥30";
-                        var level2="马上购买";
-                    }else{
-                        var level="￥60";
-                        var level2="马上购买";
-                    }
-                    html=html+
-                        '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a>'+
-                        '<div class="w-255 p-l-10 p-r-15 p-b-10 fl">'+
-                        '<div class="home_calsstxt w-155 fl">'+
-                        '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
-                        '<span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">'+level+'</span> </div>'+
-                        '<a href="gooddetail.html" class="dsblock ql_icon hg-34 line-h34 fs-14 ftc-ffffff m-t-22 ql_h_btnfr w-86 text-c fr">'+level2+'</a> </div>'+
-                        '</li>' ;
-
-                })
-                html=html+' <div class="clear"></div>'+
-                    '</ul>'+
-                    '<div class="w-amin hg-30"></div>'+
-                    '<!--pages start-->'+
-                    ' <ul class="w-560 hg-36 ql_pages m-auto">'+
-                    '<li class="fl"><a class="" href="javascript:list('+(--curpage)+')">&lt;</a></li>'+
-                    '<li class="fl"><a class="cur" href="javascript:list('+(++curpage)+')">'+curpage+'</a></li>'+
-                    '<li class="fl"><a class="" href="javascript:list('+(++curpage)+')">'+(curpage)+'</a></li>'+
-                    ' <li class="fl"><a class="" href="javascript:list('+(++curpage)+')">'+(curpage)+'</a></li>'+
-                    '<li class="fl"><a class="" href="#">...</a></li>'+
-                    '<li class="fl"><a class="" href="javascript:list('+(--curpage)+')">&gt;</a></li>'+
-                    ' </ul>'+
-                    '<!--pages end-->'+
-                    ' <div class="w-amin hg-30"></div>';
-                $("#html").html(html);
-
-
             }
         });
 
@@ -472,7 +434,7 @@
                         var level2="马上购买";
                     }
                     html=html+
-                        '<li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="gooddetail.html?course_id='+course.id+'" class="w-210 p-l-10 p-r-10 fl">'+
+                        '<li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/course/'+course.id+'.jpg" alt=""/> </a> <a href="gooddetail.html?course_id='+course.id+'" class="w-210 p-l-10 p-r-10 fl">'+
                         '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
                         '<span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">'+level+'</span> </a> </li>' ;
 
@@ -487,38 +449,6 @@
         });
 
     }
-    function editUser(id) {
-        $.ajax({
-            type: "get",
-            dataType: "json",
-            url: "${pageContext.request.contextPath}/edit",
-            data: {"id": id},
-
-            success: function (data) {
-                $("#fill").show();
-                $("#myform").show();
-                $("#sid").val(data.sid);
-                $("#sname").val(data.sname);
-                $("#ssex").val(data.ssex);
-                $("#sage").val(data.sage);
-                $("#city").val(data.city);
-            }
-        });
-    }
-
-    function updateUser(form) {
-        $.post("${pageContext.request.contextPath}/update", $(form).serialize(), function (data) {
-            if (data == 'ok') {
-                alert("客户更新成功！");
-                list();
-            }
-            else {
-                alert("修改失败");
-            }
-        });
-    }
-
-
 
 </script>
 <!--web footer copyright end--> 
