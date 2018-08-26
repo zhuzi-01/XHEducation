@@ -5,6 +5,7 @@ import com.sun.deploy.net.HttpResponse;
 import com.sun.javafx.scene.control.skin.VirtualFlow.ArrayLinkedList;
 import com.xh.entity.T_course;
 import com.xh.entity.T_user;
+import com.xh.service.IT_classifyService;
 import com.xh.service.IT_courseService;
 import net.sf.json.JSON;
 import net.sf.json.JSONObject;
@@ -30,6 +31,8 @@ import java.util.Random;
 public class T_courseController {
     @Autowired
     IT_courseService courseService;
+    @Autowired
+    IT_classifyService classifyService;
 
 
 
@@ -63,7 +66,7 @@ public class T_courseController {
         JSONObject json=new JSONObject();
         json.put("courses",courseService.getCoursesByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE));
         json.put("pages",pages);
-
+        json.put("count",count);
        return json.toString();
     }
 
@@ -145,5 +148,43 @@ public class T_courseController {
         return json.toString();
     }
 
+    @RequestMapping("/delcourse")
+    @ResponseBody
+    public String delcourse(Integer id){
+        JSONObject json=new JSONObject();
+        if (courseService.delcourse(id)){
+            json.put("result","ok");
+        }else{
+            json.put("result","error");
+        }
+        return json.toString();
+    }
+
+    @RequestMapping("/addcourse")
+    @ResponseBody
+    public String addcourse(T_course course){
+        JSONObject json=new JSONObject();
+        course.setStudyCount(0);
+        course.setClassifyName(classifyService.queryclassify(Integer.parseInt(course.getClassify())).getName());
+        course.setSubClassifyName(classifyService.queryclassify(Integer.parseInt(course.getSubClassify())).getName());
+        if (courseService.addcourse(course)){
+            json.put("result","ok");
+        }else{
+            json.put("result","error");
+        }
+        return json.toString();
+    }
+
+    @RequestMapping("/updatecourse")
+    @ResponseBody
+    public String updatecourse(T_course course){
+        JSONObject json=new JSONObject();
+        if (courseService.updatecourse(course)){
+            json.put("result","ok");
+        }else{
+            json.put("result","error");
+        }
+        return json.toString();
+    }
 
 }

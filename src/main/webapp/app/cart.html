@@ -269,7 +269,7 @@
             }
 
             /**
-             * 购买商品数量加加减减
+             * 购买课程数量加加减减
              * 购买数量 , 购物车id , 库存数量
              */
             function switch_num(num, cart_id, store_count) {
@@ -283,7 +283,7 @@
 
                 $("input[name='goods_num[" + cart_id + "]']").val(num2);
 
-                ajax_cart_list(); // ajax 更新商品价格 和数量
+                ajax_cart_list(); // ajax 更新课程价格 和数量
             }
 
 
@@ -293,12 +293,12 @@
                 $("input[name^='cart_select']").prop('checked', vt);
                 // var checked = !$('#select_all').attr('checked');
                 // $("input[name^='cart_select']").attr("checked",!checked);
-                //ajax_cart_list(); // ajax 更新商品价格 和数量
+                //ajax_cart_list(); // ajax 更新课程价格 和数量
             }
 
             var isdel = 1;
 
-            // ajax 删除购物车的商品
+            // ajax 删除购物车的课程
             function ajax_del_cart(id) {
                 layer.confirm('您确定要删除吗', {
                     btn: ['确定', '取消']
@@ -324,7 +324,7 @@
 
             }
 
-            // 批量删除购物车的商品
+            // 批量删除购物车的课程
             function del_cart_more() {
 //            if(!confirm('确定要删除吗?'))
 //                return false;

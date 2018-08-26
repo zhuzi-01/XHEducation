@@ -6,56 +6,44 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="sixth">
+    <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="tenth">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_classifyMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_course_classifyMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_userMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/commoditTypeEdit.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/commodity-add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/commodity.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/commodityType-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/commodity_type.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/attract.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/attract.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/cart.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/connect.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/connect.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/doubletea.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/doubletea.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/exam_calendar.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/exam_calendar.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/message.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/message.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/messagedetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/messagedetail.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/school.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/school.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/schooldetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/schooldetail.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/teacher.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/teacher.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/teadetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/teadetail.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_courseMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_courseMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_course_classifyMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_course_classifyMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_userMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_course_sectionMapper.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/dao/T_user_course_sectionMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_classify.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_comment.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_section.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_course_section.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_site_carousel.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_site_carousel.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_collections.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_collections.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_course_section.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_course_section.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_follows.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/entity/T_user_follows.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/service/IT_courseService.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/service/IT_courseService.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/service/impl/T_courseServiceImpl.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/service/impl/T_courseServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/gooddetail.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/gooddetail.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/goodslist.html" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/css/qfbase.css" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jquery-1.11.3.min.js" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ql_logo.gif" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ql_logo.gif" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_courseMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_courseMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_course_classifyMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_course_classifyMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_userMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" afterPath="$PROJECT_DIR$/target/classes/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_courseMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_courseMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_course_classifyMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_course_classifyMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_userMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_course_sectionMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/dao/T_user_course_sectionMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_classify.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_comment.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_section.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_course_section.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_site_carousel.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_site_carousel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_collections.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_collections.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_course_section.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_course_section.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_follows.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/entity/T_user_follows.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/service/IT_courseService.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/service/IT_courseService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/service/impl/T_courseServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/service/impl/T_courseServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,50 +56,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IT_userService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
+      <file leaf-file-name="course_type.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="159">
+              <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1535262354969" expanded="true" signature="1583:1591" ph="&amp;##xe605;" />
+                <marker date="1535262354969" expanded="true" signature="2167:2175" ph="&amp;##xe63c;" />
+                <marker date="1535262354969" expanded="true" signature="2442:2450" ph="&amp;##xe640;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T_userServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state relative-caret-position="-1305">
+              <caret line="101" column="56" lean-forward="false" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xadmin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/js/xadmin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_classifyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="78" column="36" lean-forward="true" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IT_classifyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_classifyServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member-list.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html">
+      <file leaf-file-name="T_course_classify.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="247" column="56" lean-forward="false" selection-start-line="247" selection-start-column="56" selection-end-line="247" selection-end-column="56" />
-              <folding>
-                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1535220993560" expanded="true" signature="6541:6549" ph="&amp;##xe605;" />
-                <marker date="1535220993560" expanded="true" signature="6948:6954" ph=" " />
-                <marker date="1535220993560" expanded="true" signature="7420:7428" ph="&amp;##xe601;" />
-                <marker date="1535220993560" expanded="true" signature="7673:7681" ph="&amp;##xe642;" />
-                <marker date="1535220993560" expanded="true" signature="7934:7942" ph="&amp;##xe631;" />
-                <marker date="1535220993560" expanded="true" signature="8150:8158" ph="&amp;##xe640;" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,78 +140,36 @@
       <file leaf-file-name="member-add.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="123" column="60" lean-forward="false" selection-start-line="123" selection-start-column="60" selection-end-line="123" selection-end-column="60" />
+            <state relative-caret-position="162">
+              <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
+      <file leaf-file-name="course.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member-edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="116" column="10" lean-forward="false" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="36" />
+            <state relative-caret-position="207">
+              <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
               <folding>
-                <element signature="e#4650#5474#0" expanded="false" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8230#9014#0" expanded="false" />
+                <marker date="1535263967102" expanded="true" signature="2255:2263" ph="&amp;##xe605;" />
+                <marker date="1535263967102" expanded="true" signature="2992:3064" ph="..." />
+                <marker date="1535263967102" expanded="true" signature="3344:3352" ph="&amp;##xe71d;" />
+                <marker date="1535263967102" expanded="true" signature="3402:3408" ph=" " />
+                <marker date="1535263967102" expanded="true" signature="3556:3564" ph="&amp;##xe640;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IT_orderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
+      <file leaf-file-name="T_courseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_userController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="174" column="32" lean-forward="false" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_userMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-              <folding>
-                <marker date="1535220224926" expanded="true" signature="1624:1680" ph="delete from t_user... " />
-                <marker date="1535220224926" expanded="true" signature="1954:2520" ph="insert into t_user... " />
-                <marker date="1535220224926" expanded="true" signature="2609:2796" ph="update t_user... " />
-                <marker date="1535220224926" expanded="true" signature="2877:2981" ph="update t_user... " />
-                <marker date="1535220224926" expanded="true" signature="3290:3463" ph="select id, u... t_user" />
-                <marker date="1535220224926" expanded="true" signature="3572:3756" ph="select id, u... t_user" />
-                <marker date="1535220224926" expanded="true" signature="4022:4172" ph="select id, u... t_user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member-password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="119" column="21" lean-forward="false" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+            <state relative-caret-position="250">
+              <caret line="187" column="5" lean-forward="true" selection-start-line="150" selection-start-column="4" selection-end-line="187" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -209,10 +188,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>加入购物车</find>
-      <find>齐峰</find>
-      <find>订单支付-学海教育官网-小初高个性化教育项目综合运营商_files</find>
-      <find>.下载</find>
       <find>./</find>
       <find>w-all w-minw bg-c-e3e3e3 p-t-15 ovhidden</find>
       <find>&quot;./</find>
@@ -239,11 +214,13 @@
       <find>alert</find>
       <find>纳尔多</find>
       <find>\n</find>
+      <find>商品</find>
+      <find>commodity</find>
+      <find>course</find>
+      <find>上传图片</find>
     </findStrings>
     <replaceStrings>
-      <replace>src=&quot;../</replace>
       <replace>书海</replace>
-      <replace>课程</replace>
       <replace>xuehai</replace>
       <replace>Redirect</replace>
       <replace>gooddetail.html</replace>
@@ -271,6 +248,8 @@
       <replace>curpage1</replace>
       <replace>学海教育</replace>
       <replace />
+      <replace>课程</replace>
+      <replace>course</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation</dir>
@@ -289,12 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/app/doubletea.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/connect.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/reg3.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/test.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/JavaScript.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
@@ -316,17 +289,12 @@
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_classifyMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_classifyMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" />
@@ -335,11 +303,22 @@
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/commodity_type.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/commodityType-add.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
       </list>
     </option>
   </component>
@@ -383,8 +362,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="441" />
-    <option name="y" value="37" />
+    <option name="x" value="7" />
+    <option name="y" value="259" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -535,7 +514,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -587,6 +565,15 @@
               <item name="JAVA" type="462c0819:PsiDirectoryNode" />
               <item name="xh" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="xh" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
@@ -650,6 +637,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -929,7 +917,8 @@
       <workItem from="1534983836462" duration="20530000" />
       <workItem from="1535071291752" duration="40729000" />
       <workItem from="1535132225102" duration="140000" />
-      <workItem from="1535159133211" duration="43918000" />
+      <workItem from="1535159133211" duration="43973000" />
+      <workItem from="1535247795769" duration="15906000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -1092,7 +1081,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535221168009</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="tenth">
+      <created>1535221337651</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1535221337651</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1119,7 +1115,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306388000" />
+    <option name="totallyTimeSpent" value="322349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1134,7 +1130,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47225368" sideWeight="0.5193133" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47225368" sideWeight="0.5214592" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1151,10 +1147,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47225368" sideWeight="0.4806867" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48584372" sideWeight="0.47854078" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19903433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1188,94 +1184,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#618#619#0" expanded="false" />
-            <element signature="e#688#689#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_classifyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="829" column="0" lean-forward="false" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="486" column="0" lean-forward="false" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1312,13 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_classifyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
@@ -1346,10 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="112" column="141" lean-forward="false" selection-start-line="112" selection-start-column="141" selection-end-line="112" selection-end-column="141" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,28 +1281,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="396" column="51" lean-forward="false" selection-start-line="396" selection-start-column="51" selection-end-line="396" selection-end-column="51" />
-          <folding>
-            <marker date="1535185119558" expanded="true" signature="19869:19875" ph=" " />
-            <marker date="1535185119558" expanded="true" signature="19885:19920" ph="..." />
-            <marker date="1535185119558" expanded="true" signature="20712:20716" ph="&amp;lt;" />
-            <marker date="1535185119558" expanded="true" signature="21409:21413" ph="&amp;gt;" />
-            <marker date="1535185119558" expanded="true" signature="27956:27960" ph="&amp;lt;" />
-            <marker date="1535185119558" expanded="true" signature="28632:28636" ph="&amp;gt;" />
-            <marker date="1535185119558" expanded="true" signature="31829:31833" ph="&amp;lt;" />
-            <marker date="1535185119558" expanded="true" signature="32426:32430" ph="&amp;gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/lib/layui/layui.all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="1" column="6448" lean-forward="false" selection-start-line="1" selection-start-column="6448" selection-end-line="1" selection-end-column="6448" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,39 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3211">
           <caret line="438" column="103" lean-forward="false" selection-start-line="438" selection-start-column="103" selection-end-line="438" selection-end-column="103" />
-          <folding>
-            <marker date="1535175666646" expanded="true" signature="28432:28438" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28438:28444" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28444:28450" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28450:28456" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28456:28462" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28462:28468" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28659:28665" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28665:28671" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28671:28677" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28677:28683" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28683:28689" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28689:28695" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28795:28801" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28801:28807" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28807:28813" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28813:28819" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28819:28825" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28825:28831" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28931:28937" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28937:28943" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28943:28949" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28949:28955" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28955:28961" ph="&amp;nbsp;" />
-            <marker date="1535175666646" expanded="true" signature="28961:28967" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1461,26 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/commodity_type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <marker date="1532869426000" expanded="true" signature="1613:1621" ph="&amp;##xe605;" />
-            <marker date="1532869426000" expanded="true" signature="2129:2137" ph="&amp;##xe63c;" />
-            <marker date="1532869426000" expanded="true" signature="2407:2415" ph="&amp;##xe640;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1488,14 +1319,6 @@
           <folding>
             <element signature="e#25084#27074#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,14 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/js/xadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="167" column="9" lean-forward="false" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1548,14 +1363,6 @@
             <element signature="e#844#845#0" expanded="false" />
             <element signature="e#888#889#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,28 +1409,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3509">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4756">
+          <caret line="174" column="32" lean-forward="false" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1635,18 +1441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="696">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
           <folding>
             <marker date="1535220224926" expanded="true" signature="1624:1680" ph="delete from t_user... " />
             <marker date="1535220224926" expanded="true" signature="1954:2520" ph="insert into t_user... " />
@@ -1659,53 +1457,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="174" column="32" lean-forward="false" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
+        <state relative-caret-position="232">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1053#1054#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1180#1181#0" expanded="false" />
+            <element signature="e#1239#1240#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="148" column="10" lean-forward="false" selection-start-line="142" selection-start-column="5" selection-end-line="148" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="416">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="116" column="10" lean-forward="false" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="36" />
-          <folding>
-            <element signature="e#4650#5474#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="127" column="28" lean-forward="true" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/tables.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="123" column="60" lean-forward="false" selection-start-line="123" selection-start-column="60" selection-end-line="123" selection-end-column="60" />
+        <state relative-caret-position="217">
+          <caret line="237" column="16" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/cate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="247" column="56" lean-forward="false" selection-start-line="247" selection-start-column="56" selection-end-line="247" selection-end-column="56" />
+        <state relative-caret-position="178">
+          <caret line="235" column="6" lean-forward="true" selection-start-line="235" selection-start-column="6" selection-end-line="258" selection-end-column="7" />
           <folding>
             <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1535220993560" expanded="true" signature="6541:6549" ph="&amp;##xe605;" />
-            <marker date="1535220993560" expanded="true" signature="6948:6954" ph=" " />
-            <marker date="1535220993560" expanded="true" signature="7420:7428" ph="&amp;##xe601;" />
-            <marker date="1535220993560" expanded="true" signature="7673:7681" ph="&amp;##xe642;" />
-            <marker date="1535220993560" expanded="true" signature="7934:7942" ph="&amp;##xe631;" />
-            <marker date="1535220993560" expanded="true" signature="8150:8158" ph="&amp;##xe640;" />
+            <element signature="e#9566#10370#0" expanded="false" />
+            <marker date="1535249283284" expanded="true" signature="6541:6549" ph="&amp;##xe605;" />
+            <marker date="1535249283284" expanded="true" signature="6948:6954" ph=" " />
+            <marker date="1535249283284" expanded="true" signature="7420:7428" ph="&amp;##xe601;" />
+            <marker date="1535249283284" expanded="true" signature="7673:7681" ph="&amp;##xe642;" />
+            <marker date="1535249283284" expanded="true" signature="7934:7942" ph="&amp;##xe631;" />
+            <marker date="1535249283284" expanded="true" signature="8150:8158" ph="&amp;##xe640;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2146">
+          <caret line="88" column="23" lean-forward="false" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="23" />
+          <folding>
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_classifyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="176" column="60" lean-forward="false" selection-start-line="176" selection-start-column="60" selection-end-line="176" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="323" column="20" lean-forward="true" selection-start-line="323" selection-start-column="20" selection-end-line="359" selection-end-column="21" />
+          <folding>
+            <element signature="e#21853#23829#0" expanded="false" />
+            <marker date="1535249884302" expanded="true" signature="19869:19875" ph=" " />
+            <marker date="1535249884302" expanded="true" signature="19885:19920" ph="..." />
+            <marker date="1535249884302" expanded="true" signature="20712:20716" ph="&amp;lt;" />
+            <marker date="1535249884302" expanded="true" signature="21409:21413" ph="&amp;gt;" />
+            <marker date="1535249884302" expanded="true" signature="27956:27960" ph="&amp;lt;" />
+            <marker date="1535249884302" expanded="true" signature="28632:28636" ph="&amp;gt;" />
+            <marker date="1535249884302" expanded="true" signature="31829:31833" ph="&amp;lt;" />
+            <marker date="1535249884302" expanded="true" signature="32426:32430" ph="&amp;gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="187" column="5" lean-forward="true" selection-start-line="150" selection-start-column="4" selection-end-line="187" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="78" column="36" lean-forward="true" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/js/xadmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_classify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <marker date="1535262354969" expanded="true" signature="1583:1591" ph="&amp;##xe605;" />
+            <marker date="1535262354969" expanded="true" signature="2167:2175" ph="&amp;##xe63c;" />
+            <marker date="1535262354969" expanded="true" signature="2442:2450" ph="&amp;##xe640;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1305">
+          <caret line="101" column="56" lean-forward="false" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="63" column="49" lean-forward="false" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8230#9014#0" expanded="false" />
+            <marker date="1535263967102" expanded="true" signature="2255:2263" ph="&amp;##xe605;" />
+            <marker date="1535263967102" expanded="true" signature="2992:3064" ph="..." />
+            <marker date="1535263967102" expanded="true" signature="3344:3352" ph="&amp;##xe71d;" />
+            <marker date="1535263967102" expanded="true" signature="3402:3408" ph=" " />
+            <marker date="1535263967102" expanded="true" signature="3556:3564" ph="&amp;##xe640;" />
           </folding>
         </state>
       </provider>

@@ -19,44 +19,56 @@
     <![endif]-->
       <script>
           $(function () {
-              $.ajax({
-                  type:"post",
-                  url:"/commodityServlet?type=listAll",
-                  dataType:"json",
-                  success:function (data) {
-                      var json = eval(data);
-                      var result = json.result;
-                      var rs = "";
-                      //alert(result)
-                      $.each(result,function (index,commodity) {
-                          rs += '<tbody><tr><td>' +
-                              '              <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id=\'2\'><i class="layui-icon">&#xe605;</i></div>\n' +
-                              '            </td>' +
-                              '              <td>'+commodity.name+'</td>\n' +
-                              '              <td>'+commodity.type_name+'</td>\n' +
-                              '              <td>'+commodity.style_no+'</td>\n' +
-                              '              <td>'+commodity.price+'</td>\n' +
-                              '              <td>'+commodity.quantity+'</td>\n' +
-                              '              <td>'+commodity.texture+'</td>\n' +
-                              '              <td>'+commodity.color+'</td>\n' +
-                              '              <td>'+commodity.clarity+'</td>\n' +
-                              '              <td>'+commodity.cut+'</td>\n' +
-                              '              <td>'+commodity.polishing+'</td>\n' +
-                              '              <td>'+commodity.symmetry+'</td>\n' +
-                              '              <td>'+commodity.weight+'</td>\n' +
-                              '              <td>'+commodity.size+'</td>\n' +
-                              '              <td>'+commodity.introduction+'</td>\n' +
-                              '            <td class="td-manage">\n' +
-                                  '<a href="javascript:;" title="上传图片" class="iconfont" onclick="x_admin_show(\'上传照片\',\'./upload-image.html?id='+commodity.commodityinfo_id+'\')">&#xe71d;</a>'+
-                              '              <a title="删除" onclick="member_del(this,'+commodity.commodityinfo_id+')" href="javascript:;">\n' +
-                              '                <i class="layui-icon">&#xe640;</i>\n' +
-                              '              </a></td></tr></tbody>';
-                      });
-                      //alert(rs)
-                      $("#commodityTable").append(rs);
-                  }
-              })
+              listcoursewithpages(1);
           })
+        function listcoursewithpages(currpage) {
+            $.ajax({
+                type:"post",
+                url:"/courselist1",
+                dataType:"json",
+                data:{"currPage":currpage},
+                success:function (data) {
+                    var json = eval(data);
+                    var pages=json.pages;
+                    var result = json.courses;
+
+                    var rs = "";
+                    //alert(result)
+                    $.each(result,function (index,course) {
+                        if (course.level==1){
+                            var level="免费";
+                            var level2="马上体验";
+                        }else if (course.level==2){
+                            var level="￥30";
+                            var level2="马上购买";
+                        }else{
+                            var level="￥60";
+                            var level2="马上购买";
+                        }
+                        rs += '<tbody><tr><td>' +
+                            '              <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id=\'2\'><i class="layui-icon">&#xe605;</i></div>\n' +
+                            '            </td>' +
+                            '              <td>'+course.id+'</td>\n' +
+                            '              <td>'+course.name+'</td>\n' +
+                            '              <td>'+course.classifyName+'</td>\n' +
+                            '              <td>'+course.subClassifyName+'</td>\n' +
+                            '              <td>'+course.username+'</td>\n' +
+                            '              <td>'+level+'</td>\n' +
+                            '              <td>'+course.duration+'</td>\n' +
+                            '              <td>'+course.studyCount+'</td>\n' +
+                            '              <td style="width: 200px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="'+course.brief+'">'+course.brief+'</td>\n' +
+                            '            <td class="td-manage">\n' +
+                            '<a href="javascript:;" title="上传、更换图片" class="iconfont" onclick="x_admin_show(\'上传照片\',\'upload-image.html?id='+course.id+'\')">&#xe6a8;</a>'+
+                            '              &emsp;<a title="删除" onclick="member_del(this,'+course.id+')" href="javascript:;">\n' +
+                            '                <i class="layui-icon">&#xe640;</i>\n' +
+                            '              </a></td></tr></tbody>';
+                    });
+                    //alert(rs)
+                    $("#courseTable").append(rs);
+                    $("#cou").empty().append(json.count);
+                }
+            })
+        }
       </script>
   </head>
   
@@ -73,37 +85,34 @@
     <div class="x-body">
       <div class="layui-row">
         <form class="layui-form layui-col-md12 x-so">
-        	<input type="text" name="commodity_id"  placeholder="请输入商品ID" autocomplete="off" class="layui-input">
-          <input type="text" name="commodity_type"  placeholder="请输入商品类型" autocomplete="off" class="layui-input">
-          <input type="text" name="commodity_name"  placeholder="请输入商品名称" autocomplete="off" class="layui-input">
+        	<input type="text" name="course_id"  placeholder="请输入课程ID" autocomplete="off" class="layui-input">
+          <input type="text" name="course_type"  placeholder="请输入课程类型" autocomplete="off" class="layui-input">
+          <input type="text" name="course_name"  placeholder="请输入课程名称" autocomplete="off" class="layui-input">
           <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
         </form>
       </div>
       <xblock>
         <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-        <button class="layui-btn" onclick="x_admin_show('添加商品','./commodity-add.html')"><i class="layui-icon"></i>添加</button>
-        <span class="x-right" style="line-height:40px">共有数据：88 条</span>
+        <button class="layui-btn" onclick="x_admin_show('添加课程','course-add.html')"><i class="layui-icon"></i>添加</button>
+        <span class="x-right" style="line-height:40px">共有数据：<a id="cou">88</a> 条</span>
       </xblock>
-      <table class="layui-table" id="commodityTable">
+      <table class="layui-table" id="courseTable" style="table-layout: fixed">
         <thead>
           <tr>
             <th>
               <div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
             </th>
-              <th>商品名称</th>
-              <th>商品类型</th>
-              <th>款式号</th>
-              <th>单价(元)</th>
-              <th>库存量</th>
-              <th>材质</th>
-              <th>颜色</th>
-              <th>净度</th>
-              <th>切工</th>
-              <th>抛光</th>
-              <th>对称</th>
-              <th>重量</th>
-              <th>尺寸</th>
-              <th>简介</th>
+              <th >ID</th>
+              <th >课程名称</th>
+              <th >课程类型</th>
+              <th >科目</th>
+              <th>讲师</th>
+              <th >单价(元)</th>
+              <th >时长</th>
+              <th >听课人数</th>
+              <th >简介</th>
+
+
               <th >操作</th>
             </tr>
         </thead>
@@ -160,24 +169,52 @@
       }
 
       /*用户-删除*/
+      // function member_del(obj,id){
+      //     layer.confirm('确认要删除吗？',function(index){
+      //         //发异步删除数据
+      //         layer.closeAll('dialog');
+      //         $.ajax({
+      //             type: "get",
+      //             dataType: "json",
+      //             url: "/deleteuser",
+      //             data:{"id": id},
+      //             success: function (data) {
+      //                 var data=eval(data);
+      //                 if (data.result == 'ok') {
+      //                     $(obj).parents("tr").remove();
+      //                     layer.msg('已删除!',{icon:1,time:1000});
+      //                     location.replace(location.href);
+      //                 }
+      //                 else {
+      //                     layer.msg('删除失败!',{icon:5,time:1000});
+      //                 }
+      //             }
+      //         });
+      //
+      //     });
+      // }
       function member_del(obj,id){
           layer.confirm('确认要删除吗？',function(index){
               //发异步删除数据
+              layer.closeAll('dialog');
               var dataForm = {"id":id};
               $.ajax({
                   type:"post",
-                  url:"/commodityServlet?type=del",
+                  url:"/delcourse",
                   data:dataForm,
                   dataType:"json",
                   success:function (data) {
                       var json = eval(data);
                       var result = json.result;
-                      if (result == true){
+                      if (result == "ok"){
                           $(obj).parents("tr").remove();
                           layer.msg('已删除!',{icon:1,time:1000});
+                          window.location.reload();
+                      }else{
+                          layer.msg('删除失败!',{icon:5,time:1000});
                       }
                   }
-              })
+              });
           });
       }
       function delAll (argument) {
@@ -197,6 +234,6 @@
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();</script>
-  </body>
+    </body>
 
 </html>

@@ -32,7 +32,12 @@ public class T_classifyServiceImpl implements IT_classifyService {
     }
 
     @Override
-    public boolean updateorder(T_course_classify classify) {
+    public List<T_course_classify> queryall() {
+        return classifydao.selectAll();
+    }
+
+    @Override
+    public boolean updateclassify(T_course_classify classify) {
         return classifydao.updateByPrimaryKey(classify)>0?true:false;
     }
 }

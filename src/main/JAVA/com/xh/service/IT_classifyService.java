@@ -12,6 +12,7 @@ public interface IT_classifyService {
     T_course_classify queryclassify(Integer id);
     //查一个用户所有
     List<T_course_classify> querybyparentcode(Integer code);
+    List<T_course_classify> queryall();
     //改
-    boolean updateorder(T_course_classify classify);
+    boolean updateclassify(T_course_classify classify);
 }

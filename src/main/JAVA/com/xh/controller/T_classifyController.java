@@ -36,4 +36,50 @@ public class T_classifyController {
         //json.put("courses",courses);
         return json.toString();
     }
+
+    @RequestMapping("/getallclassify")
+    @ResponseBody
+    public List<T_course_classify> getcourses(Model model){
+
+        return classifyService.queryall();
+    }
+
+    @RequestMapping("/delclassify")
+    @ResponseBody
+    public String delcourse(Integer id){
+        JSONObject json=new JSONObject();
+        if (classifyService.delclassify(id)){
+            json.put("result","ok");
+        }else{
+            json.put("result","error");
+        }
+        return json.toString();
+    }
+
+    @RequestMapping("/addclassify")
+    @ResponseBody
+    public String addcourse(T_course_classify classify){
+        JSONObject json=new JSONObject();
+//        course.setStudyCount(0);
+//        course.setClassifyName(classifyService.queryclassify(Integer.parseInt(course.getClassify())).getName());
+//        course.setSubClassifyName(classifyService.queryclassify(Integer.parseInt(course.getSubClassify())).getName());
+        if (classifyService.addclassify(classify)){
+            json.put("result","ok");
+        }else{
+            json.put("result","error");
+        }
+        return json.toString();
+    }
+
+    @RequestMapping("/updateclassify")
+    @ResponseBody
+    public String updatecourse(T_course_classify classify){
+        JSONObject json=new JSONObject();
+        if (classifyService.updateclassify(classify)){
+            json.put("result","ok");
+        }else{
+            json.put("result","error");
+        }
+        return json.toString();
+    }
 }

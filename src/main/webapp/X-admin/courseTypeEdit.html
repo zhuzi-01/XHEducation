@@ -33,7 +33,7 @@
             var dataForm = {"typeId":id}
             $.ajax({
                 type:"post",
-                url:"/commodityTypeServlet?type=query",
+                url:"/courseTypeServlet?type=query",
                 data:dataForm,
                 dataType:"json",
                 success:function (data) {
@@ -52,7 +52,7 @@
         <form class="layui-form" id="updateCommodityType">
           <div class="layui-form-item">
               <label for="typeName" class="layui-form-label">
-                  <span class="x-red">*</span>商品类型名
+                  <span class="x-red">*</span>课程类型名
               </label>
               <div class="layui-input-inline">
                   <input id="typeId" name="typeId" hidden>
@@ -82,7 +82,7 @@
             var dataForm = $("#updateCommodityType").serialize();
             $.ajax({
                 type:"post",
-                url:'/commodityTypeServlet?type=update',
+                url:'/courseTypeServlet?type=update',
                 data:dataForm,
                 dataType:"json",
                 success:function (data) {

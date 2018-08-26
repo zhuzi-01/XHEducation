@@ -24,7 +24,7 @@
         <form class="layui-form" id="typeAdd">
           <div class="layui-form-item">
               <label for="typeName" class="layui-form-label">
-                  <span class="x-red">*</span>商品类型名
+                  <span class="x-red">*</span>课程类型名
               </label>
               <div class="layui-input-inline">
                   <input type="text" id="typeName" name="typeName" required="" lay-verify="required"
@@ -51,7 +51,7 @@
             var dataForm = $("#typeAdd").serialize();
             $.ajax({
                 type:"post",
-                url:"/commodityTypeServlet?type=add",
+                url:"/courseTypeServlet?type=add",
                 data:dataForm,
                 dataType:"json",
                 success:function (data) {
