@@ -20,6 +20,19 @@
       <script>
           $(function () {
               listcoursewithpages(1);
+              var url = location.search.split("=")
+              if (url[1]=="success"){
+                  var index = parent.layer.getFrameIndex(window.name);
+                  //关闭当前frame
+                  parent.layer.close(index);
+                  location.replace(location.href);
+                  //self.parent.layer.msg('上传成功',{icon:1,time:2000});
+              }else {
+                  var index = parent.layer.getFrameIndex(window.name);
+                  //关闭当前frame
+                  parent.layer.close(index);
+                  layer.msg('上传失败', {icon: 1});
+              }
           })
         function listcoursewithpages(currpage) {
             $.ajax({
@@ -49,7 +62,7 @@
                             '              <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id=\'2\'><i class="layui-icon">&#xe605;</i></div>\n' +
                             '            </td>' +
                             '              <td>'+course.id+'</td>\n' +
-                            '              <td>'+course.name+'</td>\n' +
+                            '              <td style="width: 200px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="'+course.name+'">'+course.name+'</td>\n' +
                             '              <td>'+course.classifyName+'</td>\n' +
                             '              <td>'+course.subClassifyName+'</td>\n' +
                             '              <td>'+course.username+'</td>\n' +
@@ -58,7 +71,7 @@
                             '              <td>'+course.studyCount+'</td>\n' +
                             '              <td style="width: 200px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="'+course.brief+'">'+course.brief+'</td>\n' +
                             '            <td class="td-manage">\n' +
-                            '<a href="javascript:;" title="上传、更换图片" class="iconfont" onclick="x_admin_show(\'上传照片\',\'upload-image.html?id='+course.id+'\')">&#xe6a8;</a>'+
+                            '<a href="javascript:;" title="上传、更换图片" class="iconfont" onclick="x_admin_show(\'上传照片\',\'upload-image.html?id='+course.id+'\',600,400)">&#xe6a8;</a>'+
                             '              &emsp;<a title="删除" onclick="member_del(this,'+course.id+')" href="javascript:;">\n' +
                             '                <i class="layui-icon">&#xe640;</i>\n' +
                             '              </a></td></tr></tbody>';

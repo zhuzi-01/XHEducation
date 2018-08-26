@@ -1,6 +1,7 @@
 package com.xh.service;
 
 import com.xh.entity.T_course;
+import com.xh.entity.T_course_image;
 
 import java.util.List;
 
@@ -24,4 +25,9 @@ public interface IT_courseService {
 
     List<T_course> researchcourse(String text);
     List<T_course> researchcourseByPages(int start,int pagesize,String text);
+
+    boolean addimage(T_course_image image);
+    boolean updateimage(T_course_image image);
+    T_course_image queryoneimage(Integer id);
+
 }

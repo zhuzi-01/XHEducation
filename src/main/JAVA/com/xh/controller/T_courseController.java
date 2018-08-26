@@ -4,6 +4,7 @@ package com.xh.controller;
 import com.sun.deploy.net.HttpResponse;
 import com.sun.javafx.scene.control.skin.VirtualFlow.ArrayLinkedList;
 import com.xh.entity.T_course;
+import com.xh.entity.T_course_image;
 import com.xh.entity.T_user;
 import com.xh.service.IT_classifyService;
 import com.xh.service.IT_courseService;
@@ -13,18 +14,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.*;
 
 @Controller
 @SessionAttributes("course_id")
@@ -64,9 +66,21 @@ public class T_courseController {
             pages=count/PAGE_SIZE+1;
         }
         JSONObject json=new JSONObject();
-        json.put("courses",courseService.getCoursesByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE));
+        List<T_course> courses=courseService.getCoursesByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE);
+        List<String> images=new ArrayList<>();
+        for (T_course course:courses ) {
+            if (courseService.queryoneimage(course.getId())!=null){
+                images.add(courseService.queryoneimage(course.getId()).getFilename());
+            }else{
+                images.add(course.getId()+".jpg");
+            }
+
+        }
+        json.put("images",images);
+        json.put("courses",courses);
         json.put("pages",pages);
         json.put("count",count);
+
        return json.toString();
     }
 
@@ -108,6 +122,14 @@ public class T_courseController {
         }
         JSONObject json=new JSONObject();
         System.out.println(course);
+        List<String> images=new ArrayList<>();
+        for (T_course cour:courseService.getCoursesbyclassifywithPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,course) ) {
+            if (courseService.queryoneimage(cour.getId())!=null){
+                images.add(courseService.queryoneimage(cour.getId()).getFilename());
+            }else{
+                images.add(cour.getId()+".jpg");
+            }}
+        json.put("images",images);
         json.put("courses",courseService.getCoursesbyclassifywithPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,course));
         json.put("pages",pages);
         json.put("count",count);
@@ -141,6 +163,15 @@ public class T_courseController {
         }
         JSONObject json=new JSONObject();
         //System.out.println(course);
+        List<String> images=new ArrayList<>();
+        for (T_course cour:courseService.researchcourseByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,text) ) {
+            if (courseService.queryoneimage(cour.getId())!=null){
+                images.add(courseService.queryoneimage(cour.getId()).getFilename());
+            }else{
+                images.add(cour.getId()+".jpg");
+            }
+        }
+        json.put("images",images);
         json.put("courses",courseService.researchcourseByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,text));
         json.put("pages",pages);
         json.put("count",count);
@@ -185,6 +216,35 @@ public class T_courseController {
             json.put("result","error");
         }
         return json.toString();
+    }
+
+    @RequestMapping("/upload")
+    public String upload(HttpServletRequest request, @RequestParam("file") MultipartFile file,@RequestParam("course_id")Integer id) throws IOException {
+        String fileName = file.getOriginalFilename();
+        String uuid=UUID.randomUUID().toString();
+        File dest = new File(request.getSession().getServletContext().getRealPath("/pics/course/")+uuid+fileName);
+        System.out.println(id);
+        try {
+                // 保存文件
+             file.transferTo(dest);
+            T_course_image image=new T_course_image();
+            image.setId(id);
+            image.setFilename(uuid+fileName);
+            //System.out.println(image);
+            if (courseService.queryoneimage(id)!=null){
+                courseService.updateimage(image);
+            }else{
+                if(courseService.addimage(image)){
+                    return "redirect:/X-admin/course.html?upload=success";
+                }
+            }
+
+
+        }catch (IOException e){
+
+            return "redirect:/X-admin/course.html?upload=error";
+        }
+        return "redirect:/X-admin/course.html?upload=error";
     }
 
 }

@@ -278,6 +278,7 @@
                                     jqAlert.Confirm('没有相关课程');
                                     setInterval("window.location.href='goodslist.html'",1500);
                                 }
+                                var i=0;
                                 data.courses.forEach(function (course) {
                                     if (course.level==1){
                                         var level="免费";
@@ -290,7 +291,7 @@
                                         var level2="马上购买";
                                     }
                                     html=html+
-                                        '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/course/'+course.id+'.jpg" alt=""/> </a>'+
+                                        '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/course/'+data.images[i++]+'" alt=""/> </a>'+
                                         '<div class="w-255 p-l-10 p-r-15 p-b-10 fl">'+
                                         '<div class="home_calsstxt w-155 fl">'+
                                         '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
@@ -326,6 +327,7 @@
                             type: "get",
                             dataType: "json",
                             url: "/getclassify",
+                            async:false,
 
                             success: function (data) {
                                 var data=eval(data);
@@ -383,6 +385,7 @@
                             dataType: "json",
                             data:{"currPage":curpage1,"num1":num1,"num2":num2},
                             url: "/getcoursesbyclassify",
+                            //async:false,
 
                             success: function (data) {
                                 var data=eval(data);
@@ -398,6 +401,7 @@
                                     jqAlert.Confirm('没有相关课程');
                                     //setInterval("window.location.href='goodslist.html'",1500);
                                 }
+                                var i=0;
                                 data.courses.forEach(function (course) {
                                     if (course.level==1){
                                         var level="免费体验";
@@ -410,7 +414,7 @@
                                         var level2="马上购买";
                                     }
                                     html=html+
-                                        '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/course/'+course.id+'.jpg" alt=""/> </a>'+
+                                        '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/course/'+data.images[i++]+'" alt=""/> </a>'+
                                         '<div class="w-255 p-l-10 p-r-15 p-b-10 fl">'+
                                         '<div class="home_calsstxt w-155 fl">'+
                                         '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
@@ -457,7 +461,7 @@
                                     listgoods(curpage-1);
                                 }
                                 var html='<ul class="home_calss w-1224 ovhidden">';
-
+                                var i=0;
                                 data.courses.forEach(function (course) {
                                     if (course.level==1){
                                         var level="免费体验";
@@ -470,7 +474,7 @@
                                         var level2="马上购买";
                                     }
                                     html=html+
-                                    '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/course/'+course.id+'.jpg" alt=""/> </a>'+
+                                    '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-33 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r"> <img src="../pics/course/'+data.images[i++]+'" alt=""/> </a>'+
                                     '<div class="w-255 p-l-10 p-r-15 p-b-10 fl">'+
                                     '<div class="home_calsstxt w-155 fl">'+
                                     '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
@@ -517,7 +521,7 @@
                                     '</div>' +
                                     '<!--title end-->' +
                                     '<ul class="ql_likeclass w-1210 ovhidden">';
-
+                                var i=0;
                                 data.courses.forEach(function (course) {
                                     if (course.level==1){
                                         var level="免费体验";
@@ -531,7 +535,7 @@
                                     }
                                     html=html+
                                         '<li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-230 hg-165 ovhidden ps-r">'+
-                                        '<img src="../pics/course/'+course.id+'.jpg" alt=""/> </a> <a href="gooddetail.html?course_id='+course.id+'" class="w-210 p-l-10 p-r-10 fl">'+
+                                        '<img src="../pics/course/'+data.images[i++]+'" alt=""/> </a> <a href="gooddetail.html?course_id='+course.id+'" class="w-210 p-l-10 p-r-10 fl">'+
                                         '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
                                         '<span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">'+level+'</span> </a> </li>' ;
 
@@ -545,53 +549,6 @@
                             }
                         });
 
-                    }
-                    function editUser(id) {
-                        $.ajax({
-                            type: "get",
-                            dataType: "json",
-                            url: "${pageContext.request.contextPath}/edit",
-                            data: {"id": id},
-
-                            success: function (data) {
-                                $("#fill").show();
-                                $("#myform").show();
-                                $("#sid").val(data.sid);
-                                $("#sname").val(data.sname);
-                                $("#ssex").val(data.ssex);
-                                $("#sage").val(data.sage);
-                                $("#city").val(data.city);
-                            }
-                        });
-                    }
-
-                    function updateUser(form) {
-                        $.post("${pageContext.request.contextPath}/update", $(form).serialize(), function (data) {
-                            if (data == 'ok') {
-                                alert("客户更新成功！");
-                                list();
-                            }
-                            else {
-                                alert("修改失败");
-                            }
-                        });
-                    }
-
-                    function deleteUser(id) {
-                        if (confirm('确实要删除该客户吗?')) {
-                            var url = "${pageContext.request.contextPath}/delete";
-                            var args = {"sid": id};
-                            $.post(url, args, function (data) {
-                                if (data == 'ok') {
-                                    alert("客户删除更新成功！");
-                                    list();
-                                }
-                                else {
-                                    alert("删除失败");
-                                }
-
-                            });
-                        }
                     }
 
                 </script>
@@ -662,6 +619,10 @@
     $(function () {
         $('ul#classify li a').click(function () {
             $('ul#classify li a').removeClass('class_cur');
+            $(this).addClass('class_cur');
+        });
+        $('ul#sub_classify li a').click(function (){
+            $('ul#sub_classify li a').removeClass('class_cur');
             $(this).addClass('class_cur');
         });
     })

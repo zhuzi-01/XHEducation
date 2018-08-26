@@ -22,6 +22,11 @@ public class T_orderServiceImpl implements IT_orderService {
     }
 
     @Override
+    public List<T_user_course_section> queryall() {
+        return orderdao.selectAll();
+    }
+
+    @Override
     public T_user_course_section queryoneorder(Integer id) {
         return orderdao.selectByPrimaryKey(id);
     }

@@ -19,6 +19,12 @@ public class T_userController {
 
     @RequestMapping("/")
     public String index(){
+        return "redirect:/app/index.html";
+        //return "redirect:/app/index.html";
+
+    }
+    @RequestMapping("/z")
+    public String adim(){
         return "redirect:/X-admin/login.html";
         //return "redirect:/app/index.html";
 

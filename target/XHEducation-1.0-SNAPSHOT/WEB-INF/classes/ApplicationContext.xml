@@ -15,10 +15,10 @@
     </context:component-scan>
 
     <!--自定义消息转换器的编码,解决后台传输json回前台时，中文乱码问题-->
-    <mvc:annotation-driven >
+    <mvc:annotation-driven>
         <mvc:message-converters register-defaults="true">
-            <bean class="org.springframework.http.converter.StringHttpMessageConverter" >
-                <property name = "supportedMediaTypes">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
                     <list>
                         <value>application/json;charset=utf-8</value>
                         <value>text/html;charset=utf-8</value>
@@ -27,12 +27,17 @@
                     </list>
                 </property>
             </bean>
-            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" ></bean>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"></bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
 
 
     <mvc:default-servlet-handler/>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10485760000"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/app/"/>

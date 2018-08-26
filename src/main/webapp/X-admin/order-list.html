@@ -19,38 +19,95 @@
     <![endif]-->
     <script>
         $(function () {
+            listORDERs();
+
+        })
+        function ChangeDateFormat(jsondate) {
+            jsondate = jsondate;
+            var date = new Date(parseInt(jsondate, 10));
+            var month = date.getMonth() + 1 < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
+            var min=date.getMinutes()<10?"0" +date.getMinutes(): date.getDate();
+            var currentDate = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
+            return date.getFullYear() + "-" + month + "-" + currentDate+" "+date.getHours()+":"+min+":"+date.getSeconds();
+        }
+        function getNowFormatDate(date) {
+           // var date = new Date();
+            var seperator1 = "-";
+            var seperator2 = ":";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+                + " " + date.getHours() + seperator2 + date.getMinutes()
+                + seperator2 + date.getSeconds();
+            return currentdate;
+        }
+        function listORDERs() {
             $.ajax({
-                type:"post",
-                url:"/ShowAllOrderServlet",
-                dataType:"json",
-                success:function (data) {
-                    var json = eval(data);
-                    var orders = json.orders;
-                    var rs = "";
-                    $.each(orders,function (index,order) {
+                type: "get",
+                dataType: "json",
+                url: "/getAllorder",
+
+                success: function (data) {
+                    var data=eval(data);
+                    var i=0;
+                    var j=0;
+                    var rs='';
+                    $.each(data.orders,function (index,order) {
+                        if(order.status==1){
+                            var sta="已支付"
+                        }
+                       var  date=ChangeDateFormat(order.createTime.time);
                         rs +='<tbody>'+
                             '        <tr><td><div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id=\'2\'><i class="layui-icon">&#xe605;</i></div>\n' +
-                            '</td><td>'+order.order_no+'</td>\n' +
-                            '            <td>'+order.user_Id+'</td>\n' +
-                            '            <td>'+order.prices+'</td>\n' +
-                            '            <td>'+order.prices+'</td>\n' +
-                            '            <td>待确认</td>\n' +
-                            '            <td>未支付</td>\n' +
-                            '            <td>未发货</td>\n' +
-                            '            <td>其他方式</td>\n' +
-                            '            <td>申通物流</td>\n' +
-                            '            <td>'+order.order_no.substring(0,12)+'</td>\n' +
+                            '</td><td>'+order.id+'</td>\n' +
+                            '            <td>'+data.names[i++]+'</td>\n' +
+                            '            <td>'+data.usernames[j++]+'</td>\n' +
+                            '            <td>'+order.rate+'</td>\n' +
+                            '            <td>'+sta+'</td>\n' +
+                            '            <td>'+date+'</td>\n' +
                             '            <td class="td-manage">\n' +
-                            '              <a title="查看"  onclick="x_admin_show(\'编辑\',\'order-view.html\')" href="javascript:;">\n' +
-                            '                <i class="layui-icon">&#xe63c;</i>\n' +
-                            '              </a>\n' +
-                            '              <a title="删除" onclick="member_del(this,'+order.order_no+')" href="javascript:;">\n' +
+
+                            '              <a title="删除" onclick="ajax_del_cart('+order.id+')" href="javascript:;">\n' +
                             '                <i class="layui-icon">&#xe640;</i></a></td></tr></tbody>'
                     });
                     $("#orderTable").append(rs);
                 }
+
+            });
+
+        }
+        function ajax_del_cart(id) {
+            layer.confirm('您确定要删除吗', {
+                btn: ['确定', '取消']
+            }, function () {
+                layer.closeAll('dialog');
+                $.ajax({
+                    type: "POST",
+                    url: "/delorder",//+tab,
+                    data: {"id": id}, //
+                    dataType: 'json',
+                    success: function (data) {
+                        var data=eval(data);
+                        if (data.result=="success"){
+                            window.location.reload();
+                            //listORDER();
+                        }else{
+                            jqAlert.Confirm("删除失败");
+                        }
+
+                    }
+                });
             })
-        })
+
+        }
+
+
     </script>
   </head>
   
@@ -108,14 +165,10 @@
               <div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
             </th>
             <th>订单编号</th>
-            <th>收货人</th>
-            <th>总金额</th>
-            <th>应付金额</th>
-            <th>订单状态</th>
+            <th>课程名</th>
+            <th>购买人</th>
+            <th>金额</th>
             <th>支付状态</th>
-            <th>发货状态</th>
-            <th>支付方式</th>
-            <th>配送方式</th>
             <th>下单时间</th>
             <th >操作</th>
             </tr>

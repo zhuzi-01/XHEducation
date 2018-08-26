@@ -11,6 +11,7 @@ public interface IT_orderService {
     //删
     boolean delorder(Integer id);
     //查
+    List<T_user_course_section> queryall();
     T_user_course_section queryoneorder(Integer id);
     //查一个用户所有
     List<T_user_course_section> queryOrdersbyUserid(Integer userid);

@@ -1,7 +1,9 @@
 package com.xh.service.impl;
 
 import com.xh.dao.T_courseMapper;
+import com.xh.dao.T_course_imageMapper;
 import com.xh.entity.T_course;
+import com.xh.entity.T_course_image;
 import com.xh.service.IT_courseService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +14,8 @@ import java.util.List;
 public class T_courseServiceImpl implements IT_courseService {
     @Autowired
     T_courseMapper coursedao;
+    @Autowired
+    T_course_imageMapper imagedao;
 
     @Override
     public boolean addcourse(T_course course) {
@@ -68,6 +72,21 @@ public class T_courseServiceImpl implements IT_courseService {
     @Override
     public List<T_course> researchcourseByPages(int start, int pagesize, String text) {
         return coursedao.researchbypages(start,pagesize,text);
+    }
+
+    @Override
+    public boolean addimage(T_course_image image) {
+        return imagedao.insert(image)>0?true:false;
+    }
+
+    @Override
+    public boolean updateimage(T_course_image image) {
+        return imagedao.updateByPrimaryKey(image)>0?true:false;
+    }
+
+    @Override
+    public T_course_image queryoneimage(Integer id) {
+        return imagedao.selectByPrimaryKey(id);
     }
 
 }
