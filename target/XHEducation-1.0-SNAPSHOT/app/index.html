@@ -358,9 +358,10 @@
                         url: "/courselist",
 
                         success: function (data) {
+                            var data=eval(data);
                             var html='<ul class="home_calss w-1224 ovhidden">';
-
-                            data.forEach(function (course) {
+                            var i=0;
+                            data.courses.forEach(function (course) {
                                 if (course.level==1){
                                     var level="免费体验";
                                 }else if (course.level==2){
@@ -371,7 +372,7 @@
                                 html=html+
                                 '<li class="w-280 m-l-13 m-r-13 bg-c-ffffff m-t-8 m-b-23 fl">'+
                                 '<a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-280 hg-200 ovhidden ps-r">'+
-                                '<img src="../pics/course/'+course.id+'.jpg" alt=""/> </a>'+
+                                '<img src="../pics/course/'+data.images[i++]+'" alt=""/> </a>'+
                                 '<div class="w-255 p-l-10 p-r-15 fl">'+
                                 '<div class="home_calsstxt w-155 fl">'+
                                 '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
@@ -391,53 +392,7 @@
 
                 }
 
-                function editUser(id) {
-                    $.ajax({
-                        type: "get",
-                        dataType: "json",
-                        url: "${pageContext.request.contextPath}/edit",
-                        data: {"id": id},
 
-                        success: function (data) {
-                            $("#fill").show();
-                            $("#myform").show();
-                            $("#sid").val(data.sid);
-                            $("#sname").val(data.sname);
-                            $("#ssex").val(data.ssex);
-                            $("#sage").val(data.sage);
-                            $("#city").val(data.city);
-                        }
-                    });
-                }
-
-                function updateUser(form) {
-                    $.post("${pageContext.request.contextPath}/update", $(form).serialize(), function (data) {
-                        if (data == 'ok') {
-                            alert("客户更新成功！");
-                            list();
-                        }
-                        else {
-                            alert("修改失败");
-                        }
-                    });
-                }
-
-                function deleteUser(id) {
-                    if (confirm('确实要删除该客户吗?')) {
-                        var url = "${pageContext.request.contextPath}/delete";
-                        var args = {"sid": id};
-                        $.post(url, args, function (data) {
-                            if (data == 'ok') {
-                                alert("客户删除更新成功！");
-                                list();
-                            }
-                            else {
-                                alert("删除失败");
-                            }
-
-                        });
-                    }
-                }
 
             </script>
 

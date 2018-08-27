@@ -30,6 +30,7 @@
                              '        <th align="center" valign="middle">操作</th>\n' +
                              '      </tr>';
                          var i=0;
+                         var j=0;
                          var money=0;
                          data.orders.forEach(function (order) {
                              money+=order.rate;
@@ -42,7 +43,7 @@
                                  '</td>'+
                                  '<td style="border-left:0px;;border-right:0px" class="pa-to-20 pa-bo-20 bo-ri-0" width="80px" align="center" valign="top">'+
                                  '<a class="gwc-wp-list di-bl wi63 hi63" href="gooddetail.html?course_id='+order.courseId+'">'+
-                                 '<img class="wi63 hi63" src="../pics/course/'+order.courseId+'.jpg" style="width: 113px;border: 1px solid;">'+
+                                 '<img class="wi63 hi63" src="../pics/course/'+data.images[j++]+'" style="width: 113px;border: 1px solid;">'+
                                  '</a>'+
                                  '</td>'+
                                  '<td style="border-left:0px; border-right:0px" class="pa-to-20 wi516" align="left" valign="top">'+

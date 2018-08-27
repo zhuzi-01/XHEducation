@@ -1,5 +1,6 @@
 package com.xh.controller;
 
+import com.xh.entity.T_course;
 import com.xh.entity.T_user;
 import com.xh.entity.T_user_course_section;
 import com.xh.service.IT_courseService;
@@ -36,11 +37,18 @@ public class T_orderController {
         T_user user= (T_user) session.getAttribute("user");
         List<T_user_course_section> orders= orderService.queryOrdersbyUserid(user.getId());
         List<String> names= new ArrayList<>();
+        List<String> images=new ArrayList<>();
         for (T_user_course_section order:orders) {
           names.add(courseService.getOnecourse(order.getCourseId()).getName());
+            if (courseService.queryoneimage(order.getCourseId())!=null){
+                images.add(courseService.queryoneimage(order.getCourseId()).getFilename());
+            }else{
+                images.add(order.getCourseId()+".jpg");
+            }
         }
         JSONObject json=new JSONObject();
         json.put("orders",orders);
+        json.put("images",images);
         json.put("names",names);
         return json.toString();
     }

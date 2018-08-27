@@ -341,13 +341,13 @@
             url: "/getOnecourse",
 
             success: function (data) {
-
-                var html='<div class="w-450 hg-338 fl"> <img src="../pics/course/'+course_id+'.jpg" width="450" height="338" alt=""/> </div>' +
+             var data=eval(data);
+                var html='<div class="w-450 hg-338 fl"> <img src="../pics/course/'+data.image+'" width="450" height="338" alt=""/> </div>' +
                     '<!--left img end--> ' +
                     '<!--right info start-->' +
                     '<div class="w-680 hg-338 m-l-40 ovhidden ps-r fl" >';
 
-                data.forEach(function (course) {
+                data.course.forEach(function (course) {
                     if (course.level==1){
                         var level="免费体验";
                         var level2="￥30";
@@ -415,7 +415,7 @@
             success: function (data) {
                 var data=eval(data);
                 var pages=data.pages;
-
+                var i = 0;
                 var html='<div class="w-main ovhidden p-t-10 fl">' +
                     '<h3 class="fl fs-20 ft-w-b line-h40"><span class="dsblock ql_icon ql_like tx-ind m-r-15 fl">猜你喜欢</span>猜你喜欢</h3>' +
                     '</div>' +
@@ -434,7 +434,7 @@
                         var level2="马上购买";
                     }
                     html=html+
-                        '<li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/course/'+course.id+'.jpg" alt=""/> </a> <a href="gooddetail.html?course_id='+course.id+'" class="w-210 p-l-10 p-r-10 fl">'+
+                        '<li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="gooddetail.html?course_id='+course.id+'" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/course/'+data.images[i++]+'" alt=""/> </a> <a href="gooddetail.html?course_id='+course.id+'" class="w-210 p-l-10 p-r-10 fl">'+
                         '<h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">'+course.name+'</h3>'+
                         '<span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">'+level+'</span> </a> </li>' ;
 

@@ -2,6 +2,7 @@ package com.xh.controller;
 
 
 import com.sun.deploy.net.HttpResponse;
+import com.sun.glass.ui.TouchInputSupport.TouchCountListener;
 import com.sun.javafx.scene.control.skin.VirtualFlow.ArrayLinkedList;
 import com.xh.entity.T_course;
 import com.xh.entity.T_course_image;
@@ -40,9 +41,21 @@ public class T_courseController {
 
     @RequestMapping("/courselist")
     @ResponseBody
-    public List<T_course> getcourses(Model model){
+    public String getcourses(Model model){
+        JSONObject json=new JSONObject();
+        List<String> images=new ArrayList<>();
+        List<T_course> courses=courseService.getCoursesByPages(0,4);
+        for (T_course course:courses ) {
+            if (courseService.queryoneimage(course.getId())!=null){
+                images.add(courseService.queryoneimage(course.getId()).getFilename());
+            }else{
+                images.add(course.getId()+".jpg");
+            }
 
-        return courseService.getCoursesByPages(0,4);
+        }
+        json.put("images",images);
+        json.put("courses",courses);
+        return json.toString();
     }
 
     @RequestMapping("/courselist1")
@@ -65,8 +78,9 @@ public class T_courseController {
         } else {
             pages=count/PAGE_SIZE+1;
         }
-        JSONObject json=new JSONObject();
+
         List<T_course> courses=courseService.getCoursesByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE);
+        JSONObject json=new JSONObject();
         List<String> images=new ArrayList<>();
         for (T_course course:courses ) {
             if (courseService.queryoneimage(course.getId())!=null){
@@ -86,11 +100,21 @@ public class T_courseController {
 
     @RequestMapping("/getOnecourse")
     @ResponseBody
-    public List<T_course> getOnecourses(Integer course_id){
+    public String getOnecourses(Integer course_id){
         System.out.println(course_id);
+        JSONObject json=new JSONObject();
         List<T_course> list = new ArrayList<>();
+        String  image="";
+        if (courseService.queryoneimage(course_id)!=null){
+            image=(courseService.queryoneimage(course_id).getFilename());
+        }else{
+            image=(course_id+".jpg");
+        }
         list.add(courseService.getOnecourse(course_id));
-        return list;
+        json.put("course",list);
+        json.put("image",image);
+
+        return json.toString();
     }
 
     @RequestMapping("/getcoursesbyclassify")
@@ -200,6 +224,7 @@ public class T_courseController {
         course.setSubClassifyName(classifyService.queryclassify(Integer.parseInt(course.getSubClassify())).getName());
         if (courseService.addcourse(course)){
             json.put("result","ok");
+            System.out.println("----------------------------------"+courseService.getOnecourse(course.getId()));
         }else{
             json.put("result","error");
         }
@@ -247,4 +272,9 @@ public class T_courseController {
         return "redirect:/X-admin/course.html?upload=error";
     }
 
+    @RequestMapping("getimage")
+    @ResponseBody
+    public T_course_image getimage(Integer id){
+        return  courseService.queryoneimage(id);
+    }
 }
