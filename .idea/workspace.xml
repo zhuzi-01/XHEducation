@@ -7,37 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/js/html5.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/js/respond.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/admin-add.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/admin-cate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/admin-edit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/admin-list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/admin-role.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/admin-rule.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/cate.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/cate.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/header.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/header.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/login.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/reg.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jqAlert.min.js" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jqAlert.min.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+            <state relative-caret-position="319">
+              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="e#1008#1719#0" expanded="false" />
               </folding>
@@ -72,11 +48,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="149">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="33" selection-end-column="10" />
+              <folding>
+                <element signature="e#847#1426#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-role.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/admin-role.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/cate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-261">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -85,8 +83,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="176">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -95,8 +93,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="181" column="74" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="74" />
+            <state relative-caret-position="321">
+              <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -143,11 +141,10 @@
       <find>dz_maskLayer</find>
       <find>loginOut</find>
       <find>chee</find>
-      <find>&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;</find>
       <find>\&lt;script src\=\&quot;https\:\/\/cdn\.staticfile\.org\/html5shiv\/r29\/html5\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n      \&lt;script src\=\&quot;https\:\/\/cdn\.staticfile\.org\/respond\.js\/1\.4\.2\/respond\.min\.js\&quot;\&gt;\&lt;\/script\&gt;</find>
+      <find>&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;</find>
     </findStrings>
     <replaceStrings>
-      <replace>js</replace>
       <replace>../css</replace>
       <replace>goodslist</replace>
       <replace>../join/</replace>
@@ -175,8 +172,9 @@
       <replace>com.xh.entity.T_course_image</replace>
       <replace>data.images[i++]</replace>
       <replace>else if(cour.getId()&lt;132){                images.add(cour.getId()+&quot;.jpg&quot;);            }else{                images.add(&quot;9999&quot;+&quot;.jpg&quot;);            }</replace>
-      <replace>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/jquery-3.2.1.js&quot;&gt;&lt;/script&gt;    &lt;!--&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;--&gt;</replace>
       <replace>&lt;script src=&quot;js/html5.min.js&quot;&gt;&lt;/script&gt;      &lt;script src=&quot;js/respond.min.js&quot;&gt;&lt;/script&gt;</replace>
+      <replace>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/jquery-3.2.1.js&quot;&gt;&lt;/script&gt;    &lt;!--&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;--&gt;</replace>
+      <replace>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/jquery-3.2.1.js&quot;&gt;&lt;/script&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation</dir>
@@ -195,8 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_classifyMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_classifyMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
@@ -246,6 +242,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/admin-role.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" />
       </list>
     </option>
   </component>
@@ -496,39 +494,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="X-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="X-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -550,19 +515,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/X-admin" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xh.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\X-admin" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\pics\course" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\resources\Mybatis.Mapper" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\JAVA\com\xh\entity" />
       <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\JAVA\com\xh\dao" />
-      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\target\XHEducation-1.0-SNAPSHOT\pics\course" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.xh.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\css" />
+      <recent name="C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation\src\main\webapp\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -818,7 +783,7 @@
       <workItem from="1535159133211" duration="43973000" />
       <workItem from="1535247795769" duration="16095000" />
       <workItem from="1535274331160" duration="28517000" />
-      <workItem from="1535330168424" duration="18688000" />
+      <workItem from="1535330168424" duration="19713000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -1009,7 +974,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535338088456</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="twelfth">
+      <created>1535368420166</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1535368420166</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1036,7 +1008,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369743000" />
+    <option name="totallyTimeSpent" value="370768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,6 +1021,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.403171" sideWeight="0.52575105" order="7" side_tool="true" content_ui="tabs" />
@@ -1102,7 +1075,8 @@
     <MESSAGE value="nineth" />
     <MESSAGE value="tenth" />
     <MESSAGE value="eleventh" />
-    <option name="LAST_COMMIT_MESSAGE" value="eleventh" />
+    <MESSAGE value="twelfth" />
+    <option name="LAST_COMMIT_MESSAGE" value="twelfth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1111,13 +1085,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_imageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1357,27 +1324,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/cate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#8934#9718#0" expanded="false" />
-            <marker date="1535361566092" expanded="true" signature="2846:2854" ph="&amp;##xe605;" />
-            <marker date="1535361566092" expanded="true" signature="3045:3117" ph="..." />
-            <marker date="1535361566092" expanded="true" signature="3688:3760" ph="..." />
-            <marker date="1535361566092" expanded="true" signature="4048:4056" ph="&amp;##xe71d;" />
-            <marker date="1535361566092" expanded="true" signature="4106:4112" ph=" " />
-            <marker date="1535361566092" expanded="true" signature="4260:4268" ph="&amp;##xe640;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,20 +1437,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <marker date="1535361566046" expanded="true" signature="3095:3103" ph="&amp;##xe605;" />
-            <marker date="1535361566046" expanded="true" signature="3789:3797" ph="&amp;##xe640;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-          <folding>
-            <element signature="e#1008#1719#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,27 +1449,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/cate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="181" column="74" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="74" />
+        <state relative-caret-position="321">
+          <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="149">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#847#1426#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/admin-role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="e#1008#1719#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
