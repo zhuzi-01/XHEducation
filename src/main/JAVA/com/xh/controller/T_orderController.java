@@ -42,8 +42,10 @@ public class T_orderController {
           names.add(courseService.getOnecourse(order.getCourseId()).getName());
             if (courseService.queryoneimage(order.getCourseId())!=null){
                 images.add(courseService.queryoneimage(order.getCourseId()).getFilename());
-            }else{
+            }else if(order.getCourseId()<132){
                 images.add(order.getCourseId()+".jpg");
+            }else{
+                images.add("9999"+".jpg");
             }
         }
         JSONObject json=new JSONObject();

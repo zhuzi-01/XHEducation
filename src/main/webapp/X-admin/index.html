@@ -25,7 +25,9 @@
                     var user = data;
                     if (user != null) {
                         $("#adminName").text(user.username);
-                        $("#welcome").attr("src","./welcome.html");
+                        $("#welcome").attr("src","welcome.html");
+                    }else{
+                        setInterval('window.location.href="login.html"',1000);
                     }
                 }
             })

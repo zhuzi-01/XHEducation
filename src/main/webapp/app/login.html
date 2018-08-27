@@ -146,10 +146,16 @@ codeFn = new moveCode(code);
     {
         var username = $.trim($('#username').val());
         var password = $.trim($('#password').val());
+        var slide=$("#pp").css("width");
+        //alert(slide);
         var referurl = $('#referurl').val();
         var verify_code = $.trim($('#verify_code').val());
         if(username == ''){
             showErrorMsg('用户名不能为空!');
+            return false;
+        }
+        if(slide != '306px'){
+            showErrorMsg('请滑动滑块来验证!');
             return false;
         }
         if(password == ''){

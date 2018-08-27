@@ -1,7 +1,10 @@
 package com.xh.controller;
 
 import com.sun.tracing.dtrace.Attributes;
+import com.xh.entity.T_course_section;
 import com.xh.entity.T_user;
+import com.xh.entity.T_user_course_section;
+import com.xh.service.IT_orderService;
 import com.xh.service.IT_userService;
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +19,8 @@ import java.util.List;
 public class T_userController {
     @Autowired
     IT_userService userService;
+    @Autowired
+    IT_orderService orderService;
 
     @RequestMapping("/")
     public String index(){
@@ -35,6 +40,11 @@ public class T_userController {
         T_user user=new T_user();
         user.setUsername(username);
         user.setPassword(password);
+        user.setWeight(0);
+        user.setProvince("中国");
+        user.setEducation("保密");
+        user.setGender(3);
+        user.setCity("保密");
         System.out.println(user);
         JSONObject json=new JSONObject();
         if (userService.adduser(user)){
@@ -125,7 +135,9 @@ public class T_userController {
 
         JSONObject json=new JSONObject();
         if (userService.deluser(id)) {
-
+            for (T_user_course_section orders:orderService.queryOrdersbyUserid(id) ) {
+                orderService.delorder(orders.getId());
+            }
             json.put("result","success");
           }else{
             json.put("result","error");

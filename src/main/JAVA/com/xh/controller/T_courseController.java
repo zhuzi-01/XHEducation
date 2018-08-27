@@ -48,8 +48,10 @@ public class T_courseController {
         for (T_course course:courses ) {
             if (courseService.queryoneimage(course.getId())!=null){
                 images.add(courseService.queryoneimage(course.getId()).getFilename());
-            }else{
+            }else if(course.getId()<132){
                 images.add(course.getId()+".jpg");
+            }else{
+                images.add("9999"+".jpg");
             }
 
         }
@@ -65,8 +67,11 @@ public class T_courseController {
         if (currPage==999){
              PAGE_SIZE=5;
              currPage=new Random().nextInt((courseService.numofcourse()/PAGE_SIZE-1)+1)+1;
+        }else if(currPage==9999){
+            PAGE_SIZE=courseService.numofcourse();
+            currPage=1;
         }else{
-             PAGE_SIZE=8; //每页显示8条
+            PAGE_SIZE=8; //每页显示8条
         }
 
         //int currPage=1; //前端传回来的当前页码
@@ -85,8 +90,10 @@ public class T_courseController {
         for (T_course course:courses ) {
             if (courseService.queryoneimage(course.getId())!=null){
                 images.add(courseService.queryoneimage(course.getId()).getFilename());
-            }else{
+            }else if(course.getId()<132){
                 images.add(course.getId()+".jpg");
+            }else{
+                images.add("9999"+".jpg");
             }
 
         }
@@ -107,8 +114,10 @@ public class T_courseController {
         String  image="";
         if (courseService.queryoneimage(course_id)!=null){
             image=(courseService.queryoneimage(course_id).getFilename());
-        }else{
+        }else if(course_id<132){
             image=(course_id+".jpg");
+        }else{
+            image=("9999"+".jpg");
         }
         list.add(courseService.getOnecourse(course_id));
         json.put("course",list);
@@ -150,8 +159,10 @@ public class T_courseController {
         for (T_course cour:courseService.getCoursesbyclassifywithPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,course) ) {
             if (courseService.queryoneimage(cour.getId())!=null){
                 images.add(courseService.queryoneimage(cour.getId()).getFilename());
-            }else{
+            }else if(cour.getId()<132){
                 images.add(cour.getId()+".jpg");
+            }else{
+                images.add("9999"+".jpg");
             }}
         json.put("images",images);
         json.put("courses",courseService.getCoursesbyclassifywithPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,course));
@@ -191,8 +202,10 @@ public class T_courseController {
         for (T_course cour:courseService.researchcourseByPages((currPage-1)*PAGE_SIZE, PAGE_SIZE,text) ) {
             if (courseService.queryoneimage(cour.getId())!=null){
                 images.add(courseService.queryoneimage(cour.getId()).getFilename());
-            }else{
+            }else if(cour.getId()<132){
                 images.add(cour.getId()+".jpg");
+            }else{
+                images.add("9999"+".jpg");
             }
         }
         json.put("images",images);
@@ -224,8 +237,7 @@ public class T_courseController {
         course.setSubClassifyName(classifyService.queryclassify(Integer.parseInt(course.getSubClassify())).getName());
         if (courseService.addcourse(course)){
             json.put("result","ok");
-            System.out.println("----------------------------------"+courseService.getOnecourse(course.getId()));
-        }else{
+              }else{
             json.put("result","error");
         }
         return json.toString();

@@ -87,10 +87,13 @@
                             </div>
                             <div class="form-inline-input" style="width: 409px; padding-left: 85px;">
                                 <div class="code-box" id="code-box"style="width: 290px;">
-                                    <input type="text" name="code" class="code-input" />
-                                    <p id="pp"></p>
+                                    <input type="text" id="code" name="code" class="code-input" >
+                                    <p id="pp" onclick="slidemove()" ></p>
                                     <span style="background: deepskyblue">>>></span>
+
                                 </div>
+                                <span class="slide_hint" style="font-size: 30px;"></span>
+
                             </div>
 
                         <div class="line liney clearfix">
@@ -119,7 +122,27 @@
 
 <script type="text/javascript" src="../js/login.js"></script>
 <script>
-
+   //slide
+   var slide_Boolean=false;
+   function slidemove() {
+       if ($("#pp").css("width")=="290px"){
+           $('.slide_hint').html("✔").css("color","green");
+           slide_Boolean = true;
+       }else {
+           $('.slide_hint').html("×").css("color","red");
+           slide_Boolean = false;
+       }
+   }
+   $("#pp").blur(function(){
+       if ($("#pp").css("width")=="306px"){
+           $('.slide_hint').html("✔").css("color","green");
+           slide_Boolean = true;
+       }else {
+           $('.slide_hint').html("×").css("color","red");
+           slide_Boolean = false;
+       }
+   });
+   //username
     $("#username").blur(function(){
         if ((/^1[34578]\d{9}$/).test($("#username").val())){
             $('.mobile_hint').html("✔").css("color","green");
@@ -172,7 +195,7 @@
 <script type="text/javascript">
 
     function submit() {
-        if( password_Boolean && varconfirm_Boolean && Mobile_Boolean&&$("#chee").prop('checked') == true){
+        if( password_Boolean && varconfirm_Boolean &&slide_Boolean&& Mobile_Boolean&&$("#chee").prop('checked') == true){
             var username=$("#username").val();
             var password=$("#password").val();
             $.ajax({

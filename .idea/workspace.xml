@@ -7,15 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/js/html5.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/js/respond.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/cate.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/cate.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/header.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/header.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/reg.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/gooddetail.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/gooddetail.html" />
-      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/header.html" />
+      <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jqAlert.min.js" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/js/jqAlert.min.js" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/classes/com/xh/controller/T_courseController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,122 +50,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="T_orderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
+      <file leaf-file-name="T_userController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+            <state relative-caret-position="292">
+              <caret line="122" column="61" lean-forward="true" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T_courseController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="224" column="42" lean-forward="false" selection-start-line="224" selection-start-column="36" selection-end-line="224" selection-end-column="42" />
+            <state relative-caret-position="841">
+              <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9629#9630#0" expanded="true" />
-                <element signature="e#9684#9685#0" expanded="true" />
+                <element signature="e#1008#1719#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxCartList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-              <folding>
-                <element signature="e#239#278#0" expanded="false" />
-                <marker date="1535336630034" expanded="true" signature="915:921" ph="&amp;nbsp;" />
-                <marker date="1535336630034" expanded="true" signature="921:927" ph="&amp;nbsp;" />
-                <marker date="1535336630034" expanded="true" signature="2034:2048" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="2311:2344" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="2658:2689" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="2822:2855" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="2972:3006" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="3107:3128" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="3385:3400" ph="..." />
-                <marker date="1535336630034" expanded="true" signature="3523:3538" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4988">
-              <caret line="307" column="37" lean-forward="true" selection-start-line="307" selection-start-column="37" selection-end-line="307" selection-end-column="37" />
+            <state relative-caret-position="725">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="394" column="0" lean-forward="false" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goodslist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/goodslist.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2045">
-              <caret line="537" column="68" lean-forward="true" selection-start-line="537" selection-start-column="68" selection-end-line="537" selection-end-column="84" />
-              <folding>
-                <marker date="1535306412188" expanded="true" signature="19913:19919" ph=" " />
-                <marker date="1535306412188" expanded="true" signature="19929:19964" ph="..." />
-                <marker date="1535306412188" expanded="true" signature="20756:20760" ph="&amp;lt;" />
-                <marker date="1535306412188" expanded="true" signature="21453:21457" ph="&amp;gt;" />
-                <marker date="1535306412188" expanded="true" signature="28128:28132" ph="&amp;lt;" />
-                <marker date="1535306412188" expanded="true" signature="28804:28808" ph="&amp;gt;" />
-                <marker date="1535306412188" expanded="true" signature="32044:32048" ph="&amp;lt;" />
-                <marker date="1535306412188" expanded="true" signature="32641:32645" ph="&amp;gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gooddetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/gooddetail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="347" column="74" lean-forward="true" selection-start-line="347" selection-start-column="74" selection-end-line="347" selection-end-column="74" />
-              <folding>
-                <marker date="1535335421737" expanded="true" signature="28469:28475" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28475:28481" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28481:28487" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28487:28493" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28493:28499" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28499:28505" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28696:28702" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28702:28708" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28708:28714" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28714:28720" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28720:28726" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28726:28732" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28832:28838" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28838:28844" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28844:28850" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28850:28856" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28856:28862" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28862:28868" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28968:28974" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28974:28980" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28980:28986" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28986:28992" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28992:28998" ph="&amp;nbsp;" />
-                <marker date="1535335421737" expanded="true" signature="28998:29004" ph="&amp;nbsp;" />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="181" column="74" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="74" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,14 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;./</find>
-      <find>getco</find>
-      <find>cs</find>
-      <find>imges</find>
-      <find>&lt;ins</find>
-      <find>qiao-wrap</find>
-      <find>main</find>
-      <find>1000</find>
       <find>继续购</find>
       <find>list</find>
       <find>w-all w-minw bg-c-f6f6f6 ovhidden</find>
@@ -192,11 +137,16 @@
       <find>上传图片</find>
       <find>entity.T_course_image</find>
       <find>data.images[i]</find>
+      <find>.jpg</find>
+      <find>男</find>
+      <find>dz_alertBox</find>
+      <find>dz_maskLayer</find>
+      <find>loginOut</find>
+      <find>chee</find>
+      <find>&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;</find>
+      <find>\&lt;script src\=\&quot;https\:\/\/cdn\.staticfile\.org\/html5shiv\/r29\/html5\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n      \&lt;script src\=\&quot;https\:\/\/cdn\.staticfile\.org\/respond\.js\/1\.4\.2\/respond\.min\.js\&quot;\&gt;\&lt;\/script\&gt;</find>
     </findStrings>
     <replaceStrings>
-      <replace>Redirect</replace>
-      <replace>gooddetail.html</replace>
-      <replace>/gooddetail.html</replace>
       <replace>js</replace>
       <replace>../css</replace>
       <replace>goodslist</replace>
@@ -224,6 +174,9 @@
       <replace>course</replace>
       <replace>com.xh.entity.T_course_image</replace>
       <replace>data.images[i++]</replace>
+      <replace>else if(cour.getId()&lt;132){                images.add(cour.getId()+&quot;.jpg&quot;);            }else{                images.add(&quot;9999&quot;+&quot;.jpg&quot;);            }</replace>
+      <replace>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/jquery-3.2.1.js&quot;&gt;&lt;/script&gt;    &lt;!--&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;--&gt;</replace>
+      <replace>&lt;script src=&quot;js/html5.min.js&quot;&gt;&lt;/script&gt;      &lt;script src=&quot;js/respond.min.js&quot;&gt;&lt;/script&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\柱子01\Desktop\传习实训\代码案例\springmvc参数传递\XHEducation</dir>
@@ -242,57 +195,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_user_course_sectionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_user_course_sectionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/Test/test.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/qfbase.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/cart2.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/cart.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_classifyMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_classifyMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/login.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_userMapper.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_userService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_userServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/commodity_type.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/X-admin/commodityType-add.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_classifyService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_classifyServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_classifyController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_imageMapper.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_image.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_imageMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_courseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_orderService.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/impl/T_orderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
-        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java" />
         <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/js/html5.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/js/respond.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/cate.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html" />
+        <option value="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/X-admin/index.html" />
       </list>
     </option>
   </component>
@@ -493,6 +446,88 @@
             <path>
               <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
               <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="xh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="JAVA" type="462c0819:PsiDirectoryNode" />
+              <item name="xh" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="X-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XHEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XHEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="X-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -783,7 +818,7 @@
       <workItem from="1535159133211" duration="43973000" />
       <workItem from="1535247795769" duration="16095000" />
       <workItem from="1535274331160" duration="28517000" />
-      <workItem from="1535330168424" duration="5616000" />
+      <workItem from="1535330168424" duration="18688000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -967,7 +1002,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535308176853</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="eleventh">
+      <created>1535338088456</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1535338088456</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -994,7 +1036,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356671000" />
+    <option name="totallyTimeSpent" value="369743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,11 +1068,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2366931" sideWeight="0.47424892" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3193658" sideWeight="0.47424892" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1038,7 +1081,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1069,109 +1111,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/3d327556930d96a46c12e73475a6349b.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/5db61c1f81444cf505e797939e3a7e4e.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/ban3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/pics/e75573654d7107b7398f9d16a8a27c05.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/all_navicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/images/q1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="177" column="102" lean-forward="false" selection-start-line="177" selection-start-column="102" selection-end-line="177" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/entity/T_course_comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_courseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/dao/T_course_imageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-866">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_course_imageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -1197,21 +1136,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="78" column="36" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="176" column="60" lean-forward="true" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1236,20 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/service/IT_courseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1266,13 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1368,14 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/ajaxCartList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -1398,13 +1294,244 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="224" column="42" lean-forward="false" selection-start-line="224" selection-start-column="36" selection-end-line="224" selection-end-column="42" />
+        <state relative-caret-position="2059">
+          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9629#9630#0" expanded="true" />
-            <element signature="e#9684#9685#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10034#10035#0" expanded="false" />
+            <element signature="e#10089#10090#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_orderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jqAlert.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="107" column="22" lean-forward="false" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="56" column="88" lean-forward="false" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="134" column="4" lean-forward="false" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/js/html5.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1711">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/js/respond.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1535361396464" expanded="true" signature="586:591" ph="­" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/cate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#8934#9718#0" expanded="false" />
+            <marker date="1535361566092" expanded="true" signature="2846:2854" ph="&amp;##xe605;" />
+            <marker date="1535361566092" expanded="true" signature="3045:3117" ph="..." />
+            <marker date="1535361566092" expanded="true" signature="3688:3760" ph="..." />
+            <marker date="1535361566092" expanded="true" signature="4048:4056" ph="&amp;##xe71d;" />
+            <marker date="1535361566092" expanded="true" signature="4106:4112" ph=" " />
+            <marker date="1535361566092" expanded="true" signature="4260:4268" ph="&amp;##xe640;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/course_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <marker date="1535361566260" expanded="true" signature="1583:1591" ph="&amp;##xe605;" />
+            <marker date="1535361566260" expanded="true" signature="2167:2175" ph="&amp;##xe63c;" />
+            <marker date="1535361566260" expanded="true" signature="2442:2450" ph="&amp;##xe640;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/courseType-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/courseTypeEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-del.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1535361565772" expanded="true" signature="6618:6626" ph="&amp;##xe605;" />
+            <marker date="1535361565772" expanded="true" signature="7025:7031" ph=" " />
+            <marker date="1535361565772" expanded="true" signature="7497:7505" ph="&amp;##xe601;" />
+            <marker date="1535361565772" expanded="true" signature="7750:7758" ph="&amp;##xe642;" />
+            <marker date="1535361565772" expanded="true" signature="8011:8019" ph="&amp;##xe631;" />
+            <marker date="1535361565772" expanded="true" signature="8227:8235" ph="&amp;##xe640;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/member-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/order-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/upload-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/order-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <marker date="1535361566046" expanded="true" signature="3095:3103" ph="&amp;##xe605;" />
+            <marker date="1535361566046" expanded="true" signature="3789:3797" ph="&amp;##xe640;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+          <folding>
+            <element signature="e#1008#1719#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="122" column="61" lean-forward="true" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="181" column="74" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/X-admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
