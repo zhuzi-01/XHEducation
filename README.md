@@ -19,7 +19,6 @@
 | https://www.solr.cc/blog/ | solr搜素引擎开发文档 |
 | [https://www.getpostman.com/](https://www.getpostman.com/) | 测试模拟发送post请求的http客户端 |
 | [https://download.csdn.net/download/u010510107/10558538](https://download.csdn.net/download/u010510107/10558538) | IKAnalyzer中文分词器 |
-
 **特别注意：**
 - IK 分词器原理是用字典,与字典中的字符相匹配，匹配上一个就分为一个词
 - 过程提交与返回的都是XML
@@ -38,7 +37,6 @@
 ### - 分类显示
 使用二级分类表，实现分类显示
 
-
 ###  **后台** 
 ### - 对各大对象进行管理操作
 对用户、课程、分类、订单、评论、图片上传等进行管理
@@ -56,3 +54,4 @@
  - C3P0、DPCP数据源
  - github模拟协同开发，版本控制
 ## 四、效果一览
+![index](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/index.png)
