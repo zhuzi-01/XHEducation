@@ -85,7 +85,7 @@
     -->
     select id, name, classify, classify_name, sub_classify, sub_classify_name, username, 
     level, duration, study_count, weight, brief
-    from t_course
+    from t_course ORDER  BY id DESC
   </select>
 
   <select id="selectPages" parameterType="int" resultMap="BaseResultMap">

@@ -1,0 +1,1 @@
+QIAO_NS_BSL.handleEnter({"bid":"edb154ac67aca74ccbd82243", "wordid":0, "vis_sess_id":"2943080634697239823", "word":"", "from":"广东深圳", "wordtype":0, "lv":0, "lvp":1, "ftime":0, "ltime":0, "service_type":0, "zhixin":"", "saved":1, "time":1534726366, "peerid":1423042085, "group":[{"groupid":0, "groupname":"默认分组", "user":[{"subid":0, "islogin":0, "groupid":0, "subname":"学海教育"}]}]});

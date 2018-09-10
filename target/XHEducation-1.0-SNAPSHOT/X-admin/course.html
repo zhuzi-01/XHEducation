@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.0</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/xadmin.css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>    <!--<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>-->
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+      <script>
+          $(function () {
+              listcoursewithpages(9999);
+              var url = location.search.split("=")
+              if (url[1]=="success"){
+                  var index = parent.layer.getFrameIndex(window.name);
+                  //关闭当前frame
+                  parent.layer.close(index);
+                  location.replace(location.href);
+                  //self.parent.layer.msg('上传成功',{icon:1,time:2000});
+              }else {
+                  var index = parent.layer.getFrameIndex(window.name);
+                  //关闭当前frame
+                  parent.layer.close(index);
+                  layer.msg('上传失败', {icon: 1});
+              }
+          })
+        function listcoursewithpages(currpage) {
+            $.ajax({
+                type:"post",
+                url:"/courselist2",
+                dataType:"json",
+                data:{"currPage":currpage},
+                success:function (data) {
+                    var json = eval(data);
+                    var pages=json.pages;
+                    var result = json.courses;
+
+                    var rs = "";
+                    //alert(result)
+                    $.each(result,function (index,course) {
+                        if (course.level==1){
+                            var level="免费";
+                            var level2="马上体验";
+                        }else if (course.level==2){
+                            var level="￥30";
+                            var level2="马上购买";
+                        }else{
+                            var level="￥60";
+                            var level2="马上购买";
+                        }
+                        rs += '<tbody><tr><td>' +
+                            '              <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id=\'2\'><i class="layui-icon">&#xe605;</i></div>\n' +
+                            '            </td>' +
+                            '              <td>'+course.id+'</td>\n' +
+                            '              <td style="width: 200px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="'+course.name+'">'+course.name+'</td>\n' +
+                            '              <td>'+course.classifyName+'</td>\n' +
+                            '              <td>'+course.subClassifyName+'</td>\n' +
+                            '              <td>'+course.username+'</td>\n' +
+                            '              <td>'+level+'</td>\n' +
+                            '              <td>'+course.duration+'</td>\n' +
+                            '              <td>'+course.studyCount+'</td>\n' +
+                            '              <td style="width: 200px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="'+course.brief+'">'+course.brief+'</td>\n' +
+                            '            <td class="td-manage">\n' +
+                            '<a href="javascript:;" title="上传、更换图片" class="iconfont" onclick="x_admin_show(\'上传照片\',\'upload-image.html?id='+course.id+'\',600,400)">&#xe6a8;</a>'+
+                            '              &emsp;<a title="删除" onclick="member_del(this,'+course.id+')" href="javascript:;">\n' +
+                            '                <i class="layui-icon">&#xe640;</i>\n' +
+                            '              </a></td></tr></tbody>';
+                    });
+                    //alert(rs)
+                    $("#courseTable").append(rs);
+                    $("#cou").empty().append(json.count);
+                }
+            })
+        }
+      </script>
+  </head>
+  
+  <body>
+    <div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+        <a>
+          <cite>导航元素</cite></a>
+      </span>
+      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+    </div>
+    <div class="x-body">
+      <div class="layui-row">
+        <form class="layui-form layui-col-md12 x-so">
+        	<input type="text" name="course_id"  placeholder="请输入课程ID" autocomplete="off" class="layui-input">
+          <input type="text" name="course_type"  placeholder="请输入课程类型" autocomplete="off" class="layui-input">
+          <input type="text" name="course_name"  placeholder="请输入课程名称" autocomplete="off" class="layui-input">
+          <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+        </form>
+      </div>
+      <xblock>
+        <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
+        <button class="layui-btn" onclick="x_admin_show('添加课程','course-add.html')"><i class="layui-icon"></i>添加</button>
+        <span class="x-right" style="line-height:40px">共有数据：<a id="cou">88</a> 条</span>
+      </xblock>
+      <table class="layui-table" id="courseTable" style="table-layout: fixed">
+        <thead>
+          <tr>
+            <th>
+              <div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+              <th >ID</th>
+              <th >课程名称</th>
+              <th >课程类型</th>
+              <th >科目</th>
+              <th>讲师</th>
+              <th >单价(元)</th>
+              <th >时长</th>
+              <th >听课人数</th>
+              <th >简介</th>
+
+
+              <th >操作</th>
+            </tr>
+        </thead>
+      </table>
+      <div class="page">
+        <div>
+          <a class="prev" href="">&lt;&lt;</a>
+          <a class="num" href="">1</a>
+          <span class="current">2</span>
+          <a class="num" href="">3</a>
+          <a class="num" href="">489</a>
+          <a class="next" href="">&gt;&gt;</a>
+        </div>
+      </div>
+
+    </div>
+    <script>
+      layui.use('laydate', function(){
+        var laydate = layui.laydate;
+        
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#start' //指定元素
+        });
+
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#end' //指定元素
+        });
+      });
+
+       /*用户-停用*/
+      function member_stop(obj,id){
+          layer.confirm('确认要停用吗？',function(index){
+
+              if($(obj).attr('title')=='启用'){
+
+                //发异步把用户状态进行更改
+                $(obj).attr('title','停用')
+                $(obj).find('i').html('&#xe62f;');
+
+                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
+                layer.msg('已停用!',{icon: 5,time:1000});
+
+              }else{
+                $(obj).attr('title','启用')
+                $(obj).find('i').html('&#xe601;');
+
+                $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
+                layer.msg('已启用!',{icon: 5,time:1000});
+              }
+              
+          });
+      }
+
+      /*用户-删除*/
+      // function member_del(obj,id){
+      //     layer.confirm('确认要删除吗？',function(index){
+      //         //发异步删除数据
+      //         layer.closeAll('dialog');
+      //         $.ajax({
+      //             type: "get",
+      //             dataType: "json",
+      //             url: "/deleteuser",
+      //             data:{"id": id},
+      //             success: function (data) {
+      //                 var data=eval(data);
+      //                 if (data.result == 'ok') {
+      //                     $(obj).parents("tr").remove();
+      //                     layer.msg('已删除!',{icon:1,time:1000});
+      //                     location.replace(location.href);
+      //                 }
+      //                 else {
+      //                     layer.msg('删除失败!',{icon:5,time:1000});
+      //                 }
+      //             }
+      //         });
+      //
+      //     });
+      // }
+      function member_del(obj,id){
+          layer.confirm('确认要删除吗？',function(index){
+              //发异步删除数据
+              layer.closeAll('dialog');
+              var dataForm = {"id":id};
+              $.ajax({
+                  type:"post",
+                  url:"/delcourse",
+                  data:dataForm,
+                  dataType:"json",
+                  success:function (data) {
+                      var json = eval(data);
+                      var result = json.result;
+                      if (result == "ok"){
+                          $(obj).parents("tr").remove();
+                          layer.msg('已删除!',{icon:1,time:1000});
+                          window.location.reload();
+                      }else{
+                          layer.msg('删除失败!',{icon:5,time:1000});
+                      }
+                  }
+              });
+          });
+      }
+      function delAll (argument) {
+
+        var data = tableCheck.getData();
+  
+        layer.confirm('确认要删除吗？'+data,function(index){
+            //捉到所有被选中的，发异步进行删除
+            layer.msg('删除成功', {icon: 1});
+            $(".layui-form-checked").not('.header').parents('tr').remove();
+        });
+      }
+    </script>
+    <script>var _hmt = _hmt || []; (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();</script>
+    </body>
+
+</html>

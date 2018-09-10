@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>考试日历_学海教育</title>
+<meta name="keywords" content="学海教育">
+<meta name="description" content="学海教育">
+
+<link rel="stylesheet" href="../css/qfbase.css">
+<!--学海的共有样式-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/qlclass.pl.js"></script>
+<body>
+<!--web-top start-->
+<div style="margin-bottom: -6px; position: relative; z-index: 1000;" id="head">	<iframe src="header.html" frameborder="0" height="165px" width="100%" scrolling="no" ></iframe></div>
+<!--web logo and search end--> 
+<!--网站导航 start-->
+<div class="w-all w-minw hg-60 bd-bs-e9511b bg-c-ffffff ql_webnav"> 
+    <!--网站导航 start-->
+    <div class="w-main m-auto ps-r hg-60"> 
+        <!--全部课程分类-->
+        <div class="hc_lnav jslist">
+            <div class="allbtn">
+                <h2><a href="#">全部课程分类</a></h2>
+                <ul style="width:250px" class="jspop box">
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">小学</a> </div>
+                        <dl>
+                            <dd> <a href="#">一年级</a><span>/</span> <a href="#">二年级</a><span>/</span> <a href="#">三年级</a> <a href="#">四年级</a><span>/</span> <a href="#">五年级</a><span>/</span> <a href="#">六年级</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">一年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">二年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">三年级 ></a></dt>
+                                <dd> <a class="ui-link" href="#">数学</a><span>|</span> <a class="ui-link" href="#">语文</a><span>|</span> <a class="ui-link" href="#">英语</a><span>|</span> <a class="ui-link" href="#">地理</a><span>|</span> <a class="ui-link" href="#">政治</a> <a class="ui-link" href="#">生物</a><span>|</span> <a class="ui-link" href="#">历史</a><span>|</span> <a class="ui-link" href="#">物理</a><span>|</span> <a class="ui-link" href="#">化学</a><span>|</span> <a class="ui-link" href="#">全日制托管</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">特色课程 ></a></dt>
+                                <dd> <a class="ui-link" href="#">双师课堂</a><span>|</span> <a class="ui-link" href="#">名师精讲班</a><span>|</span> <a class="ui-link" href="#">学霸进阶精英班</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                </ul>
+            </div>
+        </div>
+        <!--全部课程分类-->
+         <ul class="w-950 hg-60 ql_nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="goodslist.html">课程</a></li>
+        <li><a href="doubletea.html">双师课堂</a></li>
+        <li><a href="exam_calendar.html" class="cur">考试日历</a></li>
+        <li><a href="teacher.html">名师</a></li>
+        <li><a href="attract.html" class="ql_navhot">招商加盟</a></li>
+        <li><a href="school.html">分校</a></li>
+        <li><a href="message.html">资讯</a></li>
+        <li><a href="connect.html">联系我们</a></li>
+    </ul>
+    </div>
+</div>
+<!--网站导航 end--> 
+
+<!--web main body start-->
+<div class="w-all w-minw bg-c-fcfcfc ovhidden">
+    <div class="w-main m-auto ovhidden"> 
+        <!--面包屑 start-->
+        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl">网站位置：首页  >  考试日历</div>
+        <!--面包屑 end--> 
+        
+        <!--main body start-->
+        <div class="w-1100 p-l-50 p-t-20 p-r-50 bg-c-ffffff p-b-26 ovhidden fl">
+            <div class="w-all fl">
+                <select class="ql_dqsele bd-1s-d5d5d5 p-l-15 fs-14 ftc-000000 p-r-10 line-h32 hg-32 fl">
+                    <option>上海</option>
+                    <option>北京</option>
+                    <option>天津</option>
+                    <option>南京</option>
+                    <option>重庆</option>
+                </select>
+                <span class="dsblock line-h34 fs-14 ftc-8c8b8b m-l-20 fl">选择地区</span> </div>
+            <div class="w-all hg-22 fl"></div>
+            <div class="w-all fl">
+                <div id="tab_nav" class="w-all ovhidden bg-c-fcfcfc m-b-25"> 
+                    <!--tag标题-->
+                    <ul id="qltabnav" class="w-all hg-54">
+                        <li><a href="javascript:void(0);" class="tabnavcur">中考</a></li>
+                        <li><a href="javascript:void(0);" class="">高考</a></li>
+                    </ul>
+                    <!--tag标题--> 
+                </div>
+                <!--二级菜单-->
+                <div id="tabtimecon" class="w-all">
+                    <div class="tag" style="display:block">
+                        <dl class="w-1010 p-l-44 p-r-44 bd-1s-e9511b bg-c-e9511b ovhidden fl">
+                            <dd class="w-170 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">省份</dd>
+                            <dd class="w-170 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">日期</dd>
+                            <dd class="w-170 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">时段</dd>
+                            <dt class="w-420 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">科目</dt>
+                        </dl>
+                        <section class="w-1010 p-l-44 p-r-44 bd-1s-e2e2e2 ovhidden fl">
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月20日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">8∶30～11∶00</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">语文</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月20日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">15∶00～17∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">理综(物理、化学)</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月21日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">8∶30～10∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">数学</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月21日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">15∶00～17∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">文综(历史15∶00～16∶10)(思想品德16∶20～17∶30)</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月22日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">8∶30～10∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">英语</dt>
+                            </dl>
+                        </section>
+                    </div>
+                    <div class="tag" style="display:none">
+                        <dl class="w-1010 p-l-44 p-r-44 bd-1s-e9511b bg-c-e9511b ovhidden fl">
+                            <dd class="w-170 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">1省份</dd>
+                            <dd class="w-170 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">日期</dd>
+                            <dd class="w-170 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">时段</dd>
+                            <dt class="w-420 m-l-20 fs-14 line-h50 text-c ftc-ffffff fl">科目</dt>
+                        </dl>
+                        <section class="w-1010 p-l-44 p-r-44 bd-1s-e2e2e2 ovhidden fl">
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月20日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">8∶30～11∶00</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">语文</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月20日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">15∶00～17∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">理综(物理、化学)</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月21日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">8∶30～10∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">数学</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月21日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">15∶00～17∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">文综(历史15∶00～16∶10)(思想品德16∶20～17∶30)</dt>
+                            </dl>
+                            <dl class="w-all bd-td-d1d1d1 m-t-0 fl">
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">山西省</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">6月22日</dd>
+                                <dd class="w-170 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">8∶30～10∶30</dd>
+                                <dt class="w-420 m-l-20 fs-14 line-h60 text-c ftc-646464 fl">英语</dt>
+                            </dl>
+                        </section>
+                    </div>
+                </div>
+                <script>
+                   var tabs=function(){
+    function tag(name,elem){
+        return (elem||document).getElementsByTagName(name);
+    }
+    //获得相应ID的元素
+    function id(name){
+        return document.getElementById(name);
+    }
+    function first(elem){
+        elem=elem.firstChild;
+        return elem&&elem.nodeType==1? elem:next(elem);
+    }
+    function next(elem){
+        do{
+            elem=elem.nextSibling;
+        }while(
+        elem&&elem.nodeType!=1
+            )
+        return elem;
+    }
+    return {
+        set:function(elemId,tabId){
+            var elem=tag("li",id(elemId));
+            var tabs=tag("div",id(tabId));
+            var listNum=elem.length;
+            var tabNum=tabs.length;
+            for(var i=0;i<listNum;i++){
+                elem[i].onclick=(function(i){
+                    return function(){
+                        for(var j=0;j<tabNum;j++){
+                            if(i==j){
+                                tabs[j].style.display="block";
+                                //alert(elem[j].firstChild);
+                                elem[j].firstChild.className="tabnavcur";
+                            }
+                            else{
+                                tabs[j].style.display="none";
+                                elem[j].firstChild.className="";
+                            }
+                        }
+                    }
+                })(i)
+            }
+        }
+    }
+}();
+tabs.set("tab_nav","tabtimecon");//执行 
+                </script> 
+            </div>
+        </div>
+        <div class="w-main m-auto bg-c-ffffff ovhidden">
+            <div style="text-align: center; height: 360px;"><img src="../rili/1.gif" width="1110" height="360" alt="备战高考"/></div>
+            <div style="text-align: center; height: 240px;"><img src="../rili/2.gif" width="1110" height="240" alt="备战高考"/></div>
+            <div style="text-align: center; height: 380px;"><img src="../rili/3.gif" width="1110" height="380" alt="高考核心考察要素"/></div>
+            <div style="text-align: center; height: 489px;"><img src="../rili/4.gif" width="1110" height="489" alt="高考复习策略"/></div>
+        </div>
+        <div class="w-main hg-40 fl"></div>
+    </div>
+    <!--main body start--> 
+</div>
+<!--web main body start--> 
+<!--like start-->
+<div class="w-all w-minw bg-c-f6f6f6 ovhidden">
+    <div class="w-main m-auto"> 
+        <!--title start-->
+        <div class="w-main ovhidden p-t-10 fl">
+            <h3 class="fl fs-20 ft-w-b line-h40"><span class="dsblock ql_icon ql_like tx-ind m-r-15 fl">猜你喜欢</span>猜你喜欢</h3>
+        </div>
+        <!--title end-->
+        <ul class="ql_likeclass w-1210 ovhidden">
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="goodsdetail.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="../pics/12.jpg" alt=""/> </a> <a href="goodsdetail.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">初中全科1V1定制初中全科1V1定制</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+        </ul>
+        <div class="w-amin hg-30 ovhidden"></div>
+    </div>
+</div>
+<!--like end--> 
+<!--web footer start-->
+<iframe src="footer.html" frameborder="0" height="319px" width="100%" scrolling="no" ></iframe>
+<!--web footer end-->
+</body>
+</html>

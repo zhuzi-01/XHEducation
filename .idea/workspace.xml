@@ -7,34 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95fcaa44-7d0b-410d-a25d-0da8deb0d4b5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/index.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/login.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/分类.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/分类2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/后台7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/搜索.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/搜索2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/搜索3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/详情页.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/screenshot/购物车.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" afterPath="$PROJECT_DIR$/src/main/JAVA/com/xh/controller/T_courseController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.Mapper/T_courseMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" afterPath="$PROJECT_DIR$/src/main/webapp/X-admin/course.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/footer.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/footer.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/gooddetail.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/goodslist.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/header.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/header.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/reg.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/reg.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/regxy.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/regxy.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/school.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/school.html" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/Mybatis.Mapper/T_courseMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/WEB-INF/classes/com/xh/controller/T_courseController.class" />
       <change beforePath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/footer.html" afterPath="$PROJECT_DIR$/target/XHEducation-1.0-SNAPSHOT/app/footer.html" />
@@ -883,7 +855,7 @@
       <workItem from="1535979801003" duration="2747000" />
       <workItem from="1536025504169" duration="2469000" />
       <workItem from="1536280402022" duration="2090000" />
-      <workItem from="1536550527837" duration="1344000" />
+      <workItem from="1536550527837" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1534393862987</created>
@@ -1088,7 +1060,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535369362371</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="thirteenth">
+      <created>1536562794127</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1536562794127</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1115,7 +1094,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388559000" />
+    <option name="totallyTimeSpent" value="388680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1130,7 +1109,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.403171" sideWeight="0.52575105" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3193658" sideWeight="0.527897" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1147,10 +1126,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3193658" sideWeight="0.47424892" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3193658" sideWeight="0.472103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24087983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1215,7 +1194,8 @@
     <MESSAGE value="tenth" />
     <MESSAGE value="eleventh" />
     <MESSAGE value="twelfth" />
-    <option name="LAST_COMMIT_MESSAGE" value="twelfth" />
+    <MESSAGE value="thirteenth" />
+    <option name="LAST_COMMIT_MESSAGE" value="thirteenth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

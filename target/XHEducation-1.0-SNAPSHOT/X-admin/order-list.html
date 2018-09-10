@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.0</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/xadmin.css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>    <!--<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>-->
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        $(function () {
+            listORDERs();
+
+        })
+        function ChangeDateFormat(jsondate) {
+            jsondate = jsondate;
+            var date = new Date(parseInt(jsondate, 10));
+            var month = date.getMonth() + 1 < 10 ? "0" + (date.getMonth() + 1) : date.getMonth() + 1;
+            var min=date.getMinutes()<10?"0" +date.getMinutes(): date.getDate();
+            var currentDate = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
+            return date.getFullYear() + "-" + month + "-" + currentDate+" "+date.getHours()+":"+min+":"+date.getSeconds();
+        }
+        function getNowFormatDate(date) {
+           // var date = new Date();
+            var seperator1 = "-";
+            var seperator2 = ":";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+                + " " + date.getHours() + seperator2 + date.getMinutes()
+                + seperator2 + date.getSeconds();
+            return currentdate;
+        }
+        function listORDERs() {
+            $.ajax({
+                type: "get",
+                dataType: "json",
+                url: "/getAllorder",
+
+                success: function (data) {
+                    var data=eval(data);
+                    var i=0;
+                    var j=0;
+                    var rs='';
+                    $.each(data.orders,function (index,order) {
+                        if(order.status==1){
+                            var sta="已支付"
+                        }
+                       var  date=ChangeDateFormat(order.createTime.time);
+                        rs +='<tbody>'+
+                            '        <tr><td><div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id=\'2\'><i class="layui-icon">&#xe605;</i></div>\n' +
+                            '</td><td>'+order.id+'</td>\n' +
+                            '            <td>'+data.names[i++]+'</td>\n' +
+                            '            <td>'+data.usernames[j++]+'</td>\n' +
+                            '            <td>'+order.rate+'</td>\n' +
+                            '            <td>'+sta+'</td>\n' +
+                            '            <td>'+date+'</td>\n' +
+                            '            <td class="td-manage">\n' +
+
+                            '              <a title="删除" onclick="ajax_del_cart('+order.id+')" href="javascript:;">\n' +
+                            '                <i class="layui-icon">&#xe640;</i></a></td></tr></tbody>'
+                    });
+                    $("#orderTable").append(rs);
+                }
+
+            });
+
+        }
+        function ajax_del_cart(id) {
+            layer.confirm('您确定要删除吗', {
+                btn: ['确定', '取消']
+            }, function () {
+                layer.closeAll('dialog');
+                $.ajax({
+                    type: "POST",
+                    url: "/delorder",//+tab,
+                    data: {"id": id}, //
+                    dataType: 'json',
+                    success: function (data) {
+                        var data=eval(data);
+                        if (data.result=="success"){
+                            window.location.reload();
+                            //listORDER();
+                        }else{
+                            jqAlert.Confirm("删除失败");
+                        }
+
+                    }
+                });
+            })
+
+        }
+
+
+    </script>
+  </head>
+  
+  <body>
+    <div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+      </span>
+      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+    </div>
+    <div class="x-body">
+      <div class="layui-row">
+        <form class="layui-form layui-col-md12 x-so">
+          <input class="layui-input" placeholder="开始日" name="start" id="start">
+          <input class="layui-input" placeholder="截止日" name="end" id="end">
+          <div class="layui-input-inline">
+            <select name="contrller">
+              <option>支付状态</option>
+              <option>已支付</option>
+              <option>未支付</option>
+            </select>
+          </div>
+          <div class="layui-input-inline">
+            <select name="contrller">
+              <option>支付方式</option>
+              <option>支付宝</option>
+              <option>微信</option>
+              <option>货到付款</option>
+            </select>
+          </div>
+          <div class="layui-input-inline">
+            <select name="contrller">
+              <option value="">订单状态</option>
+              <option value="0">待确认</option>
+              <option value="1">已确认</option>
+              <option value="2">已收货</option>
+              <option value="3">已取消</option>
+              <option value="4">已完成</option>
+              <option value="5">已作废</option>
+            </select>
+          </div>
+          <input type="text" name="username"  placeholder="请输入订单号" autocomplete="off" class="layui-input">
+          <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+        </form>
+      </div>
+      <xblock>
+        <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
+        <button class="layui-btn" onclick="x_admin_show('添加用户','./order-add.html')"><i class="layui-icon"></i>添加</button>
+      </xblock>
+      <table class="layui-table" id="orderTable">
+        <thead>
+          <tr>
+            <th>
+              <div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>订单编号</th>
+            <th>课程名</th>
+            <th>购买人</th>
+            <th>金额</th>
+            <th>支付状态</th>
+            <th>下单时间</th>
+            <th >操作</th>
+            </tr>
+        </thead>
+      </table>
+      <div class="page">
+        <div>
+          <a class="prev" href="">&lt;&lt;</a>
+          <a class="num" href="">1</a>
+          <span class="current">2</span>
+          <a class="num" href="">3</a>
+          <a class="num" href="">489</a>
+          <a class="next" href="">&gt;&gt;</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      layui.use('laydate', function(){
+        var laydate = layui.laydate;
+        
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#start' //指定元素
+        });
+
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#end' //指定元素
+        });
+      });
+      function member_del(obj,id){
+          layer.confirm('确认要删除吗？',function(index){
+              //发异步删除数据
+              $.ajax({
+                  type:"post",
+                  url:"/order_del?order_no="+id,
+                  dataType:"json",
+                  success:function (data) {
+                      var json = eval(data);
+                      var result = json.result;
+                      if (result == true) {
+                          $(obj).parents("tr").remove();
+                          layer.msg('已删除!',{icon:1,time:1000});
+                      }
+                  }
+              })
+          });
+      }
+      function delAll (argument) {
+
+        var data = tableCheck.getData();
+  
+        layer.confirm('确认要删除吗？'+data,function(index){
+            //捉到所有被选中的，发异步进行删除
+            layer.msg('删除成功', {icon: 1});
+            $(".layui-form-checked").not('.header').parents('tr').remove();
+        });
+      }
+    </script>
+  </body>
+
+</html>
