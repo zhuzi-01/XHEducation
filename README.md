@@ -54,4 +54,5 @@
  - C3P0、DPCP数据源
  - github模拟协同开发，版本控制
 ## 四、效果一览
-![index](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/index.png)![login](https://github.com/zhuzi-01/XHEducation/tree/master/src/main/webapp/screenshot/login.png)
+![index](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/index.png)
+![login](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/login.png)
