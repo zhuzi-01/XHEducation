@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -82,17 +82,17 @@
                         </div>
 
 
-                            <div class="form-inline-font" style="width: 90px;margin-left: 295px;margin-top: 10px; font-size: 12px">
+                            <div class="form-inline-font" style="width: 90px;margin-left: 363px;margin-top: 13px; font-size: 12px">
                                 滑动验证 :
                             </div>
                             <div class="form-inline-input" style="width: 409px; padding-left: 85px;">
-                                <div class="code-box" id="code-box"style="width: 290px;">
+                                <div class="code-box" id="code-box"style="width: 290px;" >
                                     <input type="text" id="code" name="code" class="code-input" >
-                                    <p id="pp" onclick="slidemove()" ></p>
-                                    <span style="background: deepskyblue">>>></span>
-
+                                    <p id="pp"  onclick="slidemove()"></p>
+                                    <span style="background: deepskyblue" >>>></span>
+                                    <span class="slide_hint" style="font-size: 30px;color: green ;margin-left: 292px; "></span>
                                 </div>
-                                <span class="slide_hint" style="font-size: 30px;"></span>
+
 
                             </div>
 
@@ -195,25 +195,31 @@
 <script type="text/javascript">
 
     function submit() {
-        if( password_Boolean && varconfirm_Boolean &&slide_Boolean&& Mobile_Boolean&&$("#chee").prop('checked') == true){
-            var username=$("#username").val();
-            var password=$("#password").val();
-            $.ajax({
-                type: "get",
-                dataType: "json",
-                url: "/reg",
-                data: {"username":username,"password":password},
+        if( password_Boolean && varconfirm_Boolean&& Mobile_Boolean&&$("#chee").prop('checked') == true){
+            var slide=$("#pp").css("width");
+            if(slide != '290px'){
+                jqAlert.Confirm('请滑动滑块来验证!');
+            }else{
+                var username=$("#username").val();
+                var password=$("#password").val();
+                $.ajax({
+                    type: "get",
+                    dataType: "json",
+                    url: "/reg",
+                    data: {"username":username,"password":password},
 
-                success: function (data) {
-                    var data=eval(data);
-                    if (data.result=='success'){
-                        jqAlert.Confirm('注册成功');
-                        setInterval('window.location.href="index.html"',2000);
-                    }else{
-                        jqAlert.Confirm('注册失败请重试');
+                    success: function (data) {
+                        var data=eval(data);
+                        if (data.result=='success'){
+                            jqAlert.Confirm('注册成功');
+                            setInterval('window.location.href="index.html"',2000);
+                        }else{
+                            jqAlert.Confirm('注册失败请重试');
+                        }
                     }
-                }
-            });
+                });
+            }
+
 
         }else {
             jqAlert.Confirm("请完善信息");

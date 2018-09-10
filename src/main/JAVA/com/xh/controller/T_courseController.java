@@ -104,7 +104,50 @@ public class T_courseController {
 
        return json.toString();
     }
+    @RequestMapping("/courselist2")
+    @ResponseBody
+    public String getcourses(Model model,Integer currPage){
+        final int PAGE_SIZE;
+        if (currPage==999){
+            PAGE_SIZE=5;
+            currPage=new Random().nextInt((courseService.numofcourse()/PAGE_SIZE-1)+1)+1;
+        }else if(currPage==9999){
+            PAGE_SIZE=courseService.numofcourse();
+            currPage=1;
+        }else{
+            PAGE_SIZE=8; //每页显示8条
+        }
 
+        //int currPage=1; //前端传回来的当前页码
+
+        int count=courseService.numofcourse();//总记录数
+        int pages;//总页数
+        if (count%PAGE_SIZE==0) {
+            pages=count/PAGE_SIZE;
+        } else {
+            pages=count/PAGE_SIZE+1;
+        }
+
+        List<T_course> courses=courseService.getCourses();
+        JSONObject json=new JSONObject();
+        List<String> images=new ArrayList<>();
+        for (T_course course:courses ) {
+            if (courseService.queryoneimage(course.getId())!=null){
+                images.add(courseService.queryoneimage(course.getId()).getFilename());
+            }else if(course.getId()<132){
+                images.add(course.getId()+".jpg");
+            }else{
+                images.add("9999"+".jpg");
+            }
+
+        }
+        json.put("images",images);
+        json.put("courses",courses);
+        json.put("pages",pages);
+        json.put("count",count);
+
+        return json.toString();
+    }
     @RequestMapping("/getOnecourse")
     @ResponseBody
     public String getOnecourses(Integer course_id){
