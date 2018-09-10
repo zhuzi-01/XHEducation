@@ -56,3 +56,5 @@
 ## 四、效果一览
 ![index](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/index.png)
 ![login](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/login.png)
+![分类](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/%E5%88%86%E7%B1%BB.png)
+![enter image description here](https://github.com/zhuzi-01/XHEducation/blob/master/src/main/webapp/screenshot/%E5%88%86%E7%B1%BB2.png)
